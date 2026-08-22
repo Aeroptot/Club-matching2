@@ -47,6 +47,7 @@ def _write_data(data_dir: Path) -> None:
             "member_count": c.member_count,
             "day": c.day,
             "period": c.period,
+            "room": c.room,
             "tags": c.tags,
         }
         for c in clubs

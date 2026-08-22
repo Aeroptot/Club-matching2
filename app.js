@@ -13,17 +13,12 @@ const state = {
   quizSession: null,
   quizPendingSelections: new Set(),
   quizHistory: [],
-  mode: "manual",
 };
 
 const els = {
-  tagGrid: document.getElementById("tag-grid"),
-  tagCount: document.getElementById("tag-count"),
   selectedTags: document.getElementById("selected-tags"),
-  manualTagWarning: document.getElementById("manual-tag-warning"),
   quizTagWarning: document.getElementById("quiz-tag-warning"),
   slotGrid: document.getElementById("slot-grid"),
-  manualPanel: document.getElementById("manual-panel"),
   quizPanel: document.getElementById("quiz-panel"),
   quizQuestion: document.getElementById("quiz-question"),
   quizHint: document.getElementById("quiz-hint"),
@@ -66,7 +61,6 @@ function formatMeeting(day, period) {
 
 function updateTagLimitWarnings() {
   const atLimit = state.selectedTags.size >= MAX_TAGS;
-  els.manualTagWarning?.classList.toggle("hidden", !atLimit);
   els.quizTagWarning?.classList.toggle("hidden", !atLimit);
 }
 
@@ -74,14 +68,6 @@ function updateSelectedDisplay() {
   const tags = [...state.selectedTags];
   const text = tags.length ? tags.join(", ") : "none";
   els.selectedTags.textContent = text;
-  els.tagCount.textContent = `${tags.length} / ${MAX_TAGS} selected`;
-
-  document.querySelectorAll(".tag-chip").forEach((btn) => {
-    btn.classList.toggle("selected", state.selectedTags.has(btn.dataset.tag));
-    btn.disabled =
-      !state.selectedTags.has(btn.dataset.tag) && state.selectedTags.size >= MAX_TAGS;
-  });
-
   updateTagLimitWarnings();
 }
 
@@ -90,17 +76,6 @@ function clearTags() {
   state.tagWeightMults = {};
   updateSelectedDisplay();
   clearError();
-}
-
-function toggleTag(tag) {
-  if (state.selectedTags.has(tag)) {
-    state.selectedTags.delete(tag);
-    delete state.tagWeightMults[tag];
-  } else if (state.selectedTags.size < MAX_TAGS) {
-    state.selectedTags.add(tag);
-    state.tagWeightMults[tag] = 1;
-  }
-  updateSelectedDisplay();
 }
 
 function addQuizTags(tags) {
@@ -122,30 +97,6 @@ function addQuizTags(tags) {
   } else {
     clearError();
   }
-}
-
-function renderTagButtons(tags) {
-  els.tagGrid.innerHTML = "";
-  tags.forEach(({ id, label }) => {
-    const btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "tag-chip";
-    btn.dataset.tag = id;
-    btn.textContent = label;
-    btn.addEventListener("click", () => toggleTag(id));
-    els.tagGrid.appendChild(btn);
-  });
-  updateSelectedDisplay();
-}
-
-async function loadTags() {
-  if (staticMode) {
-    renderTagButtons(ClubMatcher.getTags().tags);
-    return;
-  }
-  const res = await fetch("/api/tags");
-  const data = await res.json();
-  renderTagButtons(data.tags);
 }
 
 function loadSlots() {
@@ -244,21 +195,29 @@ function bindQuizCheckbox(input, opt) {
 
 function renderQuizStep(step) {
   els.quizQuestion.textContent = step.question;
-  els.quizHint.textContent =
-    step.phase === "complete"
-      ? "Your tags are kept. Answer more questions or click Find clubs."
-      : "Select one or more, then click Continue. Choose None to use the parent category instead.";
   els.quizOptions.innerHTML = "";
   state.quizPendingSelections.clear();
   updateTagLimitWarnings();
 
   if (step.phase === "complete") {
+    els.quizHint.textContent = state.selectedTags.size
+      ? "Questionnaire complete — generating your matches…"
+      : "No interests selected — restarting the questions.";
     els.quizContinue.classList.add("hidden");
     els.quizBack.disabled = true;
-    setTimeout(() => initQuiz({ keepHistory: false }), 600);
+    if (state.selectedTags.size) {
+      setTimeout(() => {
+        recommend();
+        els.resultsSection.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 350);
+    } else {
+      setTimeout(() => initQuiz(), 600);
+    }
     return;
   }
 
+  els.quizHint.textContent =
+    "Select one or more, then click Continue. Choose None to use the parent category instead.";
   els.quizContinue.classList.remove("hidden");
 
   step.options.forEach((opt) => {
@@ -309,16 +268,6 @@ async function continueQuiz() {
   renderQuizStep(data);
 }
 
-function setMode(mode) {
-  state.mode = mode;
-  document.querySelectorAll(".tab").forEach((tab) => {
-    tab.classList.toggle("active", tab.dataset.mode === mode);
-  });
-  els.manualPanel.classList.toggle("hidden", mode !== "manual");
-  els.quizPanel.classList.toggle("hidden", mode !== "quiz");
-  if (mode === "quiz" && !state.quizSession) initQuiz();
-}
-
 function renderResults(data) {
   els.resultsSection.classList.remove("hidden");
   if (data.count === 0) {
@@ -348,9 +297,15 @@ function renderResults(data) {
       <article class="card">
         <h3>${i + 1}. ${escapeHtml(club.name)}</h3>
         <p class="score">Final score: ${club.final_score_pct}%${scoreNote}</p>
-        <p>${escapeHtml(club.category)} · ${club.member_count} members · ${escapeHtml(formatMeeting(club.day, club.period))}</p>
-        <p><strong>Matching tags:</strong> ${escapeHtml(club.matching_tags.join(", ") || "None")}</p>
-        <p>${escapeHtml(club.explanation)}</p>
+        <p>${escapeHtml(club.category)} · ${club.member_count} members · ${escapeHtml(formatMeeting(club.day, club.period))}${club.room ? ` · Room ${escapeHtml(club.room)}` : ""}</p>
+        <p><strong>Tags:</strong> <span class="tags-row">${
+          (club.club_tags || [])
+            .map(
+              (t) =>
+                `<span class="tag-chip-sm${t.matched ? " tag-matched" : ""}">${escapeHtml(t.label)}</span>`
+            )
+            .join("") || "None"
+        }</span></p>
         ${description}
       </article>`;
     })
@@ -397,17 +352,10 @@ function escapeHtml(text) {
     .replaceAll('"', "&quot;");
 }
 
-function clearAll() {
+function restartQuiz() {
   clearTags();
-  state.blockedSlots.clear();
-  state.quizSession = null;
-  state.quizHistory = [];
-  document.querySelectorAll("#slot-grid input").forEach((input) => {
-    input.checked = false;
-  });
   els.resultsSection.classList.add("hidden");
-  clearError();
-  if (state.mode === "quiz") initQuiz();
+  initQuiz();
 }
 
 async function boot() {
@@ -416,7 +364,7 @@ async function boot() {
     const res = await fetch("/api/tags", { method: "GET" });
     if (res.ok) {
       staticMode = false;
-      await loadTags();
+      initQuiz();
       return;
     }
   } catch {
@@ -424,15 +372,8 @@ async function boot() {
   }
   staticMode = true;
   await ClubMatcher.init("data/");
-  await loadTags();
+  initQuiz();
 }
-
-document.querySelectorAll(".tab").forEach((tab) => {
-  tab.addEventListener("click", () => setMode(tab.dataset.mode));
-});
-
-document.getElementById("clear-tags-btn").addEventListener("click", clearTags);
-document.getElementById("quiz-clear-tags").addEventListener("click", clearTags);
 els.quizContinue.addEventListener("click", continueQuiz);
 els.quizBack.addEventListener("click", async () => {
   const prev = state.quizHistory.pop();
@@ -441,8 +382,6 @@ els.quizBack.addEventListener("click", async () => {
   const step = await postQuiz({ session: prev, action: "status" });
   if (step) renderQuizStep(step);
 });
-els.quizRestart.addEventListener("click", () => initQuiz());
-document.getElementById("recommend-btn").addEventListener("click", recommend);
-document.getElementById("clear-btn").addEventListener("click", clearAll);
+els.quizRestart.addEventListener("click", restartQuiz);
 
 boot().catch((err) => showError(`Failed to start: ${err.message}`));

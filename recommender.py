@@ -1,4 +1,13 @@
-"""Club recommendation engine with hierarchical tag matching."""
+"""Club recommendation engine.
+
+Score = club coverage: the fraction of a club's CLUB_TAG_POINTS (20) that the
+user's selected tags cover. Each club tag contributes its hierarchy weight
+(deeper tags weigh more, same-depth tags weigh the same) times the strength of
+its best relationship to a user tag (1.0 exact, 0.5 parent/child, 0.25
+grand-related, 0 unrelated). This keeps the hierarchy meaningful: hitting a
+club's deepest/most important tag scores ~1/2 or more, while hitting only
+shallow tags scores much less, no matter how many tags the user picked.
+"""
 
 from __future__ import annotations
 
@@ -9,6 +18,7 @@ from pathlib import Path
 from config import (
     CLUB_TAG_POINTS,
     EXCLUDED_CLUB_NOS,
+    HIERARCHY_PARENT_CHILD,
     MAX_USER_TAGS,
     MEETING_PERIODS,
     METADATA_COLUMNS,
@@ -26,7 +36,6 @@ from tag_hierarchy import PARENT_MAP, display_name, hierarchy_coefficient
 
 BASE = Path(__file__).parent
 
-
 @dataclass
 class Club:
     no: str
@@ -36,6 +45,7 @@ class Club:
     member_count: int
     day: str
     period: str
+    room: str
     tags: dict[str, int]  # tag -> weight (sums to CLUB_TAG_POINTS)
 
     @property
@@ -58,6 +68,7 @@ class Recommendation:
     precision: float
     recall: float
     matched_weight: float
+    matched_club_tags: set[str]
     popularity_multiplier: float
     final_score: float
     matches: list[MatchDetail] = field(default_factory=list)
@@ -115,11 +126,9 @@ def distribute_user_weights(
         return {}
     if len(tags) > MAX_USER_TAGS:
         raise ValueError(f"Select at most {MAX_USER_TAGS} tags (got {len(tags)})")
-    raw = list(range(len(tags), 0, -1))
-    raw_sum = sum(raw)
-    weights = [round(total * w / raw_sum) for w in raw]
-    diff = total - sum(weights)
-    weights[0] += diff
+    # Selection order does not matter: split the points evenly.
+    base, remainder = divmod(total, len(tags))
+    weights = [base + (1 if i < remainder else 0) for i in range(len(tags))]
     mults = weight_mults or {}
     scaled: dict[str, int] = {}
     for tag, weight in zip(tags, weights):
@@ -157,6 +166,7 @@ def load_clubs(csv_path: Path | None = None) -> list[Club]:
                     member_count=int(row["member_count"]),
                     day=row.get("day") or "unknown",
                     period=row.get("period", "unknown"),
+                    room=row.get("room", ""),
                     tags=tags,
                 )
             )
@@ -178,7 +188,7 @@ def filter_clubs(
         )
     eligible: list[Club] = []
     for club in clubs:
-        if club.member_count <= MIN_ACTIVE_MEMBER_COUNT:
+        if MIN_ACTIVE_MEMBER_COUNT > 0 and club.member_count <= MIN_ACTIVE_MEMBER_COUNT:
             continue
         if blocked and club.meeting_slot in blocked:
             continue
@@ -235,55 +245,62 @@ def normalize_blocked_slots(slots: list[str]) -> list[str]:
     return [normalize_blocked_slot(s) for s in slots]
 
 
-def compute_matched_weight(
-    user_tags: dict[str, int],
-    club_tags: dict[str, int],
-) -> tuple[float, list[MatchDetail]]:
-    """
-    For each user tag, find the best-matching club tag via hierarchy rules.
-    Contribution = min(user_weight, club_weight) × hierarchy_coefficient.
-    """
-    matched_weight = 0.0
-    matches: list[MatchDetail] = []
-
-    for user_tag, user_weight in user_tags.items():
-        best: MatchDetail | None = None
-        for club_tag, club_weight in club_tags.items():
-            coeff = hierarchy_coefficient(user_tag, club_tag)
-            if coeff <= 0:
-                continue
-            contribution = min(user_weight, club_weight) * coeff
-            if best is None or contribution > best.contribution:
-                best = MatchDetail(user_tag, club_tag, coeff, contribution)
-
-        if best:
-            matched_weight += best.contribution
-            matches.append(best)
-
-    return matched_weight, matches
-
-
 def score_club(club: Club, user_tags: dict[str, int]) -> Recommendation:
-    club_total = sum(club.tags.values()) or CLUB_TAG_POINTS
-    user_total = sum(user_tags.values()) or USER_TAG_POINTS
+    """Score a club by how much of its 20 tag points the user covers.
 
-    matched_weight, matches = compute_matched_weight(user_tags, club.tags)
+    For each club tag, take its best relationship strength to any user tag and
+    multiply by the tag's weight. Matched points / 20 is the precision (club
+    coverage) and the primary score. Recall (user coverage) is kept as an
+    informational tiebreaker; user-side weights stay order-independent.
+    """
+    matched_points = 0.0
+    matches: list[MatchDetail] = []
+    for club_tag, club_weight in club.tags.items():
+        best_user_tag: str | None = None
+        best_strength = 0.0
+        for user_tag in user_tags:
+            strength = hierarchy_coefficient(user_tag, club_tag)
+            if strength > best_strength:
+                best_strength = strength
+                best_user_tag = user_tag
+        if best_strength > 0 and best_user_tag is not None:
+            matched_points += club_weight * best_strength
+            matches.append(
+                MatchDetail(
+                    best_user_tag,
+                    club_tag,
+                    best_strength,
+                    club_weight * best_strength,
+                )
+            )
 
-    precision = matched_weight / club_total
-    recall = matched_weight / user_total
-    similarity = (
-        SIMILARITY_PRECISION_WEIGHT * precision + SIMILARITY_RECALL_WEIGHT * recall
-    )
+    precision = matched_points / CLUB_TAG_POINTS if club.tags else 0.0
+
+    recall = 0.0
+    for user_tag, user_weight in user_tags.items():
+        best_strength = max(
+            (hierarchy_coefficient(user_tag, club_tag) for club_tag in club.tags),
+            default=0.0,
+        )
+        recall += user_weight * best_strength
+    recall = recall / USER_TAG_POINTS if user_tags else 0.0
+
+    # Only direct branch relationships (exact or parent/child) are highlighted;
+    # sibling credit (0.25) still counts toward the score.
+    matched_club_tags = {
+        m.club_tag for m in matches if m.coefficient >= HIERARCHY_PARENT_CHILD
+    }
 
     pop = popularity_multiplier(club.member_count)
-    final_score = similarity * pop
+    final_score = precision * pop
 
     return Recommendation(
         club=club,
-        similarity=similarity,
+        similarity=precision,
         precision=precision,
         recall=recall,
-        matched_weight=matched_weight,
+        matched_weight=matched_points,
+        matched_club_tags=matched_club_tags,
         popularity_multiplier=pop,
         final_score=final_score,
         matches=matches,
@@ -309,16 +326,22 @@ def recommend(
     eligible = filter_clubs(clubs, blocked_slots, blocked_periods)
 
     results = [score_club(club, user_tags) for club in eligible]
-    results.sort(key=lambda r: (-r.final_score, -r.similarity, r.club.name))
+    results.sort(key=lambda r: (-r.final_score, -r.recall, r.club.name))
 
-    above = [r for r in results if r.final_score > min_score]
-    below = [r for r in results if r.final_score <= min_score]
+    if len(results) <= top_n:
+        picked = results
+    else:
+        cutoff = results[top_n - 1].final_score
+        if cutoff > 0:
+            # Include every club tied with the cutoff score (ties share a rank).
+            picked = [r for r in results if r.final_score >= cutoff]
+        else:
+            picked = results[:top_n]
 
-    picked = above[:top_n]
     if len(picked) < min_results:
-        need = min(min_results, top_n) - len(picked)
-        picked.extend(below[:need])
-    return picked[:top_n]
+        seen = {id(r) for r in picked}
+        picked = picked + [r for r in results if id(r) not in seen][: min_results - len(picked)]
+    return picked
 
 
 def format_results(results: list[Recommendation]) -> str:

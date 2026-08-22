@@ -1,0 +1,5284 @@
+{
+  "source": "https://www.alevel.com.cn/user/s23433/ecaclass/all_eca/",
+  "headerCells": [
+    "NO.",
+    "Name",
+    "Leader",
+    "Leadership Team",
+    "Category",
+    "Room",
+    "Students",
+    "Period",
+    "Space",
+    ""
+  ],
+  "clubs": [
+    {
+      "name": "SCIE Buddhism Club",
+      "cells": [
+        "1",
+        "SCIE Buddhism Club",
+        "",
+        "24037",
+        "SOCIAL Interests and hobbies",
+        "A220",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "1 SCIE Buddhism Club 24037 SOCIAL Interests and hobbies A220 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5209/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5209/profile/"
+    },
+    {
+      "name": "ACA Together",
+      "cells": [
+        "2",
+        "ACA Together",
+        "ELA",
+        "24105",
+        "ACADEMIC Visual and performing arts",
+        "G117",
+        "1",
+        "Thursday Period12",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "2 ACA Together ELA 24105 ACADEMIC Visual and performing arts G117 1 Thursday Period12 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5104/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5104/profile/"
+    },
+    {
+      "name": "AI Ethics & Governance Roundtable",
+      "cells": [
+        "3",
+        "AI Ethics & Governance Roundtable",
+        "",
+        "23291",
+        "ACADEMIC Social sciences",
+        "A206",
+        "1",
+        "Thursday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "3 AI Ethics & Governance Roundtable 23291 ACADEMIC Social sciences A206 1 Thursday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5210/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5210/profile/"
+    },
+    {
+      "name": "Acupuncture & TCM",
+      "cells": [
+        "4",
+        "Acupuncture & TCM",
+        "JUJ",
+        "23431",
+        "SOCIAL Interests and hobbies",
+        "A211",
+        "1",
+        "Friday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "4 Acupuncture & TCM JUJ 23431 SOCIAL Interests and hobbies A211 1 Friday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5133/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5133/profile/"
+    },
+    {
+      "name": "Aerodynamicists",
+      "cells": [
+        "5",
+        "Aerodynamicists",
+        "ELH",
+        "25408",
+        "ACADEMIC Technology and engineering",
+        "A419",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "5 Aerodynamicists ELH 25408 ACADEMIC Technology and engineering A419 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5112/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5112/profile/"
+    },
+    {
+      "name": "Aerodynamics & Simulation Club",
+      "cells": [
+        "6",
+        "Aerodynamics & Simulation Club",
+        "",
+        "24460",
+        "ACADEMIC Technology and engineering",
+        "A406",
+        "5",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "6 Aerodynamics & Simulation Club 24460 ACADEMIC Technology and engineering A406 5 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5134/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5134/profile/"
+    },
+    {
+      "name": "Ai for math",
+      "cells": [
+        "7",
+        "Ai for math",
+        "",
+        "23317",
+        "ACADEMIC Mathematics and computer sciences",
+        "A216",
+        "1",
+        "Thursday Period12",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "7 Ai for math 23317 ACADEMIC Mathematics and computer sciences A216 1 Thursday Period12 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5060/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5060/profile/"
+    },
+    {
+      "name": "Animal Studies Society",
+      "cells": [
+        "8",
+        "Animal Studies Society",
+        "",
+        "23374",
+        "ACADEMIC Natural sciences",
+        "A211",
+        "1",
+        "Monday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "8 Animal Studies Society 23374 ACADEMIC Natural sciences A211 1 Monday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5179/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5179/profile/"
+    },
+    {
+      "name": "Anime Club",
+      "cells": [
+        "9",
+        "Anime Club",
+        "",
+        "24098",
+        "SOCIAL Culture",
+        "A416",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "9 Anime Club 24098 SOCIAL Culture A416 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5059/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5059/profile/"
+    },
+    {
+      "name": "AnthroPulse",
+      "cells": [
+        "10",
+        "AnthroPulse",
+        "",
+        "24236",
+        "SOCIAL Interests and hobbies",
+        "A219",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "10 AnthroPulse 24236 SOCIAL Interests and hobbies A219 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5211/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5211/profile/"
+    },
+    {
+      "name": "Apeiron PhyX",
+      "cells": [
+        "11",
+        "Apeiron PhyX",
+        "MJI",
+        "25026",
+        "ACADEMIC Natural sciences",
+        "A510",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "11 Apeiron PhyX MJI 25026 ACADEMIC Natural sciences A510 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5203/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5203/profile/"
+    },
+    {
+      "name": "Apex Racing",
+      "cells": [
+        "12",
+        "Apex Racing",
+        "",
+        "23393",
+        "SOCIAL Interests and hobbies",
+        "A207",
+        "1",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "12 Apex Racing 23393 SOCIAL Interests and hobbies A207 1 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5113/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5113/profile/"
+    },
+    {
+      "name": "Arts and Sciences",
+      "cells": [
+        "13",
+        "Arts and Sciences",
+        "DAS",
+        "24466",
+        "ACADEMIC Others",
+        "B524",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "13 Arts and Sciences DAS 24466 ACADEMIC Others B524 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5180/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5180/profile/"
+    },
+    {
+      "name": "BG Lab",
+      "cells": [
+        "14",
+        "BG Lab",
+        "ADW",
+        "24060",
+        "SOCIAL Interests and hobbies",
+        "B221",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "14 BG Lab ADW 24060 SOCIAL Interests and hobbies B221 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5212/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5212/profile/"
+    },
+    {
+      "name": "Bacamera Filmmaker Club",
+      "cells": [
+        "15",
+        "Bacamera Filmmaker Club",
+        "",
+        "23603",
+        "SOCIAL Media and creative",
+        "A215",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "15 Bacamera Filmmaker Club 23603 SOCIAL Media and creative A215 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5058/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5058/profile/"
+    },
+    {
+      "name": "Baseball New Wave",
+      "cells": [
+        "16",
+        "Baseball New Wave",
+        "",
+        "23338",
+        "SPORTS",
+        "A510",
+        "1",
+        "Friday Period13",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "16 Baseball New Wave 23338 SPORTS A510 1 Friday Period13 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5062/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5062/profile/"
+    },
+    {
+      "name": "Basketball Development Centre",
+      "cells": [
+        "17",
+        "Basketball Development Centre",
+        "MJI",
+        "",
+        "SPORTS",
+        "H100A",
+        "0",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "17 Basketball Development Centre MJI SPORTS H100A 0 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5258/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5258/profile/"
+    },
+    {
+      "name": "BioBío",
+      "cells": [
+        "18",
+        "BioBío",
+        "",
+        "24093",
+        "ACADEMIC Natural sciences",
+        "B534",
+        "1",
+        "Wednesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "18 BioBío 24093 ACADEMIC Natural sciences B534 1 Wednesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5213/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5213/profile/"
+    },
+    {
+      "name": "BioChem Experiment club",
+      "cells": [
+        "19",
+        "BioChem Experiment club",
+        "SUK",
+        "23147",
+        "ACADEMIC Natural sciences",
+        "B815",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "19 BioChem Experiment club SUK 23147 ACADEMIC Natural sciences B815 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5205/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5205/profile/"
+    },
+    {
+      "name": "BioChem Fever",
+      "cells": [
+        "20",
+        "BioChem Fever",
+        "ADW",
+        "23458",
+        "ACADEMIC Natural sciences",
+        "B526",
+        "3",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "20 BioChem Fever ADW 23458 ACADEMIC Natural sciences B526 3 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5057/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5057/profile/"
+    },
+    {
+      "name": "Brew Isle",
+      "cells": [
+        "21",
+        "Brew Isle",
+        "",
+        "24165",
+        "SOCIAL Interests and hobbies",
+        "A402",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "21 Brew Isle 24165 SOCIAL Interests and hobbies A402 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5214/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5214/profile/"
+    },
+    {
+      "name": "Bureau of Unexplained Affairs",
+      "cells": [
+        "22",
+        "Bureau of Unexplained Affairs",
+        "",
+        "26804",
+        "SOCIAL Interests and hobbies",
+        "A201",
+        "3",
+        "Monday Period13",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "22 Bureau of Unexplained Affairs 26804 SOCIAL Interests and hobbies A201 3 Monday Period13 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5114/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5114/profile/"
+    },
+    {
+      "name": "Business Teaching Club",
+      "cells": [
+        "23",
+        "Business Teaching Club",
+        "",
+        "23145",
+        "SOCIAL Volunteers and charitable projects",
+        "A210",
+        "1",
+        "Wednesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "23 Business Teaching Club 23145 SOCIAL Volunteers and charitable projects A210 1 Wednesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5215/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5215/profile/"
+    },
+    {
+      "name": "Business practice club",
+      "cells": [
+        "24",
+        "Business practice club",
+        "",
+        "24449",
+        "ACADEMIC Business and economics",
+        "A616",
+        "5",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "24 Business practice club 24449 ACADEMIC Business and economics A616 5 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5056/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5056/profile/"
+    },
+    {
+      "name": "Cantonese linguistics",
+      "cells": [
+        "25",
+        "Cantonese linguistics",
+        "",
+        "25192",
+        "ACADEMIC Languages",
+        "A613",
+        "6",
+        "Friday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "25 Cantonese linguistics 25192 ACADEMIC Languages A613 6 Friday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5135/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5135/profile/"
+    },
+    {
+      "name": "Chamber Music",
+      "cells": [
+        "26",
+        "Chamber Music",
+        "ELA",
+        "23262",
+        "SOCIAL Interests and hobbies",
+        "G117",
+        "1",
+        "Monday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "26 Chamber Music ELA 23262 SOCIAL Interests and hobbies G117 1 Monday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5138/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5138/profile/"
+    },
+    {
+      "name": "ChannelKay",
+      "cells": [
+        "27",
+        "ChannelKay",
+        "",
+        "23408",
+        "SOCIAL Media and creative",
+        "A215",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "27 ChannelKay 23408 SOCIAL Media and creative A215 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5181/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5181/profile/"
+    },
+    {
+      "name": "Charity Bake Sale",
+      "cells": [
+        "28",
+        "Charity Bake Sale",
+        "",
+        "24071",
+        "SOCIAL Volunteers and charitable projects",
+        "A201",
+        "1",
+        "Friday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "28 Charity Bake Sale 24071 SOCIAL Volunteers and charitable projects A201 1 Friday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5115/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5115/profile/"
+    },
+    {
+      "name": "Cheer SCIE",
+      "cells": [
+        "29",
+        "Cheer SCIE",
+        "YNN",
+        "24071",
+        "SPORTS",
+        "H102",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "29 Cheer SCIE YNN 24071 SPORTS H102 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5116/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5116/profile/"
+    },
+    {
+      "name": "Chemistry Curiosity Club",
+      "cells": [
+        "30",
+        "Chemistry Curiosity Club",
+        "GOY",
+        "24039",
+        "ACADEMIC Natural sciences",
+        "A414",
+        "1",
+        "Wednesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "30 Chemistry Curiosity Club GOY 24039 ACADEMIC Natural sciences A414 1 Wednesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5136/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5136/profile/"
+    },
+    {
+      "name": "Chinese Debate Club",
+      "cells": [
+        "31",
+        "Chinese Debate Club",
+        "CAC",
+        "24227",
+        "ACADEMIC Languages",
+        "B522",
+        "2",
+        "Monday Period11",
+        "0.11/50MB",
+        ""
+      ],
+      "text": "31 Chinese Debate Club CAC 24227 ACADEMIC Languages B522 2 Monday Period11 0.11/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5030/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5030/profile/"
+    },
+    {
+      "name": "Chinese Traditional Fitness & Meditation",
+      "cells": [
+        "32",
+        "Chinese Traditional Fitness & Meditation",
+        "XIY",
+        "",
+        "SPORTS",
+        "B432",
+        "0",
+        "Monday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "32 Chinese Traditional Fitness & Meditation XIY SPORTS B432 0 Monday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5105/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5105/profile/"
+    },
+    {
+      "name": "Chronoscience",
+      "cells": [
+        "33",
+        "Chronoscience",
+        "",
+        "23085",
+        "ACADEMIC Social sciences",
+        "A201",
+        "1",
+        "Thursday Period13",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "33 Chronoscience 23085 ACADEMIC Social sciences A201 1 Thursday Period13 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5118/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5118/profile/"
+    },
+    {
+      "name": "Climbing ECA",
+      "cells": [
+        "34",
+        "Climbing ECA",
+        "SXI",
+        "24057",
+        "SPORTS",
+        "BBL",
+        "3",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "34 Climbing ECA SXI 24057 SPORTS BBL 3 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5102/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5102/profile/"
+    },
+    {
+      "name": "CognitAble",
+      "cells": [
+        "35",
+        "CognitAble",
+        "",
+        "25059",
+        "SOCIAL Volunteers and charitable projects",
+        "A401",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "35 CognitAble 25059 SOCIAL Volunteers and charitable projects A401 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5216/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5216/profile/"
+    },
+    {
+      "name": "Cognitive Aquarium",
+      "cells": [
+        "36",
+        "Cognitive Aquarium",
+        "OWH",
+        "24054",
+        "ACADEMIC Social sciences",
+        "A506",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "36 Cognitive Aquarium OWH 24054 ACADEMIC Social sciences A506 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5217/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5217/profile/"
+    },
+    {
+      "name": "Compus ESG Lab",
+      "cells": [
+        "37",
+        "Compus ESG Lab",
+        "",
+        "25418",
+        "ACADEMIC Business and economics",
+        "A207",
+        "3",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "37 Compus ESG Lab 25418 ACADEMIC Business and economics A207 3 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5119/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5119/profile/"
+    },
+    {
+      "name": "Constellation Lab — Student Opportunity & Project Collaboration",
+      "cells": [
+        "38",
+        "Constellation Lab — Student Opportunity & Project Collaboration",
+        "",
+        "25263",
+        "ACADEMIC Others",
+        "A411",
+        "13",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "38 Constellation Lab — Student Opportunity & Project Collaboration 25263 ACADEMIC Others A411 13 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5123/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5123/profile/"
+    },
+    {
+      "name": "Cosmology Horizon",
+      "cells": [
+        "39",
+        "Cosmology Horizon",
+        "SEM",
+        "24095",
+        "ACADEMIC Natural sciences",
+        "B523",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "39 Cosmology Horizon SEM 24095 ACADEMIC Natural sciences B523 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5169/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5169/profile/"
+    },
+    {
+      "name": "D-Sign",
+      "cells": [
+        "40",
+        "D-Sign",
+        "",
+        "24710",
+        "SOCIAL Volunteers and charitable projects",
+        "A208",
+        "1",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "40 D-Sign 24710 SOCIAL Volunteers and charitable projects A208 1 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5218/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5218/profile/"
+    },
+    {
+      "name": "DECODE THE WORLD",
+      "cells": [
+        "41",
+        "DECODE THE WORLD",
+        "",
+        "25506",
+        "ACADEMIC Mathematics and computer sciences",
+        "A208",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "41 DECODE THE WORLD 25506 ACADEMIC Mathematics and computer sciences A208 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5219/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5219/profile/"
+    },
+    {
+      "name": "Desktop intelligence",
+      "cells": [
+        "42",
+        "Desktop intelligence",
+        "ECA",
+        "24264",
+        "SOCIAL Interests and hobbies",
+        "A212",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "42 Desktop intelligence ECA 24264 SOCIAL Interests and hobbies A212 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5168/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5168/profile/"
+    },
+    {
+      "name": "Dodgeball",
+      "cells": [
+        "43",
+        "Dodgeball",
+        "",
+        "23235",
+        "SPORTS",
+        "B431",
+        "1",
+        "Thursday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "43 Dodgeball 23235 SPORTS B431 1 Thursday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5182/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5182/profile/"
+    },
+    {
+      "name": "Downbeats",
+      "cells": [
+        "44",
+        "Downbeats",
+        "",
+        "23550",
+        "SOCIAL Active and performance",
+        "G118",
+        "5",
+        "Tuesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "44 Downbeats 23550 SOCIAL Active and performance G118 5 Tuesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5033/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5033/profile/"
+    },
+    {
+      "name": "Dragon's Den: TTRPG society",
+      "cells": [
+        "45",
+        "Dragon's Den: TTRPG society",
+        "ADR",
+        "23406",
+        "SOCIAL Media and creative",
+        "A220",
+        "1",
+        "Wednesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "45 Dragon's Den: TTRPG society ADR 23406 SOCIAL Media and creative A220 1 Wednesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5183/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5183/profile/"
+    },
+    {
+      "name": "Dynamics of Stories and Mind",
+      "cells": [
+        "46",
+        "Dynamics of Stories and Mind",
+        "",
+        "23163",
+        "ACADEMIC Social sciences",
+        "A415",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "46 Dynamics of Stories and Mind 23163 ACADEMIC Social sciences A415 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5121/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5121/profile/"
+    },
+    {
+      "name": "E-girls",
+      "cells": [
+        "47",
+        "E-girls",
+        "",
+        "23509",
+        "SPORTS",
+        "G021",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "47 E-girls 23509 SPORTS G021 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5055/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5055/profile/"
+    },
+    {
+      "name": "Earth Rangers",
+      "cells": [
+        "48",
+        "Earth Rangers",
+        "STA",
+        "24305",
+        "ACADEMIC Natural sciences",
+        "A201",
+        "3",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "48 Earth Rangers STA 24305 ACADEMIC Natural sciences A201 3 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5247/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5247/profile/"
+    },
+    {
+      "name": "Earth Three-Body Organization",
+      "cells": [
+        "49",
+        "Earth Three-Body Organization",
+        "",
+        "23393",
+        "ACADEMIC Languages",
+        "A416",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "49 Earth Three-Body Organization 23393 ACADEMIC Languages A416 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5162/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5162/profile/"
+    },
+    {
+      "name": "Echo",
+      "cells": [
+        "50",
+        "Echo",
+        "",
+        "25634",
+        "SOCIAL Volunteers and charitable projects",
+        "A408",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "50 Echo 25634 SOCIAL Volunteers and charitable projects A408 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5184/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5184/profile/"
+    },
+    {
+      "name": "Eduspark",
+      "cells": [
+        "51",
+        "Eduspark",
+        "ZOC",
+        "24303",
+        "SOCIAL Volunteers and charitable projects",
+        "A211",
+        "1",
+        "Tuesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "51 Eduspark ZOC 24303 SOCIAL Volunteers and charitable projects A211 1 Tuesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5122/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5122/profile/"
+    },
+    {
+      "name": "Electricity& Magnetism Society",
+      "cells": [
+        "52",
+        "Electricity& Magnetism Society",
+        "WAN",
+        "24161",
+        "ACADEMIC Natural sciences",
+        "A302",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "52 Electricity& Magnetism Society WAN 24161 ACADEMIC Natural sciences A302 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5250/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5250/profile/"
+    },
+    {
+      "name": "Electromagnetics & Optics Society",
+      "cells": [
+        "53",
+        "Electromagnetics & Optics Society",
+        "",
+        "24458",
+        "ACADEMIC Natural sciences",
+        "A411",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "53 Electromagnetics & Optics Society 24458 ACADEMIC Natural sciences A411 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5185/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5185/profile/"
+    },
+    {
+      "name": "English Teaching Club",
+      "cells": [
+        "54",
+        "English Teaching Club",
+        "YIW",
+        "24213",
+        "ACADEMIC Others",
+        "A606",
+        "1",
+        "Wednesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "54 English Teaching Club YIW 24213 ACADEMIC Others A606 1 Wednesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5110/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5110/profile/"
+    },
+    {
+      "name": "Entrepreneurship Club",
+      "cells": [
+        "55",
+        "Entrepreneurship Club",
+        "",
+        "23331",
+        "ACADEMIC Business and economics",
+        "A210",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "55 Entrepreneurship Club 23331 ACADEMIC Business and economics A210 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5109/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5109/profile/"
+    },
+    {
+      "name": "Every Girl Can",
+      "cells": [
+        "56",
+        "Every Girl Can",
+        "JUL",
+        "23460",
+        "SPORTS",
+        "FBL",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "56 Every Girl Can JUL 23460 SPORTS FBL 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5165/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5165/profile/"
+    },
+    {
+      "name": "Fanart Club",
+      "cells": [
+        "57",
+        "Fanart Club",
+        "",
+        "23549",
+        "SOCIAL Interests and hobbies",
+        "B430",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "57 Fanart Club 23549 SOCIAL Interests and hobbies B430 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5220/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5220/profile/"
+    },
+    {
+      "name": "Feminism Club",
+      "cells": [
+        "58",
+        "Feminism Club",
+        "LIB",
+        "24145",
+        "ACADEMIC Social sciences",
+        "A419",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "58 Feminism Club LIB 24145 ACADEMIC Social sciences A419 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5108/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5108/profile/"
+    },
+    {
+      "name": "Fictional Engineering Club",
+      "cells": [
+        "59",
+        "Fictional Engineering Club",
+        "JEK",
+        "24130",
+        "ACADEMIC Technology and engineering",
+        "A606",
+        "6",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "59 Fictional Engineering Club JEK 24130 ACADEMIC Technology and engineering A606 6 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5124/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5124/profile/"
+    },
+    {
+      "name": "Figure Skating Club",
+      "cells": [
+        "60",
+        "Figure Skating Club",
+        "",
+        "24155",
+        "SPORTS",
+        "A211",
+        "1",
+        "Friday Period12",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "60 Figure Skating Club 24155 SPORTS A211 1 Friday Period12 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5101/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5101/profile/"
+    },
+    {
+      "name": "Flawesome Museum Club",
+      "cells": [
+        "61",
+        "Flawesome Museum Club",
+        "",
+        "23261",
+        "SOCIAL Volunteers and charitable projects",
+        "B531",
+        "1",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "61 Flawesome Museum Club 23261 SOCIAL Volunteers and charitable projects B531 1 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5097/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5097/profile/"
+    },
+    {
+      "name": "Forensic Science Club",
+      "cells": [
+        "62",
+        "Forensic Science Club",
+        "",
+        "23464",
+        "ACADEMIC Natural sciences",
+        "A406",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "62 Forensic Science Club 23464 ACADEMIC Natural sciences A406 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5186/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5186/profile/"
+    },
+    {
+      "name": "Formula One Club",
+      "cells": [
+        "63",
+        "Formula One Club",
+        "",
+        "23144",
+        "SOCIAL Interests and hobbies",
+        "A510",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "63 Formula One Club 23144 SOCIAL Interests and hobbies A510 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5221/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5221/profile/"
+    },
+    {
+      "name": "French Film",
+      "cells": [
+        "64",
+        "French Film",
+        "",
+        "24673",
+        "SOCIAL Interests and hobbies",
+        "A402",
+        "4",
+        "Wednesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "64 French Film 24673 SOCIAL Interests and hobbies A402 4 Wednesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5061/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5061/profile/"
+    },
+    {
+      "name": "FunTrade",
+      "cells": [
+        "65",
+        "FunTrade",
+        "",
+        "24150",
+        "SOCIAL Interests and hobbies",
+        "A401",
+        "1",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "65 FunTrade 24150 SOCIAL Interests and hobbies A401 1 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5204/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5204/profile/"
+    },
+    {
+      "name": "Fundamental Physics Club",
+      "cells": [
+        "66",
+        "Fundamental Physics Club",
+        "",
+        "24453",
+        "ACADEMIC Natural sciences",
+        "A617",
+        "8",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "66 Fundamental Physics Club 24453 ACADEMIC Natural sciences A617 8 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5125/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5125/profile/"
+    },
+    {
+      "name": "Gastronomie",
+      "cells": [
+        "67",
+        "Gastronomie",
+        "",
+        "24154",
+        "SOCIAL Interests and hobbies",
+        "A507",
+        "1",
+        "Thursday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "67 Gastronomie 24154 SOCIAL Interests and hobbies A507 1 Thursday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5222/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5222/profile/"
+    },
+    {
+      "name": "Geographical Society",
+      "cells": [
+        "68",
+        "Geographical Society",
+        "",
+        "23179",
+        "ACADEMIC Social sciences",
+        "A207",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "68 Geographical Society 23179 ACADEMIC Social sciences A207 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5187/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5187/profile/"
+    },
+    {
+      "name": "GirlUp SCIE",
+      "cells": [
+        "69",
+        "GirlUp SCIE",
+        "",
+        "23312",
+        "ACADEMIC Social sciences",
+        "A216",
+        "1",
+        "Wednesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "69 GirlUp SCIE 23312 ACADEMIC Social sciences A216 1 Wednesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5137/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5137/profile/"
+    },
+    {
+      "name": "Girls Basketball Club",
+      "cells": [
+        "70",
+        "Girls Basketball Club",
+        "",
+        "23193",
+        "SPORTS",
+        "BBL",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "70 Girls Basketball Club 23193 SPORTS BBL 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5163/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5163/profile/"
+    },
+    {
+      "name": "Glow & Grow",
+      "cells": [
+        "71",
+        "Glow & Grow",
+        "",
+        "23331",
+        "SOCIAL Media and creative",
+        "A208",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "71 Glow & Grow 23331 SOCIAL Media and creative A208 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5100/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5100/profile/"
+    },
+    {
+      "name": "Great Books Society",
+      "cells": [
+        "72",
+        "Great Books Society",
+        "",
+        "25027",
+        "ACADEMIC Languages",
+        "A211",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "72 Great Books Society 25027 ACADEMIC Languages A211 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5200/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5200/profile/"
+    },
+    {
+      "name": "GreenRoot Society",
+      "cells": [
+        "73",
+        "GreenRoot Society",
+        "",
+        "23309",
+        "ACADEMIC Others",
+        "A506",
+        "3",
+        "Monday Period13",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "73 GreenRoot Society 23309 ACADEMIC Others A506 3 Monday Period13 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5054/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5054/profile/"
+    },
+    {
+      "name": "HEART BEAT",
+      "cells": [
+        "74",
+        "HEART BEAT",
+        "",
+        "23036",
+        "ACADEMIC Social sciences",
+        "B221",
+        "1",
+        "Monday Period12",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "74 HEART BEAT 23036 ACADEMIC Social sciences B221 1 Monday Period12 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5053/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5053/profile/"
+    },
+    {
+      "name": "HELPHANT",
+      "cells": [
+        "75",
+        "HELPHANT",
+        "JEC",
+        "24060",
+        "SOCIAL Volunteers and charitable projects",
+        "A302",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "75 HELPHANT JEC 24060 SOCIAL Volunteers and charitable projects A302 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5223/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5223/profile/"
+    },
+    {
+      "name": "Heartbreak Vaccine Club",
+      "cells": [
+        "76",
+        "Heartbreak Vaccine Club",
+        "",
+        "23182",
+        "SOCIAL Volunteers and charitable projects",
+        "A220",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "76 Heartbreak Vaccine Club 23182 SOCIAL Volunteers and charitable projects A220 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5224/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5224/profile/"
+    },
+    {
+      "name": "Helping Unique Growing Souls",
+      "cells": [
+        "77",
+        "Helping Unique Growing Souls",
+        "QUD",
+        "23138",
+        "SOCIAL Volunteers and charitable projects",
+        "A408",
+        "1",
+        "Wednesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "77 Helping Unique Growing Souls QUD 23138 SOCIAL Volunteers and charitable projects A408 1 Wednesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5225/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5225/profile/"
+    },
+    {
+      "name": "Hermanity",
+      "cells": [
+        "78",
+        "Hermanity",
+        "",
+        "23386",
+        "ACADEMIC Social sciences",
+        "A201",
+        "1",
+        "Monday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "78 Hermanity 23386 ACADEMIC Social sciences A201 1 Monday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5126/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5126/profile/"
+    },
+    {
+      "name": "ISL BOYS VOLLEYBALL",
+      "cells": [
+        "79",
+        "ISL BOYS VOLLEYBALL",
+        "SIA",
+        "",
+        "SPORTS",
+        "H100A",
+        "0",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "79 ISL BOYS VOLLEYBALL SIA SPORTS H100A 0 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5164/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5164/profile/"
+    },
+    {
+      "name": "ISL GIRLS VOLLEYBALL",
+      "cells": [
+        "80",
+        "ISL GIRLS VOLLEYBALL",
+        "ZAG",
+        "FRX",
+        "SPORTS",
+        "H100",
+        "0",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "80 ISL GIRLS VOLLEYBALL ZAG FRX SPORTS H100 0 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5131/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5131/profile/"
+    },
+    {
+      "name": "Integrated Strategies Strategies Integrated",
+      "cells": [
+        "81",
+        "Integrated Strategies Strategies Integrated",
+        "",
+        "23004",
+        "ACADEMIC Others",
+        "A201",
+        "1",
+        "Monday Period12",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "81 Integrated Strategies Strategies Integrated 23004 ACADEMIC Others A201 1 Monday Period12 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5226/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5226/profile/"
+    },
+    {
+      "name": "InvestNow",
+      "cells": [
+        "82",
+        "InvestNow",
+        "AVM",
+        "23175",
+        "ACADEMIC Business and economics",
+        "A220",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "82 InvestNow AVM 23175 ACADEMIC Business and economics A220 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5106/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5106/profile/"
+    },
+    {
+      "name": "IoT Business Simulator",
+      "cells": [
+        "83",
+        "IoT Business Simulator",
+        "",
+        "24445",
+        "ACADEMIC Others",
+        "A216",
+        "2",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "83 IoT Business Simulator 24445 ACADEMIC Others A216 2 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5188/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5188/profile/"
+    },
+    {
+      "name": "JGG",
+      "cells": [
+        "84",
+        "JGG",
+        "",
+        "23443",
+        "SOCIAL Active and performance",
+        "G117",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "84 JGG 23443 SOCIAL Active and performance G117 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5171/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5171/profile/"
+    },
+    {
+      "name": "JUNE East Asian Dialogue",
+      "cells": [
+        "85",
+        "JUNE East Asian Dialogue",
+        "",
+        "24205",
+        "SOCIAL Interests and hobbies",
+        "A414",
+        "1",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "85 JUNE East Asian Dialogue 24205 SOCIAL Interests and hobbies A414 1 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5189/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5189/profile/"
+    },
+    {
+      "name": "Latino Dance Club",
+      "cells": [
+        "86",
+        "Latino Dance Club",
+        "QUD",
+        "24036",
+        "SPORTS",
+        "G021",
+        "2",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "86 Latino Dance Club QUD 24036 SPORTS G021 2 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5064/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5064/profile/"
+    },
+    {
+      "name": "Lego World Monuments",
+      "cells": [
+        "87",
+        "Lego World Monuments",
+        "BDE",
+        "",
+        "SOCIAL Interests and hobbies",
+        "B427",
+        "0",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "87 Lego World Monuments BDE SOCIAL Interests and hobbies B427 0 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5095/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5095/profile/"
+    },
+    {
+      "name": "Life Pawnshop",
+      "cells": [
+        "88",
+        "Life Pawnshop",
+        "",
+        "24268",
+        "SOCIAL Interests and hobbies",
+        "A401",
+        "3",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "88 Life Pawnshop 24268 SOCIAL Interests and hobbies A401 3 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5249/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5249/profile/"
+    },
+    {
+      "name": "Life-Health Club",
+      "cells": [
+        "89",
+        "Life-Health Club",
+        "",
+        "24270",
+        "ACADEMIC Health and wellbeing",
+        "A206",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "89 Life-Health Club 24270 ACADEMIC Health and wellbeing A206 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5139/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5139/profile/"
+    },
+    {
+      "name": "Luminara Detectives Club",
+      "cells": [
+        "90",
+        "Luminara Detectives Club",
+        "",
+        "25129",
+        "SOCIAL Interests and hobbies",
+        "B423",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "90 Luminara Detectives Club 25129 SOCIAL Interests and hobbies B423 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5227/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5227/profile/"
+    },
+    {
+      "name": "Machine Learning and Artificial Intelligence Club (MLxAI)",
+      "cells": [
+        "91",
+        "Machine Learning and Artificial Intelligence Club (MLxAI)",
+        "",
+        "23291",
+        "ACADEMIC Mathematics and computer sciences",
+        "B433",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "91 Machine Learning and Artificial Intelligence Club (MLxAI) 23291 ACADEMIC Mathematics and computer sciences B433 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5228/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5228/profile/"
+    },
+    {
+      "name": "Magicians' Awake in SCIE",
+      "cells": [
+        "92",
+        "Magicians' Awake in SCIE",
+        "JBA",
+        "23405",
+        "SOCIAL Interests and hobbies",
+        "A408",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "92 Magicians' Awake in SCIE JBA 23405 SOCIAL Interests and hobbies A408 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5190/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5190/profile/"
+    },
+    {
+      "name": "Mania Aviators",
+      "cells": [
+        "93",
+        "Mania Aviators",
+        "ALP",
+        "24044",
+        "SOCIAL Interests and hobbies",
+        "A220",
+        "9",
+        "Thursday Period13",
+        "10.77/50MB",
+        ""
+      ],
+      "text": "93 Mania Aviators ALP 24044 SOCIAL Interests and hobbies A220 9 Thursday Period13 10.77/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5052/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5052/profile/"
+    },
+    {
+      "name": "Math & Computer Science Club",
+      "cells": [
+        "94",
+        "Math & Computer Science Club",
+        "CYC",
+        "23071",
+        "ACADEMIC Mathematics and computer sciences",
+        "A201",
+        "1",
+        "Wednesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "94 Math & Computer Science Club CYC 23071 ACADEMIC Mathematics and computer sciences A201 1 Wednesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5093/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5093/profile/"
+    },
+    {
+      "name": "Math Odyssey",
+      "cells": [
+        "95",
+        "Math Odyssey",
+        "",
+        "23391",
+        "ACADEMIC Mathematics and computer sciences",
+        "A409",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "95 Math Odyssey 23391 ACADEMIC Mathematics and computer sciences A409 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5051/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5051/profile/"
+    },
+    {
+      "name": "Math and Engineering Teaching Club",
+      "cells": [
+        "96",
+        "Math and Engineering Teaching Club",
+        "",
+        "24634",
+        "ACADEMIC Mathematics and computer sciences",
+        "A215",
+        "1",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "96 Math and Engineering Teaching Club 24634 ACADEMIC Mathematics and computer sciences A215 1 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5140/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5140/profile/"
+    },
+    {
+      "name": "Math-Physics Exploration",
+      "cells": [
+        "97",
+        "Math-Physics Exploration",
+        "SUW",
+        "24484",
+        "ACADEMIC Mathematics and computer sciences",
+        "A402",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "97 Math-Physics Exploration SUW 24484 ACADEMIC Mathematics and computer sciences A402 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5251/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5251/profile/"
+    },
+    {
+      "name": "Mathematical Modeling Club",
+      "cells": [
+        "98",
+        "Mathematical Modeling Club",
+        "HAK",
+        "24039",
+        "ACADEMIC Mathematics and computer sciences",
+        "A414",
+        "1",
+        "Thursday Period12",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "98 Mathematical Modeling Club HAK 24039 ACADEMIC Mathematics and computer sciences A414 1 Thursday Period12 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5141/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5141/profile/"
+    },
+    {
+      "name": "Mathematical Structures Society",
+      "cells": [
+        "99",
+        "Mathematical Structures Society",
+        "SUM",
+        "25339",
+        "ACADEMIC Mathematics and computer sciences",
+        "A407",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "99 Mathematical Structures Society SUM 25339 ACADEMIC Mathematics and computer sciences A407 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5229/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5229/profile/"
+    },
+    {
+      "name": "Mathematical and Physical Society",
+      "cells": [
+        "100",
+        "Mathematical and Physical Society",
+        "",
+        "25366",
+        "ACADEMIC Natural sciences",
+        "B421",
+        "2",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "100 Mathematical and Physical Society 25366 ACADEMIC Natural sciences B421 2 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5092/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5092/profile/"
+    },
+    {
+      "name": "Mathematics Beyond Problems",
+      "cells": [
+        "101",
+        "Mathematics Beyond Problems",
+        "",
+        "24493",
+        "ACADEMIC Mathematics and computer sciences",
+        "A505",
+        "5",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "101 Mathematics Beyond Problems 24493 ACADEMIC Mathematics and computer sciences A505 5 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5199/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5199/profile/"
+    },
+    {
+      "name": "Medlink",
+      "cells": [
+        "102",
+        "Medlink",
+        "",
+        "24609",
+        "ACADEMIC Natural sciences",
+        "A210",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "102 Medlink 24609 ACADEMIC Natural sciences A210 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5091/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5091/profile/"
+    },
+    {
+      "name": "MindBridge",
+      "cells": [
+        "103",
+        "MindBridge",
+        "",
+        "23551",
+        "ACADEMIC Social sciences",
+        "A414",
+        "1",
+        "Monday Period12",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "103 MindBridge 23551 ACADEMIC Social sciences A414 1 Monday Period12 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5230/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5230/profile/"
+    },
+    {
+      "name": "Mindful Maker Club",
+      "cells": [
+        "104",
+        "Mindful Maker Club",
+        "SUL",
+        "",
+        "SOCIAL Interests and hobbies",
+        "A511",
+        "0",
+        "Monday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "104 Mindful Maker Club SUL SOCIAL Interests and hobbies A511 0 Monday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5050/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5050/profile/"
+    },
+    {
+      "name": "Model United Nations (MUN)",
+      "cells": [
+        "105",
+        "Model United Nations (MUN)",
+        "MAA",
+        "23453",
+        "ACADEMIC Social sciences",
+        "A414",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "105 Model United Nations (MUN) MAA 23453 ACADEMIC Social sciences A414 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5172/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5172/profile/"
+    },
+    {
+      "name": "Mosaic DIY",
+      "cells": [
+        "106",
+        "Mosaic DIY",
+        "MEL",
+        "",
+        "SOCIAL Interests and hobbies",
+        "B424",
+        "0",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "106 Mosaic DIY MEL SOCIAL Interests and hobbies B424 0 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5049/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5049/profile/"
+    },
+    {
+      "name": "Move Lab",
+      "cells": [
+        "107",
+        "Move Lab",
+        "ECA",
+        "24500",
+        "SPORTS",
+        "A401",
+        "2",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "107 Move Lab ECA 24500 SPORTS A401 2 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5198/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5198/profile/"
+    },
+    {
+      "name": "MusicMath",
+      "cells": [
+        "108",
+        "MusicMath",
+        "",
+        "25328",
+        "ACADEMIC Mathematics and computer sciences",
+        "A202",
+        "1",
+        "Wednesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "108 MusicMath 25328 ACADEMIC Mathematics and computer sciences A202 1 Wednesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5098/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5098/profile/"
+    },
+    {
+      "name": "Musicals Not Operas",
+      "cells": [
+        "109",
+        "Musicals Not Operas",
+        "MOY",
+        "23408",
+        "SOCIAL Active and performance",
+        "G017",
+        "1",
+        "Wednesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "109 Musicals Not Operas MOY 23408 SOCIAL Active and performance G017 1 Wednesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5107/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5107/profile/"
+    },
+    {
+      "name": "National History Day",
+      "cells": [
+        "110",
+        "National History Day",
+        "JAF",
+        "",
+        "ACADEMIC Social sciences",
+        "A216",
+        "0",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "110 National History Day JAF ACADEMIC Social sciences A216 0 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5063/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5063/profile/"
+    },
+    {
+      "name": "Nature History Club",
+      "cells": [
+        "111",
+        "Nature History Club",
+        "SIS",
+        "23456",
+        "ACADEMIC Natural sciences",
+        "A407",
+        "4",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "111 Nature History Club SIS 23456 ACADEMIC Natural sciences A407 4 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5048/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5048/profile/"
+    },
+    {
+      "name": "NeighborLink",
+      "cells": [
+        "112",
+        "NeighborLink",
+        "",
+        "24089",
+        "SOCIAL Volunteers and charitable projects",
+        "A216",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "112 NeighborLink 24089 SOCIAL Volunteers and charitable projects A216 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5191/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5191/profile/"
+    },
+    {
+      "name": "Nice Calculus",
+      "cells": [
+        "113",
+        "Nice Calculus",
+        "HAK",
+        "24049",
+        "ACADEMIC Mathematics and computer sciences",
+        "B523",
+        "4",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "113 Nice Calculus HAK 24049 ACADEMIC Mathematics and computer sciences B523 4 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5090/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5090/profile/"
+    },
+    {
+      "name": "Nirvana",
+      "cells": [
+        "114",
+        "Nirvana",
+        "MOE",
+        "23093",
+        "SPORTS",
+        "A606",
+        "1",
+        "Tuesday Period12",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "114 Nirvana MOE 23093 SPORTS A606 1 Tuesday Period12 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5089/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5089/profile/"
+    },
+    {
+      "name": "OC Idea Hub",
+      "cells": [
+        "115",
+        "OC Idea Hub",
+        "",
+        "25373",
+        "SOCIAL Interests and hobbies",
+        "A208",
+        "2",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "115 OC Idea Hub 25373 SOCIAL Interests and hobbies A208 2 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5088/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5088/profile/"
+    },
+    {
+      "name": "Olympiad in Informatics (OI)",
+      "cells": [
+        "116",
+        "Olympiad in Informatics (OI)",
+        "",
+        "25824",
+        "ACADEMIC Mathematics and computer sciences",
+        "A206",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "116 Olympiad in Informatics (OI) 25824 ACADEMIC Mathematics and computer sciences A206 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5202/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5202/profile/"
+    },
+    {
+      "name": "Paper Airplane Technology Institution (PATI)",
+      "cells": [
+        "117",
+        "Paper Airplane Technology Institution (PATI)",
+        "",
+        "23007",
+        "SOCIAL Interests and hobbies",
+        "A202",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "117 Paper Airplane Technology Institution (PATI) 23007 SOCIAL Interests and hobbies A202 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5142/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5142/profile/"
+    },
+    {
+      "name": "Paper Quilling Club",
+      "cells": [
+        "118",
+        "Paper Quilling Club",
+        "",
+        "24111",
+        "SOCIAL Interests and hobbies",
+        "A410",
+        "3",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "118 Paper Quilling Club 24111 SOCIAL Interests and hobbies A410 3 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5143/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5143/profile/"
+    },
+    {
+      "name": "Pause.",
+      "cells": [
+        "119",
+        "Pause.",
+        "AMS",
+        "23458",
+        "SOCIAL Interests and hobbies",
+        "G021",
+        "2",
+        "Tuesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "119 Pause. AMS 23458 SOCIAL Interests and hobbies G021 2 Tuesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5132/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5132/profile/"
+    },
+    {
+      "name": "Philomath",
+      "cells": [
+        "120",
+        "Philomath",
+        "TIK",
+        "23363",
+        "ACADEMIC Mathematics and computer sciences",
+        "A408",
+        "2",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "120 Philomath TIK 23363 ACADEMIC Mathematics and computer sciences A408 2 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5087/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5087/profile/"
+    },
+    {
+      "name": "Philosophy of religions",
+      "cells": [
+        "121",
+        "Philosophy of religions",
+        "",
+        "25669",
+        "SOCIAL Culture",
+        "A409",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "121 Philosophy of religions 25669 SOCIAL Culture A409 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5086/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5086/profile/"
+    },
+    {
+      "name": "Physics Frontier",
+      "cells": [
+        "122",
+        "Physics Frontier",
+        "",
+        "23034",
+        "ACADEMIC Natural sciences",
+        "A205",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "122 Physics Frontier 23034 ACADEMIC Natural sciences A205 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5083/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5083/profile/"
+    },
+    {
+      "name": "Physics and Philosophy",
+      "cells": [
+        "123",
+        "Physics and Philosophy",
+        "HAJ",
+        "23502",
+        "ACADEMIC Natural sciences",
+        "A519",
+        "2",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "123 Physics and Philosophy HAJ 23502 ACADEMIC Natural sciences A519 2 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5111/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5111/profile/"
+    },
+    {
+      "name": "Pickleball Club",
+      "cells": [
+        "124",
+        "Pickleball Club",
+        "ANL",
+        "23360",
+        "SPORTS",
+        "H100B",
+        "1",
+        "Thursday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "124 Pickleball Club ANL 23360 SPORTS H100B 1 Thursday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5128/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5128/profile/"
+    },
+    {
+      "name": "Pitch Observatory",
+      "cells": [
+        "125",
+        "Pitch Observatory",
+        "",
+        "25039",
+        "SOCIAL Social sports and physical recreation",
+        "B525",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "125 Pitch Observatory 25039 SOCIAL Social sports and physical recreation B525 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5082/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5082/profile/"
+    },
+    {
+      "name": "Policy Insight",
+      "cells": [
+        "126",
+        "Policy Insight",
+        "SHQ",
+        "24176",
+        "ACADEMIC Social sciences",
+        "B221",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "126 Policy Insight SHQ 24176 ACADEMIC Social sciences B221 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5231/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5231/profile/"
+    },
+    {
+      "name": "Polyverse",
+      "cells": [
+        "127",
+        "Polyverse",
+        "ECA",
+        "24476",
+        "SOCIAL Media and creative",
+        "B430",
+        "2",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "127 Polyverse ECA 24476 SOCIAL Media and creative B430 2 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5236/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5236/profile/"
+    },
+    {
+      "name": "Psychology Union",
+      "cells": [
+        "128",
+        "Psychology Union",
+        "",
+        "23036",
+        "ACADEMIC Social sciences",
+        "B221",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "128 Psychology Union 23036 ACADEMIC Social sciences B221 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5047/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5047/profile/"
+    },
+    {
+      "name": "Psyminar",
+      "cells": [
+        "129",
+        "Psyminar",
+        "",
+        "23411",
+        "ACADEMIC Health and wellbeing",
+        "A406",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "129 Psyminar 23411 ACADEMIC Health and wellbeing A406 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5232/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5232/profile/"
+    },
+    {
+      "name": "Public Philisophy",
+      "cells": [
+        "130",
+        "Public Philisophy",
+        "",
+        "25279",
+        "ACADEMIC Others",
+        "A510",
+        "6",
+        "Wednesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "130 Public Philisophy 25279 ACADEMIC Others A510 6 Wednesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5046/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5046/profile/"
+    },
+    {
+      "name": "Public-Risk Analysis Club",
+      "cells": [
+        "131",
+        "Public-Risk Analysis Club",
+        "SIL",
+        "24520",
+        "ACADEMIC Mathematics and computer sciences",
+        "A415",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "131 Public-Risk Analysis Club SIL 24520 ACADEMIC Mathematics and computer sciences A415 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5233/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5233/profile/"
+    },
+    {
+      "name": "Quicksilver",
+      "cells": [
+        "132",
+        "Quicksilver",
+        "",
+        "23484",
+        "SOCIAL Interests and hobbies",
+        "G019",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "132 Quicksilver 23484 SOCIAL Interests and hobbies G019 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5173/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5173/profile/"
+    },
+    {
+      "name": "RIOT RUNNER",
+      "cells": [
+        "133",
+        "RIOT RUNNER",
+        "ECA",
+        "24486",
+        "SPORTS",
+        "Running Track",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "133 RIOT RUNNER ECA 24486 SPORTS Running Track 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5259/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5259/profile/"
+    },
+    {
+      "name": "ReaL People",
+      "cells": [
+        "134",
+        "ReaL People",
+        "",
+        "23153",
+        "SOCIAL Media and creative",
+        "A219",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "134 ReaL People 23153 SOCIAL Media and creative A219 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5145/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5145/profile/"
+    },
+    {
+      "name": "Red Cross",
+      "cells": [
+        "135",
+        "Red Cross",
+        "SHL",
+        "24439",
+        "SOCIAL Volunteers and charitable projects",
+        "B526",
+        "4",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "135 Red Cross SHL 24439 SOCIAL Volunteers and charitable projects B526 4 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5045/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5045/profile/"
+    },
+    {
+      "name": "Relevé Balllet Ensemble",
+      "cells": [
+        "136",
+        "Relevé Balllet Ensemble",
+        "",
+        "25132",
+        "SOCIAL Active and performance",
+        "G022",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "136 Relevé Balllet Ensemble 25132 SOCIAL Active and performance G022 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5234/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5234/profile/"
+    },
+    {
+      "name": "Resonance: The Music & Ideology Club",
+      "cells": [
+        "137",
+        "Resonance: The Music & Ideology Club",
+        "",
+        "23567",
+        "SOCIAL Culture",
+        "A212",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "137 Resonance: The Music & Ideology Club 23567 SOCIAL Culture A212 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5146/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5146/profile/"
+    },
+    {
+      "name": "Running for Athletic Performance",
+      "cells": [
+        "138",
+        "Running for Athletic Performance",
+        "FRM",
+        "",
+        "SPORTS",
+        "Balcony in H100",
+        "0",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "138 Running for Athletic Performance FRM SPORTS Balcony in H100 0 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5044/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5044/profile/"
+    },
+    {
+      "name": "SCIE Anatomy Club",
+      "cells": [
+        "139",
+        "SCIE Anatomy Club",
+        "",
+        "23307",
+        "ACADEMIC Natural sciences",
+        "B531",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "139 SCIE Anatomy Club 23307 ACADEMIC Natural sciences B531 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5252/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5252/profile/"
+    },
+    {
+      "name": "SCIE Basketball League",
+      "cells": [
+        "140",
+        "SCIE Basketball League",
+        "MJI",
+        "24311",
+        "SPORTS",
+        "BBL",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "140 SCIE Basketball League MJI 24311 SPORTS BBL 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5248/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5248/profile/"
+    },
+    {
+      "name": "SCIE Biologue",
+      "cells": [
+        "141",
+        "SCIE Biologue",
+        "",
+        "24035",
+        "ACADEMIC Natural sciences",
+        "A201",
+        "2",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "141 SCIE Biologue 24035 ACADEMIC Natural sciences A201 2 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5043/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5043/profile/"
+    },
+    {
+      "name": "SCIE Champion League",
+      "cells": [
+        "142",
+        "SCIE Champion League",
+        "",
+        "23342",
+        "SPORTS",
+        "FBL",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "142 SCIE Champion League 23342 SPORTS FBL 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5038/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5038/profile/"
+    },
+    {
+      "name": "SCIE Cycling Team (SCT)",
+      "cells": [
+        "143",
+        "SCIE Cycling Team (SCT)",
+        "",
+        "23189",
+        "SPORTS",
+        "A205",
+        "1",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "143 SCIE Cycling Team (SCT) 23189 SPORTS A205 1 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5037/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5037/profile/"
+    },
+    {
+      "name": "SCIE Dub Club",
+      "cells": [
+        "144",
+        "SCIE Dub Club",
+        "",
+        "23059",
+        "SOCIAL Active and performance",
+        "A212",
+        "1",
+        "Thursday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "144 SCIE Dub Club 23059 SOCIAL Active and performance A212 1 Thursday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5147/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5147/profile/"
+    },
+    {
+      "name": "SCIE Economics Hub",
+      "cells": [
+        "145",
+        "SCIE Economics Hub",
+        "",
+        "24532",
+        "ACADEMIC Business and economics",
+        "A415",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "145 SCIE Economics Hub 24532 ACADEMIC Business and economics A415 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5176/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5176/profile/"
+    },
+    {
+      "name": "SCIE Fashion Show",
+      "cells": [
+        "146",
+        "SCIE Fashion Show",
+        "JAW",
+        "24105",
+        "SOCIAL Media and creative",
+        "A220",
+        "1",
+        "Thursday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "146 SCIE Fashion Show JAW 24105 SOCIAL Media and creative A220 1 Thursday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5099/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5099/profile/"
+    },
+    {
+      "name": "SCIE Fencing team",
+      "cells": [
+        "147",
+        "SCIE Fencing team",
+        "ECA",
+        "24491",
+        "SPORTS",
+        "Balcony in H100",
+        "1",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "147 SCIE Fencing team ECA 24491 SPORTS Balcony in H100 1 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5081/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5081/profile/"
+    },
+    {
+      "name": "SCIE Finance Club",
+      "cells": [
+        "148",
+        "SCIE Finance Club",
+        "IFS",
+        "24127",
+        "ACADEMIC Business and economics",
+        "A414",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "148 SCIE Finance Club IFS 24127 ACADEMIC Business and economics A414 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5085/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5085/profile/"
+    },
+    {
+      "name": "SCIE Fitness Club",
+      "cells": [
+        "149",
+        "SCIE Fitness Club",
+        "RYA",
+        "25840",
+        "ACADEMIC Mathematics and computer sciences",
+        "Students gym",
+        "1",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "149 SCIE Fitness Club RYA 25840 ACADEMIC Mathematics and computer sciences Students gym 1 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5235/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5235/profile/"
+    },
+    {
+      "name": "SCIE Golf Society",
+      "cells": [
+        "150",
+        "SCIE Golf Society",
+        "",
+        "24138",
+        "SPORTS",
+        "H102",
+        "1",
+        "Friday Period13",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "150 SCIE Golf Society 24138 SPORTS H102 1 Friday Period13 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5253/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5253/profile/"
+    },
+    {
+      "name": "SCIE Guitar Club",
+      "cells": [
+        "151",
+        "SCIE Guitar Club",
+        "",
+        "23205",
+        "SOCIAL Interests and hobbies",
+        "A305",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "151 SCIE Guitar Club 23205 SOCIAL Interests and hobbies A305 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5254/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5254/profile/"
+    },
+    {
+      "name": "SCIE HMA",
+      "cells": [
+        "152",
+        "SCIE HMA",
+        "JWO",
+        "24402",
+        "SPORTS",
+        "Balcony in H100",
+        "1",
+        "Monday Period13",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "152 SCIE HMA JWO 24402 SPORTS Balcony in H100 1 Monday Period13 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5080/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5080/profile/"
+    },
+    {
+      "name": "SCIE Historical Committee",
+      "cells": [
+        "153",
+        "SCIE Historical Committee",
+        "",
+        "25301",
+        "ACADEMIC Social sciences",
+        "A210",
+        "19",
+        "Monday Period13",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "153 SCIE Historical Committee 25301 ACADEMIC Social sciences A210 19 Monday Period13 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5079/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5079/profile/"
+    },
+    {
+      "name": "SCIE Ink & Quills Literary Magazine",
+      "cells": [
+        "154",
+        "SCIE Ink & Quills Literary Magazine",
+        "DNW",
+        "23441",
+        "ACADEMIC Social sciences",
+        "A210",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "154 SCIE Ink & Quills Literary Magazine DNW 23441 ACADEMIC Social sciences A210 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5036/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5036/profile/"
+    },
+    {
+      "name": "SCIE Linguistics Club",
+      "cells": [
+        "155",
+        "SCIE Linguistics Club",
+        "JWA",
+        "23128",
+        "ACADEMIC Languages",
+        "B530",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "155 SCIE Linguistics Club JWA 23128 ACADEMIC Languages B530 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5192/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5192/profile/"
+    },
+    {
+      "name": "SCIE Mahjong League",
+      "cells": [
+        "156",
+        "SCIE Mahjong League",
+        "",
+        "23059",
+        "SOCIAL Interests and hobbies",
+        "A409",
+        "19",
+        "Friday Period13",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "156 SCIE Mahjong League 23059 SOCIAL Interests and hobbies A409 19 Friday Period13 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5148/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5148/profile/"
+    },
+    {
+      "name": "SCIE Media",
+      "cells": [
+        "157",
+        "SCIE Media",
+        "",
+        "23509",
+        "SOCIAL Media and creative",
+        "A201",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "157 SCIE Media 23509 SOCIAL Media and creative A201 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5042/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5042/profile/"
+    },
+    {
+      "name": "SCIE Mock Trial",
+      "cells": [
+        "158",
+        "SCIE Mock Trial",
+        "",
+        "24022",
+        "ACADEMIC Social sciences",
+        "A510",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "158 SCIE Mock Trial 24022 ACADEMIC Social sciences A510 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5237/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5237/profile/"
+    },
+    {
+      "name": "SCIE Philosophy Club",
+      "cells": [
+        "159",
+        "SCIE Philosophy Club",
+        "",
+        "23372",
+        "ACADEMIC Social sciences",
+        "A210",
+        "1",
+        "Tuesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "159 SCIE Philosophy Club 23372 ACADEMIC Social sciences A210 1 Tuesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5029/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5029/profile/"
+    },
+    {
+      "name": "SCIE Puzzle Hunter",
+      "cells": [
+        "160",
+        "SCIE Puzzle Hunter",
+        "DAY",
+        "23428",
+        "SOCIAL Interests and hobbies",
+        "B532",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "160 SCIE Puzzle Hunter DAY 23428 SOCIAL Interests and hobbies B532 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5149/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5149/profile/"
+    },
+    {
+      "name": "SCIE ROWING",
+      "cells": [
+        "161",
+        "SCIE ROWING",
+        "ADW",
+        "24437",
+        "SPORTS",
+        "A201",
+        "12",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "161 SCIE ROWING ADW 24437 SPORTS A201 12 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5034/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5034/profile/"
+    },
+    {
+      "name": "SCIE RhythmGames",
+      "cells": [
+        "162",
+        "SCIE RhythmGames",
+        "",
+        "24265",
+        "SOCIAL Interests and hobbies",
+        "A617",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "162 SCIE RhythmGames 24265 SOCIAL Interests and hobbies A617 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5207/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5207/profile/"
+    },
+    {
+      "name": "SCIE Robotics Team",
+      "cells": [
+        "163",
+        "SCIE Robotics Team",
+        "LMS",
+        "24197",
+        "ACADEMIC Technology and engineering",
+        "A606",
+        "3",
+        "Monday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "163 SCIE Robotics Team LMS 24197 ACADEMIC Technology and engineering A606 3 Monday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5238/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5238/profile/"
+    },
+    {
+      "name": "SCIE Singing Club",
+      "cells": [
+        "164",
+        "SCIE Singing Club",
+        "",
+        "23472",
+        "SOCIAL Active and performance",
+        "G117",
+        "1",
+        "Friday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "164 SCIE Singing Club 23472 SOCIAL Active and performance G117 1 Friday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5078/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5078/profile/"
+    },
+    {
+      "name": "SCIE Swimming Team",
+      "cells": [
+        "165",
+        "SCIE Swimming Team",
+        "SIL",
+        "23514",
+        "SPORTS",
+        "A210",
+        "1",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "165 SCIE Swimming Team SIL 23514 SPORTS A210 1 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5239/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5239/profile/"
+    },
+    {
+      "name": "SCIE Table Tennis League",
+      "cells": [
+        "166",
+        "SCIE Table Tennis League",
+        "GOB",
+        "24602,NHO",
+        "SPORTS",
+        "D1011",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "166 SCIE Table Tennis League GOB 24602,NHO SPORTS D1011 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5065/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5065/profile/"
+    },
+    {
+      "name": "SCIE Touhou Club",
+      "cells": [
+        "167",
+        "SCIE Touhou Club",
+        "ECA",
+        "23371",
+        "SOCIAL Interests and hobbies",
+        "B427",
+        "1",
+        "Wednesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "167 SCIE Touhou Club ECA 23371 SOCIAL Interests and hobbies B427 1 Wednesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5241/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5241/profile/"
+    },
+    {
+      "name": "SCIE Visual Novel Horizon",
+      "cells": [
+        "168",
+        "SCIE Visual Novel Horizon",
+        "",
+        "23137",
+        "SOCIAL Interests and hobbies",
+        "A207",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "168 SCIE Visual Novel Horizon 23137 SOCIAL Interests and hobbies A207 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5193/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5193/profile/"
+    },
+    {
+      "name": "SCIE Vocaloid Club",
+      "cells": [
+        "169",
+        "SCIE Vocaloid Club",
+        "",
+        "24109",
+        "SOCIAL Media and creative",
+        "A202",
+        "6",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "169 SCIE Vocaloid Club 24109 SOCIAL Media and creative A202 6 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5150/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5150/profile/"
+    },
+    {
+      "name": "SCIE badminton club",
+      "cells": [
+        "170",
+        "SCIE badminton club",
+        "ANL",
+        "24226",
+        "SPORTS",
+        "H100A",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "170 SCIE badminton club ANL 24226 SPORTS H100A 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5167/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5167/profile/"
+    },
+    {
+      "name": "SCIE debate club",
+      "cells": [
+        "171",
+        "SCIE debate club",
+        "",
+        "24449",
+        "SOCIAL Interests and hobbies",
+        "B421",
+        "2",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "171 SCIE debate club 24449 SOCIAL Interests and hobbies B421 2 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5077/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5077/profile/"
+    },
+    {
+      "name": "SCIE tennis club",
+      "cells": [
+        "172",
+        "SCIE tennis club",
+        "XFU",
+        "23245",
+        "SPORTS",
+        "A202",
+        "1",
+        "Thursday Period12",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "172 SCIE tennis club XFU 23245 SPORTS A202 1 Thursday Period12 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5201/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5201/profile/"
+    },
+    {
+      "name": "SCIEscape – \"Ideas beyond the syllabus.\"",
+      "cells": [
+        "173",
+        "SCIEscape – \"Ideas beyond the syllabus.\"",
+        "",
+        "23166",
+        "ACADEMIC Social sciences",
+        "A202",
+        "4",
+        "Monday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "173 SCIEscape – \"Ideas beyond the syllabus.\" 23166 ACADEMIC Social sciences A202 4 Monday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5255/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5255/profile/"
+    },
+    {
+      "name": "SHUTTER STUDIO",
+      "cells": [
+        "174",
+        "SHUTTER STUDIO",
+        "MOU",
+        "24238",
+        "SOCIAL Media and creative",
+        "A410",
+        "4",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "174 SHUTTER STUDIO MOU 24238 SOCIAL Media and creative A410 4 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5032/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5032/profile/"
+    },
+    {
+      "name": "SISAC BOYS VOLLEYBALL",
+      "cells": [
+        "175",
+        "SISAC BOYS VOLLEYBALL",
+        "EDH",
+        "",
+        "SPORTS",
+        "H100",
+        "0",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "175 SISAC BOYS VOLLEYBALL EDH SPORTS H100 0 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5129/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5129/profile/"
+    },
+    {
+      "name": "SISAC GIRLS VOLLEYBALL",
+      "cells": [
+        "176",
+        "SISAC GIRLS VOLLEYBALL",
+        "HYM",
+        "",
+        "SPORTS",
+        "H100",
+        "0",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "176 SISAC GIRLS VOLLEYBALL HYM SPORTS H100 0 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5130/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5130/profile/"
+    },
+    {
+      "name": "SISAC STORM FRISBEE TEAM",
+      "cells": [
+        "177",
+        "SISAC STORM FRISBEE TEAM",
+        "BOW",
+        "",
+        "SPORTS",
+        "FBL",
+        "0",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "177 SISAC STORM FRISBEE TEAM BOW SPORTS FBL 0 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5208/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5208/profile/"
+    },
+    {
+      "name": "Science Education for Girls",
+      "cells": [
+        "178",
+        "Science Education for Girls",
+        "",
+        "23542",
+        "ACADEMIC Natural sciences",
+        "A401",
+        "7",
+        "Monday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "178 Science Education for Girls 23542 ACADEMIC Natural sciences A401 7 Monday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5127/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5127/profile/"
+    },
+    {
+      "name": "Science Newsletter Club",
+      "cells": [
+        "179",
+        "Science Newsletter Club",
+        "BOP",
+        "24450",
+        "ACADEMIC Natural sciences",
+        "A510",
+        "1",
+        "Thursday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "179 Science Newsletter Club BOP 24450 ACADEMIC Natural sciences A510 1 Thursday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5177/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5177/profile/"
+    },
+    {
+      "name": "Science, Technology, and Society (STS) Club",
+      "cells": [
+        "180",
+        "Science, Technology, and Society (STS) Club",
+        "",
+        "23388",
+        "SOCIAL Interests and hobbies",
+        "A301",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "180 Science, Technology, and Society (STS) Club 23388 SOCIAL Interests and hobbies A301 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5194/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5194/profile/"
+    },
+    {
+      "name": "Scuba Diving Club",
+      "cells": [
+        "181",
+        "Scuba Diving Club",
+        "BOD",
+        "24111",
+        "SPORTS",
+        "A212",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "181 Scuba Diving Club BOD 24111 SPORTS A212 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5206/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5206/profile/"
+    },
+    {
+      "name": "Sesame Society",
+      "cells": [
+        "182",
+        "Sesame Society",
+        "",
+        "25650",
+        "SOCIAL Volunteers and charitable projects",
+        "B221",
+        "1",
+        "Tuesday Period13",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "182 Sesame Society 25650 SOCIAL Volunteers and charitable projects B221 1 Tuesday Period13 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5256/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5256/profile/"
+    },
+    {
+      "name": "Shakespeare's Society",
+      "cells": [
+        "183",
+        "Shakespeare's Society",
+        "CHS",
+        "24674",
+        "ACADEMIC Languages",
+        "B524",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "183 Shakespeare's Society CHS 24674 ACADEMIC Languages B524 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5242/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5242/profile/"
+    },
+    {
+      "name": "She Knew",
+      "cells": [
+        "184",
+        "She Knew",
+        "HES",
+        "24014",
+        "SOCIAL Volunteers and charitable projects",
+        "A207",
+        "1",
+        "Friday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "184 She Knew HES 24014 SOCIAL Volunteers and charitable projects A207 1 Friday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5076/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5076/profile/"
+    },
+    {
+      "name": "Shenzhen International Student Football Fans Club",
+      "cells": [
+        "185",
+        "Shenzhen International Student Football Fans Club",
+        "",
+        "23153",
+        "SOCIAL Social sports and physical recreation",
+        "A202",
+        "1",
+        "Friday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "185 Shenzhen International Student Football Fans Club 23153 SOCIAL Social sports and physical recreation A202 1 Friday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5159/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5159/profile/"
+    },
+    {
+      "name": "Silver Impact Initiative",
+      "cells": [
+        "186",
+        "Silver Impact Initiative",
+        "",
+        "24423",
+        "SOCIAL Volunteers and charitable projects",
+        "B526",
+        "4",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "186 Silver Impact Initiative 24423 SOCIAL Volunteers and charitable projects B526 4 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5075/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5075/profile/"
+    },
+    {
+      "name": "Singularity Nexus",
+      "cells": [
+        "187",
+        "Singularity Nexus",
+        "ECA",
+        "25392",
+        "ACADEMIC Mathematics and computer sciences",
+        "A507",
+        "1",
+        "Wednesday LunchTime",
+        "9.15/50MB",
+        ""
+      ],
+      "text": "187 Singularity Nexus ECA 25392 ACADEMIC Mathematics and computer sciences A507 1 Wednesday LunchTime 9.15/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5161/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5161/profile/"
+    },
+    {
+      "name": "Skiing Society",
+      "cells": [
+        "188",
+        "Skiing Society",
+        "",
+        "23339",
+        "SPORTS",
+        "A210",
+        "1",
+        "Friday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "188 Skiing Society 23339 SPORTS A210 1 Friday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5074/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5074/profile/"
+    },
+    {
+      "name": "Social Deduction Board Game Club",
+      "cells": [
+        "189",
+        "Social Deduction Board Game Club",
+        "ECA",
+        "23071",
+        "SOCIAL Interests and hobbies",
+        "A507",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "189 Social Deduction Board Game Club ECA 23071 SOCIAL Interests and hobbies A507 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5073/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5073/profile/"
+    },
+    {
+      "name": "Society of Chinese Metaphysics",
+      "cells": [
+        "190",
+        "Society of Chinese Metaphysics",
+        "CHX",
+        "23133",
+        "ACADEMIC Social sciences",
+        "A211",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "190 Society of Chinese Metaphysics CHX 23133 ACADEMIC Social sciences A211 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5243/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5243/profile/"
+    },
+    {
+      "name": "Sparkling Dance Club",
+      "cells": [
+        "191",
+        "Sparkling Dance Club",
+        "JEL",
+        "23011",
+        "SPORTS",
+        "H101",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "191 Sparkling Dance Club JEL 23011 SPORTS H101 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5175/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5175/profile/"
+    },
+    {
+      "name": "SpeedCubing",
+      "cells": [
+        "192",
+        "SpeedCubing",
+        "",
+        "24415",
+        "SOCIAL Interests and hobbies",
+        "B423",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "192 SpeedCubing 24415 SOCIAL Interests and hobbies B423 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5160/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5160/profile/"
+    },
+    {
+      "name": "Starry Musical",
+      "cells": [
+        "193",
+        "Starry Musical",
+        "",
+        "25322",
+        "SOCIAL Interests and hobbies",
+        "A202",
+        "2",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "193 Starry Musical 25322 SOCIAL Interests and hobbies A202 2 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5103/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5103/profile/"
+    },
+    {
+      "name": "Steam & Spark Society",
+      "cells": [
+        "194",
+        "Steam & Spark Society",
+        "",
+        "24673",
+        "ACADEMIC Technology and engineering",
+        "A501",
+        "7",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "194 Steam & Spark Society 24673 ACADEMIC Technology and engineering A501 7 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5041/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5041/profile/"
+    },
+    {
+      "name": "Sustainable Development Initiative",
+      "cells": [
+        "195",
+        "Sustainable Development Initiative",
+        "HNI",
+        "23387",
+        "SOCIAL Interests and hobbies",
+        "A205",
+        "1",
+        "Friday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "195 Sustainable Development Initiative HNI 23387 SOCIAL Interests and hobbies A205 1 Friday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5244/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5244/profile/"
+    },
+    {
+      "name": "TCG Club",
+      "cells": [
+        "196",
+        "TCG Club",
+        "DAA",
+        "23510",
+        "SOCIAL Interests and hobbies",
+        "A411",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "196 TCG Club DAA 23510 SOCIAL Interests and hobbies A411 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5245/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5245/profile/"
+    },
+    {
+      "name": "TEDxSCIE",
+      "cells": [
+        "197",
+        "TEDxSCIE",
+        "",
+        "23402",
+        "SOCIAL Active and performance",
+        "A219",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "197 TEDxSCIE 23402 SOCIAL Active and performance A219 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5196/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5196/profile/"
+    },
+    {
+      "name": "THE GROVE ——The Student Hideout",
+      "cells": [
+        "198",
+        "THE GROVE ——The Student Hideout",
+        "",
+        "24215",
+        "SOCIAL Media and creative",
+        "A519",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "198 THE GROVE ——The Student Hideout 24215 SOCIAL Media and creative A519 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5195/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5195/profile/"
+    },
+    {
+      "name": "THE Wotagei M@STERS",
+      "cells": [
+        "199",
+        "THE Wotagei M@STERS",
+        "",
+        "23236",
+        "SOCIAL Interests and hobbies",
+        "G021",
+        "1",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "199 THE Wotagei M@STERS 23236 SOCIAL Interests and hobbies G021 1 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5144/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5144/profile/"
+    },
+    {
+      "name": "Tchoukball Club",
+      "cells": [
+        "200",
+        "Tchoukball Club",
+        "TTA",
+        "23035",
+        "SPORTS",
+        "H100A",
+        "1",
+        "Friday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "200 Tchoukball Club TTA 23035 SPORTS H100A 1 Friday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5166/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5166/profile/"
+    },
+    {
+      "name": "Technology, History & Society Forum",
+      "cells": [
+        "201",
+        "Technology, History & Society Forum",
+        "",
+        "25249",
+        "ACADEMIC Others",
+        "A410",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "201 Technology, History & Society Forum 25249 ACADEMIC Others A410 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5170/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5170/profile/"
+    },
+    {
+      "name": "Tencent volunteering teaching (TVT)",
+      "cells": [
+        "202",
+        "Tencent volunteering teaching (TVT)",
+        "",
+        "24031",
+        "SOCIAL Volunteers and charitable projects",
+        "A206",
+        "1",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "202 Tencent volunteering teaching (TVT) 24031 SOCIAL Volunteers and charitable projects A206 1 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5084/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5084/profile/"
+    },
+    {
+      "name": "The Cloud Watchers",
+      "cells": [
+        "203",
+        "The Cloud Watchers",
+        "",
+        "24009",
+        "ACADEMIC Natural sciences",
+        "A206",
+        "1",
+        "Tuesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "203 The Cloud Watchers 24009 ACADEMIC Natural sciences A206 1 Tuesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5178/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5178/profile/"
+    },
+    {
+      "name": "The Economics reading club",
+      "cells": [
+        "204",
+        "The Economics reading club",
+        "CHT",
+        "",
+        "ACADEMIC Social sciences",
+        "A215",
+        "0",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "204 The Economics reading club CHT ACADEMIC Social sciences A215 0 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5040/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5040/profile/"
+    },
+    {
+      "name": "The International Lens",
+      "cells": [
+        "205",
+        "The International Lens",
+        "ECA",
+        "24424",
+        "ACADEMIC Social sciences",
+        "A201",
+        "1",
+        "Tuesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "205 The International Lens ECA 24424 ACADEMIC Social sciences A201 1 Tuesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5094/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5094/profile/"
+    },
+    {
+      "name": "The Magical Unicorn",
+      "cells": [
+        "206",
+        "The Magical Unicorn",
+        "BLL",
+        "",
+        "ACADEMIC Visual and performing arts",
+        "G017",
+        "0",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "206 The Magical Unicorn BLL ACADEMIC Visual and performing arts G017 0 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5072/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5072/profile/"
+    },
+    {
+      "name": "The Magical Unicorn 1",
+      "cells": [
+        "207",
+        "The Magical Unicorn 1",
+        "AMT",
+        "",
+        "ACADEMIC",
+        "G017",
+        "0",
+        "Thursday Period12",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "207 The Magical Unicorn 1 AMT ACADEMIC G017 0 Thursday Period12 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5257/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5257/profile/"
+    },
+    {
+      "name": "The Pathfinders Collective",
+      "cells": [
+        "208",
+        "The Pathfinders Collective",
+        "CHA",
+        "23164",
+        "ACADEMIC Others",
+        "B427",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "208 The Pathfinders Collective CHA 23164 ACADEMIC Others B427 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5197/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5197/profile/"
+    },
+    {
+      "name": "The SCIE Snooker and Billiards",
+      "cells": [
+        "209",
+        "The SCIE Snooker and Billiards",
+        "PHN",
+        "24019",
+        "SPORTS",
+        "A205",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "209 The SCIE Snooker and Billiards PHN 24019 SPORTS A205 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5158/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5158/profile/"
+    },
+    {
+      "name": "Theoretical Politics Club",
+      "cells": [
+        "210",
+        "Theoretical Politics Club",
+        "",
+        "23022",
+        "ACADEMIC Social sciences",
+        "A301",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "210 Theoretical Politics Club 23022 ACADEMIC Social sciences A301 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5246/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5246/profile/"
+    },
+    {
+      "name": "To-listen倾听屋",
+      "cells": [
+        "211",
+        "To-listen倾听屋",
+        "LZH",
+        "23458",
+        "ACADEMIC Health and wellbeing",
+        "B427",
+        "8",
+        "Monday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "211 To-listen倾听屋 LZH 23458 ACADEMIC Health and wellbeing B427 8 Monday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5031/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5031/profile/"
+    },
+    {
+      "name": "UZIV",
+      "cells": [
+        "212",
+        "UZIV",
+        "",
+        "23209",
+        "SOCIAL Volunteers and charitable projects",
+        "A414",
+        "1",
+        "Tuesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "212 UZIV 23209 SOCIAL Volunteers and charitable projects A414 1 Tuesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5071/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5071/profile/"
+    },
+    {
+      "name": "Undergraduate Mathematics Club",
+      "cells": [
+        "213",
+        "Undergraduate Mathematics Club",
+        "YVL",
+        "25046",
+        "ACADEMIC Mathematics and computer sciences",
+        "A206",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "213 Undergraduate Mathematics Club YVL 25046 ACADEMIC Mathematics and computer sciences A206 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5070/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5070/profile/"
+    },
+    {
+      "name": "University Physics",
+      "cells": [
+        "214",
+        "University Physics",
+        "SCE",
+        "24049",
+        "ACADEMIC Mathematics and computer sciences",
+        "B532",
+        "4",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "214 University Physics SCE 24049 ACADEMIC Mathematics and computer sciences B532 4 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5069/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5069/profile/"
+    },
+    {
+      "name": "Volleyball for fun",
+      "cells": [
+        "215",
+        "Volleyball for fun",
+        "",
+        "23543",
+        "SPORTS",
+        "VBL",
+        "23",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "215 Volleyball for fun 23543 SPORTS VBL 23 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5039/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5039/profile/"
+    },
+    {
+      "name": "We & Horse",
+      "cells": [
+        "216",
+        "We & Horse",
+        "",
+        "24094",
+        "SPORTS",
+        "A202",
+        "1",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "216 We & Horse 24094 SPORTS A202 1 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5035/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5035/profile/"
+    },
+    {
+      "name": "Winglish",
+      "cells": [
+        "217",
+        "Winglish",
+        "",
+        "24313",
+        "SOCIAL Volunteers and charitable projects",
+        "A208",
+        "4",
+        "Tuesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "217 Winglish 24313 SOCIAL Volunteers and charitable projects A208 4 Tuesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5068/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5068/profile/"
+    },
+    {
+      "name": "World Culture Café",
+      "cells": [
+        "218",
+        "World Culture Café",
+        "",
+        "24132",
+        "SOCIAL Culture",
+        "A216",
+        "1",
+        "Friday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "218 World Culture Café 24132 SOCIAL Culture A216 1 Friday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5157/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5157/profile/"
+    },
+    {
+      "name": "Yarn Club",
+      "cells": [
+        "219",
+        "Yarn Club",
+        "",
+        "23456",
+        "SOCIAL Interests and hobbies",
+        "A205",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "219 Yarn Club 23456 SOCIAL Interests and hobbies A205 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5067/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5067/profile/"
+    },
+    {
+      "name": "Yearbook 2026-2027",
+      "cells": [
+        "220",
+        "Yearbook 2026-2027",
+        "",
+        "24162",
+        "SOCIAL Interests and hobbies",
+        "B427",
+        "1",
+        "Wednesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "220 Yearbook 2026-2027 24162 SOCIAL Interests and hobbies B427 1 Wednesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5155/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5155/profile/"
+    },
+    {
+      "name": "Yoga & Meditation ECA",
+      "cells": [
+        "221",
+        "Yoga & Meditation ECA",
+        "JAC",
+        "",
+        "SPORTS",
+        "G022",
+        "0",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "221 Yoga & Meditation ECA JAC SPORTS G022 0 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5120/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5120/profile/"
+    },
+    {
+      "name": "Youtopia",
+      "cells": [
+        "222",
+        "Youtopia",
+        "",
+        "24619",
+        "SOCIAL Interests and hobbies",
+        "A501",
+        "1",
+        "Tuesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "222 Youtopia 24619 SOCIAL Interests and hobbies A501 1 Tuesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5066/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5066/profile/"
+    },
+    {
+      "name": "ZhaoHui Chinese Orchestra",
+      "cells": [
+        "223",
+        "ZhaoHui Chinese Orchestra",
+        "OLG",
+        "24406",
+        "ACADEMIC Visual and performing arts",
+        "G019",
+        "6",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "223 ZhaoHui Chinese Orchestra OLG 24406 ACADEMIC Visual and performing arts G019 6 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5156/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5156/profile/"
+    },
+    {
+      "name": "Zhuangzi Discussion Club",
+      "cells": [
+        "224",
+        "Zhuangzi Discussion Club",
+        "BOX",
+        "",
+        "ACADEMIC Others",
+        "B424",
+        "0",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "224 Zhuangzi Discussion Club BOX ACADEMIC Others B424 0 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5154/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5154/profile/"
+    },
+    {
+      "name": "cinema appreciation",
+      "cells": [
+        "225",
+        "cinema appreciation",
+        "",
+        "24414",
+        "SOCIAL Media and creative",
+        "A506",
+        "2",
+        "Thursday Period13",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "225 cinema appreciation 24414 SOCIAL Media and creative A506 2 Thursday Period13 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5153/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5153/profile/"
+    },
+    {
+      "name": "iGEM Club",
+      "cells": [
+        "226",
+        "iGEM Club",
+        "SOP",
+        "24446",
+        "ACADEMIC Natural sciences",
+        "A414",
+        "1",
+        "Thursday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "226 iGEM Club SOP 24446 ACADEMIC Natural sciences A414 1 Thursday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5152/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5152/profile/"
+    },
+    {
+      "name": "iHOSA",
+      "cells": [
+        "227",
+        "iHOSA",
+        "ALN",
+        "24409",
+        "ACADEMIC Natural sciences",
+        "A211",
+        "15",
+        "Monday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "227 iHOSA ALN 24409 ACADEMIC Natural sciences A211 15 Monday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5151/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5151/profile/"
+    },
+    {
+      "name": "model kit",
+      "cells": [
+        "228",
+        "model kit",
+        "",
+        "23284",
+        "SOCIAL Interests and hobbies",
+        "A205",
+        "5",
+        "Wednesday LunchTime",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "228 model kit 23284 SOCIAL Interests and hobbies A205 5 Wednesday LunchTime 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5174/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5174/profile/"
+    },
+    {
+      "name": "the SCIE’er limited economics cooperation",
+      "cells": [
+        "229",
+        "the SCIE’er limited economics cooperation",
+        "",
+        "25397",
+        "ACADEMIC Business and economics",
+        "A511",
+        "1",
+        "Tuesday Period11",
+        "0.0/50MB",
+        ""
+      ],
+      "text": "229 the SCIE’er limited economics cooperation 25397 ACADEMIC Business and economics A511 1 Tuesday Period11 0.0/50MB",
+      "links": [
+        {
+          "text": "",
+          "href": "https://www.alevel.com.cn/user/s23433/ecaclass/5240/profile/"
+        }
+      ],
+      "detailUrl": "https://www.alevel.com.cn/user/s23433/ecaclass/5240/profile/"
+    }
+  ]
+}

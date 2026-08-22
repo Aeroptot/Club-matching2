@@ -16,29 +16,27 @@ HIERARCHY_UNRELATED = 0.0
 NONE_TAG_WEIGHT_MULTIPLIER = 0.7
 
 # Clubs excluded from recommendations and data exports.
-EXCLUDED_CLUB_NOS = {"131"}
+EXCLUDED_CLUB_NOS: set[str] = set()
 
 # Similarity blend: Precision vs Recall.
 SIMILARITY_PRECISION_WEIGHT = 0.7
 SIMILARITY_RECALL_WEIGHT = 0.3
 
 # Popularity multipliers by member count (inclusive lower bound -> multiplier).
-# Top tier capped at 30% bonus (was 50%); lower tiers scaled proportionally.
+# Member counts are not considered this term (clubs just started), so the
+# multiplier is neutral; the count is still shown in club details.
 POPULARITY_TIERS: list[tuple[int, float]] = [
-    (51, 1.30),
-    (31, 1.21),
-    (21, 1.12),
-    (11, 1.06),
     (0, 1.00),
 ]
 
 TOP_N_RESULTS = 10
 
 # Return at least this many clubs when possible (may include scores <= MIN_FINAL_SCORE).
-MIN_RESULTS = 5
+MIN_RESULTS = 10
 
 # Clubs with this many members or fewer are treated as inactive and excluded.
-MIN_ACTIVE_MEMBER_COUNT = 3
+# Set to 0 so no club is filtered by member count this term.
+MIN_ACTIVE_MEMBER_COUNT = 0
 
 # Prefer clubs whose final score exceeds this threshold (0–1 scale).
 MIN_FINAL_SCORE = 0.50
@@ -47,4 +45,13 @@ WEEKDAYS = ("monday", "tuesday", "wednesday", "thursday", "friday")
 MEETING_PERIODS = ("period11", "period12", "lunchtime")
 
 # Column names in the weighted CSV that are not tags.
-METADATA_COLUMNS = {"no", "name", "category", "description", "member_count", "day", "period"}
+METADATA_COLUMNS = {
+    "no",
+    "name",
+    "category",
+    "description",
+    "member_count",
+    "day",
+    "period",
+    "room",
+}

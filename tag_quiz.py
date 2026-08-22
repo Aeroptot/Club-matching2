@@ -42,6 +42,7 @@ TOP_LEVEL: dict[str, dict] = {
             "culture",
             "hobbies",
             "competition",
+            "personal_growth",
         ],
     },
 }
@@ -192,7 +193,7 @@ def quiz_step_from_session(session: dict | None) -> QuizStep:
 
     return QuizStep(
         step_id="complete",
-        question="Round complete. Starting a new round…",
+        question="Questionnaire complete — generating your matches…",
         options=[],
         can_continue=False,
         multi_select=False,
@@ -244,11 +245,16 @@ def advance_quiz_continue(session: dict, selections: list[str]) -> tuple[dict, l
         for branch in selections:
             if branch not in valid:
                 raise ValueError(f"Unknown branch: {branch}")
-        session["branch_queue"] = selections
+        drill_deeper = [b for b in selections if _children(b)]
+        leaf_tags = [b for b in selections if not _children(b)]
+        tags_added = [tag_added(b) for b in leaf_tags]
+        session["branch_queue"] = drill_deeper
         session["drill_extra"] = []
         session["pending_drill_nodes"] = []
+        if not drill_deeper:
+            return _advance_to_next_area(session, tags_added)
         session["phase"] = "drill"
-        return session, []
+        return session, tags_added
 
     if phase == "drill":
         return _drill_continue(session, selections)

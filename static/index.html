@@ -9,28 +9,19 @@
 <body>
   <header>
     <h1>Club Matcher</h1>
-    <p>Pick your interests, block busy day/time slots, and get 5–10 matched clubs.</p>
+    <p>Answer a few questions about your interests, block busy day/time slots, and get matched clubs.</p>
   </header>
 
   <main>
     <section class="panel">
-      <h2>1. Your interests</h2>
-      <div class="mode-tabs">
-        <button type="button" class="tab active" data-mode="manual">Pick tags (max 10)</button>
-        <button type="button" class="tab" data-mode="quiz">Answer questions</button>
-      </div>
+      <h2>1. Busy times</h2>
+      <p class="hint">Check any weekday + period combinations when you cannot join a club.</p>
+      <div id="slot-grid" class="slot-grid"></div>
+    </section>
 
-      <div id="manual-panel" class="mode-panel">
-        <div class="row-actions">
-          <p class="hint">Select up to 10 tags from the list below.</p>
-          <button type="button" id="clear-tags-btn" class="secondary">Clear tags</button>
-        </div>
-        <p id="manual-tag-warning" class="tag-limit-warning hidden">Maximum 10 tags reached.</p>
-        <div id="tag-grid" class="tag-grid"></div>
-        <p id="tag-count" class="meta">0 / 10 selected</p>
-      </div>
-
-      <div id="quiz-panel" class="mode-panel hidden">
+    <section class="panel">
+      <h2>2. Your interests</h2>
+      <div id="quiz-panel" class="mode-panel">
         <div class="quiz-question-row">
           <p id="quiz-question" class="quiz-question"></p>
           <p id="quiz-tag-warning" class="tag-limit-warning hidden">Maximum 10 tags reached.</p>
@@ -41,7 +32,6 @@
           <button type="button" id="quiz-continue">Continue</button>
           <button type="button" id="quiz-back" class="secondary" disabled>Back</button>
           <button type="button" id="quiz-restart" class="secondary">Restart quiz</button>
-          <button type="button" id="quiz-clear-tags" class="secondary">Clear tags</button>
         </div>
       </div>
 
@@ -49,17 +39,6 @@
         <strong>Selected:</strong>
         <span id="selected-tags">none</span>
       </div>
-    </section>
-
-    <section class="panel">
-      <h2>2. Busy times</h2>
-      <p class="hint">Check any weekday + period combinations when you cannot join a club.</p>
-      <div id="slot-grid" class="slot-grid"></div>
-    </section>
-
-    <section class="panel actions">
-      <button type="button" id="recommend-btn">Find clubs</button>
-      <button type="button" id="clear-btn" class="secondary">Clear all</button>
     </section>
 
     <section id="results-section" class="panel hidden">

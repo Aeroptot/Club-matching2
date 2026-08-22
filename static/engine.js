@@ -9,7 +9,14 @@ const ClubMatcher = (() => {
   let tagList = [];
 
   function displayName(tag) {
-    const special = { AI: "AI", STEM: "STEM", anime: "Anime" };
+    const special = {
+      AI: "AI",
+      STEM: "STEM",
+      anime: "Anime",
+      rc_racing: "RC Racing",
+      "3d_modeling": "3D Modeling",
+      tcg: "TCG",
+    };
     if (special[tag]) return special[tag];
     return tag.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
   }
@@ -77,10 +84,11 @@ const ClubMatcher = (() => {
 
   function distributeUserWeights(tags, weightMults = {}) {
     const total = CFG.USER_TAG_POINTS;
-    const raw = tags.map((_, i) => tags.length - i);
-    const rawSum = raw.reduce((a, b) => a + b, 0);
-    const weights = raw.map((w) => Math.round((total * w) / rawSum));
-    weights[0] += total - weights.reduce((a, b) => a + b, 0);
+    if (!tags.length) return {};
+    // Selection order does not matter: split the points evenly.
+    const base = Math.floor(total / tags.length);
+    const remainder = total - base * tags.length;
+    const weights = tags.map((_, i) => (i < remainder ? base + 1 : base));
     const scaled = Object.fromEntries(
       tags.map((t, i) => [t, Math.max(0, Math.round(weights[i] * (weightMults[t] ?? 1)))])
     );
@@ -97,61 +105,12 @@ const ClubMatcher = (() => {
     return 1;
   }
 
-  function computeMatchedWeight(userTags, clubTags) {
-    let matchedWeight = 0;
-    const matches = [];
-    for (const [userTag, userWeight] of Object.entries(userTags)) {
-      let best = null;
-      for (const [clubTag, clubWeight] of Object.entries(clubTags)) {
-        const coeff = hierarchyCoefficient(userTag, clubTag);
-        if (coeff <= 0) continue;
-        const contribution = Math.min(userWeight, clubWeight) * coeff;
-        if (!best || contribution > best.contribution) {
-          best = { userTag, clubTag, coeff, contribution };
-        }
-      }
-      if (best) {
-        matchedWeight += best.contribution;
-        matches.push(best);
-      }
-    }
-    return { matchedWeight, matches };
-  }
-
-  function matchingTagLabels(matches) {
-    const seen = new Set();
-    const labels = [];
-    [...matches]
-      .sort((a, b) => b.contribution - a.contribution)
-      .forEach((m) => {
-        let label;
-        if (m.coeff >= 1) label = displayName(m.userTag);
-        else if (m.userTag !== m.clubTag) {
-          label = `${displayName(m.userTag)} → ${displayName(m.clubTag)}`;
-        } else label = displayName(m.userTag);
-        if (!seen.has(label)) {
-          seen.add(label);
-          labels.push(label);
-        }
-      });
-    return labels;
-  }
-
-  function explanation(similarity, matches) {
-    const labels = matchingTagLabels(matches);
-    if (!labels.length) return "No strong tag overlap with your selected interests.";
-    let tagText;
-    if (labels.length === 1) tagText = labels[0];
-    else if (labels.length === 2) tagText = `${labels[0]} and ${labels[1]}`;
-    else tagText = `${labels.slice(0, -1).join(", ")}, and ${labels[labels.length - 1]}`;
-    const strength = similarity >= 0.5 ? "strongly" : "moderately";
-    return `Matched ${strength} because of ${tagText}.`;
-  }
-
   function filterClubs(blockedSlots) {
     const blocked = new Set(blockedSlots || []);
     return clubs.filter((club) => {
-      if (club.member_count <= CFG.MIN_ACTIVE_MEMBER_COUNT) return false;
+      if (CFG.MIN_ACTIVE_MEMBER_COUNT > 0 && club.member_count <= CFG.MIN_ACTIVE_MEMBER_COUNT) {
+        return false;
+      }
       const slot = `${club.day}:${club.period}`;
       if (blocked.size && blocked.has(slot)) return false;
       return true;
@@ -159,16 +118,52 @@ const ClubMatcher = (() => {
   }
 
   function scoreClub(club, userTags) {
-    const clubTotal = Object.values(club.tags).reduce((a, b) => a + b, 0) || CFG.CLUB_TAG_POINTS;
-    const userTotal = Object.values(userTags).reduce((a, b) => a + b, 0) || CFG.USER_TAG_POINTS;
-    const { matchedWeight, matches } = computeMatchedWeight(userTags, club.tags);
-    const precision = matchedWeight / clubTotal;
-    const recall = matchedWeight / userTotal;
-    const similarity =
-      CFG.SIMILARITY_PRECISION_WEIGHT * precision + CFG.SIMILARITY_RECALL_WEIGHT * recall;
+    // Club coverage: fraction of the club's 20 tag points the user covers.
+    // Each club tag contributes weight x best hierarchy strength to a user tag.
+    let matchedPoints = 0;
+    const matches = [];
+    for (const [clubTag, clubWeight] of Object.entries(club.tags)) {
+      let bestUserTag = null;
+      let bestStrength = 0;
+      for (const userTag of Object.keys(userTags)) {
+        const strength = hierarchyCoefficient(userTag, clubTag);
+        if (strength > bestStrength) {
+          bestStrength = strength;
+          bestUserTag = userTag;
+        }
+      }
+      if (bestStrength > 0 && bestUserTag !== null) {
+        matchedPoints += clubWeight * bestStrength;
+        matches.push({
+          userTag: bestUserTag,
+          clubTag,
+          coeff: bestStrength,
+          contribution: clubWeight * bestStrength,
+        });
+      }
+    }
+
+    const precision = Object.keys(club.tags).length ? matchedPoints / CFG.CLUB_TAG_POINTS : 0;
+
+    let recall = 0;
+    for (const [userTag, userWeight] of Object.entries(userTags)) {
+      let bestStrength = 0;
+      for (const clubTag of Object.keys(club.tags)) {
+        bestStrength = Math.max(bestStrength, hierarchyCoefficient(userTag, clubTag));
+      }
+      recall += userWeight * bestStrength;
+    }
+    recall = Object.keys(userTags).length ? recall / CFG.USER_TAG_POINTS : 0;
+
+    // Highlight only direct branch relationships (exact or parent/child);
+    // sibling credit (0.25) still counts toward the score.
+    const matchedClubTags = new Set(
+      matches.filter((m) => m.coeff >= CFG.HIERARCHY_PARENT_CHILD).map((m) => m.clubTag)
+    );
+
     const pop = popularityMultiplier(club.member_count);
-    const finalScore = similarity * pop;
-    return { club, similarity, finalScore, pop, matches };
+    const finalScore = precision * pop;
+    return { club, similarity: precision, precision, recall, finalScore, pop, matches, matchedClubTags };
   }
 
   function recommend(tagNames, blockedSlots, tagWeightMults = {}) {
@@ -183,28 +178,50 @@ const ClubMatcher = (() => {
       .sort(
         (a, b) =>
           b.finalScore - a.finalScore ||
-          b.similarity - a.similarity ||
+          b.recall - a.recall ||
           a.club.name.localeCompare(b.club.name)
       );
 
-    const above = results.filter((r) => r.finalScore > CFG.MIN_FINAL_SCORE);
-    const below = results.filter((r) => r.finalScore <= CFG.MIN_FINAL_SCORE);
-    const picked = above.slice(0, CFG.TOP_N_RESULTS);
-    if (picked.length < CFG.MIN_RESULTS) {
-      picked.push(...below.slice(0, Math.min(CFG.MIN_RESULTS, CFG.TOP_N_RESULTS) - picked.length));
+    let picked;
+    if (results.length <= CFG.TOP_N_RESULTS) {
+      picked = results;
+    } else {
+      const cutoff = results[CFG.TOP_N_RESULTS - 1].finalScore;
+      if (cutoff > 0) {
+        // Keep every club tied with the cutoff score (ties share a rank).
+        picked = results.filter((r) => r.finalScore >= cutoff);
+      } else {
+        picked = results.slice(0, CFG.TOP_N_RESULTS);
+      }
     }
-    return picked.slice(0, CFG.TOP_N_RESULTS).map((r) => ({
-      name: r.club.name,
-      category: r.club.category,
-      description: r.club.description,
-      member_count: r.club.member_count,
-      day: r.club.day,
-      period: r.club.period,
-      final_score_pct: Math.round(r.finalScore * 1000) / 10,
-      above_threshold: r.finalScore > CFG.MIN_FINAL_SCORE,
-      matching_tags: matchingTagLabels(r.matches),
-      explanation: explanation(r.similarity, r.matches),
-    }));
+    if (picked.length < CFG.MIN_RESULTS) {
+      const seen = new Set(picked.map((r) => r.club.no));
+      picked = picked.concat(
+        results.filter((r) => !seen.has(r.club.no)).slice(0, CFG.MIN_RESULTS - picked.length)
+      );
+    }
+    return picked.map((r) => {
+      const matched = r.matchedClubTags;
+      const clubTags = Object.entries(r.club.tags)
+        .sort((a, b) => b[1] - a[1])
+        .map(([id]) => ({
+          id,
+          label: displayName(id),
+          matched: matched.has(id),
+        }));
+      return {
+        name: r.club.name,
+        category: r.club.category,
+        description: r.club.description,
+        member_count: r.club.member_count,
+        day: r.club.day,
+        period: r.club.period,
+        room: r.club.room,
+        final_score_pct: Math.round(r.finalScore * 1000) / 10,
+        above_threshold: r.finalScore >= CFG.MIN_FINAL_SCORE,
+        club_tags: clubTags,
+      };
+    });
   }
 
   function emptySession() {
@@ -324,7 +341,7 @@ const ClubMatcher = (() => {
     }
     return stepPayload(session, {
       step_id: "complete",
-      question: "Round complete. Starting a new round…",
+      question: "Questionnaire complete — generating your matches…",
       options: [],
       can_continue: false,
       multi_select: false,
@@ -393,11 +410,15 @@ const ClubMatcher = (() => {
       return { session, tags_added: [] };
     }
     if (session.phase === "branches") {
-      session.branch_queue = selections;
+      const drillDeeper = selections.filter((s) => children(s).length);
+      const leafTags = selections.filter((s) => !children(s).length);
+      session.branch_queue = drillDeeper;
       session.drill_extra = [];
       session.pending_drill_nodes = [];
+      const tagsAdded = leafTags.map((t) => tagAdded(t));
+      if (!drillDeeper.length) return advanceToNextArea(session, tagsAdded);
       session.phase = "drill";
-      return { session, tags_added: [] };
+      return { session, tags_added: tagsAdded };
     }
     if (session.phase === "drill") return drillContinue(session, selections);
     throw new Error("Continue is not available at this step.");

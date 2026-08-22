@@ -18,8 +18,13 @@ TAG_TREE: dict[str, dict] = {
         "chemistry": {},
         "physics": {},
         "astronomy": {},
-        "medicine": {},
-        "environment": {},
+        "medicine": {
+            "forensic_science": {},
+        },
+        "environment": {
+            "meteorology": {},
+            "geology": {},
+        },
         "experiments": {},
         "research": {},
         "engineering": {
@@ -49,6 +54,8 @@ TAG_TREE: dict[str, dict] = {
         "linguistics": {},
         "debate": {},
         "law": {},
+        "geography": {},
+        "gender_studies": {},
     },
     "humanities": {
         "philosophy": {},
@@ -56,6 +63,7 @@ TAG_TREE: dict[str, dict] = {
         "literature": {},
         "writing": {},
         "academic": {},
+        "religion": {},
     },
     "business": {
         "finance": {},
@@ -66,6 +74,7 @@ TAG_TREE: dict[str, dict] = {
         "visual_arts": {},
         "photography": {},
         "design": {},
+        "3d_modeling": {},
         "fashion": {},
         "craftsmanship": {},
     },
@@ -73,6 +82,8 @@ TAG_TREE: dict[str, dict] = {
         "music": {},
         "dance": {},
         "theater": {},
+        "magic": {},
+        "voice_acting": {},
     },
     "media": {
         "film": {},
@@ -80,13 +91,45 @@ TAG_TREE: dict[str, dict] = {
         "anime": {},
     },
     "sports": {
-        "fitness": {},
-        "team_sports": {},
-        "racquet_sports": {},
-        "martial_arts": {},
-        "outdoor_sports": {},
-        "winter_sports": {},
-        "water_sports": {},
+        "fitness": {
+            "running": {},
+        },
+        "team_sports": {
+            "football": {},
+            "basketball": {},
+            "baseball": {},
+            "volleyball": {},
+            "frisbee": {},
+            "dodgeball": {},
+            "tchoukball": {},
+            "cheerleading": {},
+        },
+        "racquet_sports": {
+            "badminton": {},
+            "tennis": {},
+            "table_tennis": {},
+            "pickleball": {},
+        },
+        "martial_arts": {
+            "fencing": {},
+        },
+        "outdoor_sports": {
+            "climbing": {},
+            "cycling": {},
+        },
+        "winter_sports": {
+            "skiing": {},
+            "figure_skating": {},
+        },
+        "water_sports": {
+            "rowing": {},
+            "scuba_diving": {},
+            "swimming": {},
+        },
+        "equestrian": {},
+        "billiards": {},
+        "motorsport": {},
+        "golf": {},
     },
     "volunteer": {
         "teaching": {},
@@ -99,18 +142,28 @@ TAG_TREE: dict[str, dict] = {
         "mental_health": {},
         "wellness": {},
         "nutrition": {},
+        "yoga": {},
     },
     "gaming": {
-        "board_games": {},
+        "board_games": {
+            "mahjong": {},
+        },
         "strategy": {},
+        "rhythm_games": {},
+        "tcg": {},
     },
     "culture": {
         "chinese_culture": {},
         "language_learning": {},
     },
-    "hobbies": {},
+    "hobbies": {
+        "rc_racing": {},
+        "speedcubing": {},
+        "coffee": {},
+    },
     "competition": {},
     "academic_support": {},
+    "personal_growth": {},
 }
 
 
@@ -127,6 +180,16 @@ def _build_parent_map(
 
 
 PARENT_MAP: dict[str, str | None] = _build_parent_map(TAG_TREE)
+
+
+def hierarchy_depth(tag: str) -> int:
+    """Depth of a tag in the tree (roots are depth 1)."""
+    depth = 1
+    current = tag
+    while PARENT_MAP.get(current) is not None:
+        current = PARENT_MAP[current]  # type: ignore[assignment]
+        depth += 1
+    return depth
 
 
 def ancestor_chain(tag: str) -> list[str]:
@@ -174,6 +237,9 @@ def display_name(tag: str) -> str:
         "AI": "AI",
         "STEM": "STEM",
         "anime": "Anime",
+        "rc_racing": "RC Racing",
+        "3d_modeling": "3D Modeling",
+        "tcg": "TCG",
     }
     if tag in special:
         return special[tag]

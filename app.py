@@ -38,6 +38,11 @@ PERIOD_LABELS = {
 
 
 def recommendation_payload(rec) -> dict:
+    matched = rec.matched_club_tags
+    club_tags = [
+        {"id": tag, "label": display_name(tag), "matched": tag in matched}
+        for tag, _ in sorted(rec.club.tags.items(), key=lambda x: -x[1])
+    ]
     return {
         "name": rec.club.name,
         "category": rec.club.category,
@@ -45,13 +50,13 @@ def recommendation_payload(rec) -> dict:
         "member_count": rec.club.member_count,
         "day": rec.club.day,
         "period": rec.club.period,
+        "room": rec.club.room,
         "meeting_slot": rec.club.meeting_slot,
         "final_score_pct": round(rec.final_score_pct, 1),
-        "above_threshold": rec.final_score > MIN_FINAL_SCORE,
+        "above_threshold": rec.final_score >= MIN_FINAL_SCORE,
         "similarity_pct": round(rec.similarity * 100, 1),
         "popularity_multiplier": rec.popularity_multiplier,
-        "matching_tags": rec.matching_tag_labels,
-        "explanation": rec.explanation(),
+        "club_tags": club_tags,
     }
 
 
@@ -193,7 +198,7 @@ class ClubHandler(BaseHTTPRequestHandler):
                 self._send_json({"error": str(exc)}, HTTPStatus.BAD_REQUEST)
                 return
 
-            above = sum(1 for r in results if r.final_score > MIN_FINAL_SCORE)
+            above = sum(1 for r in results if r.final_score >= MIN_FINAL_SCORE)
             self._send_json(
                 {
                     "count": len(results),
