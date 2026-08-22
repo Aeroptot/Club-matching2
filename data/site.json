@@ -1,0 +1,847 @@
+{
+  "config": {
+    "CLUB_TAG_POINTS": 20,
+    "USER_TAG_POINTS": 20,
+    "MAX_USER_TAGS": 10,
+    "HIERARCHY_EXACT": 1.0,
+    "HIERARCHY_PARENT_CHILD": 0.5,
+    "HIERARCHY_GRANDRELATED": 0.25,
+    "NONE_TAG_WEIGHT_MULTIPLIER": 0.7,
+    "MIN_ACTIVE_MEMBER_COUNT": 0,
+    "MIN_FINAL_SCORE": 0.5,
+    "MIN_RESULTS": 10,
+    "TOP_N_RESULTS": 10,
+    "SIMILARITY_PRECISION_WEIGHT": 0.7,
+    "SIMILARITY_RECALL_WEIGHT": 0.3,
+    "POPULARITY_TIERS": [
+      [
+        0,
+        1.0
+      ]
+    ]
+  },
+  "parentMap": {
+    "STEM": null,
+    "math": "STEM",
+    "biology": "STEM",
+    "chemistry": "STEM",
+    "physics": "STEM",
+    "astronomy": "STEM",
+    "medicine": "STEM",
+    "forensic_science": "medicine",
+    "environment": "STEM",
+    "meteorology": "environment",
+    "geology": "environment",
+    "experiments": "STEM",
+    "research": "STEM",
+    "engineering": "STEM",
+    "robotics": "engineering",
+    "aerospace": "engineering",
+    "drones": "engineering",
+    "hands_on": "engineering",
+    "computer_science": "STEM",
+    "programming": "computer_science",
+    "algorithms": "computer_science",
+    "web_development": "computer_science",
+    "game_development": "computer_science",
+    "cybersecurity": "computer_science",
+    "data_science": "computer_science",
+    "AI": "computer_science",
+    "machine_learning": "AI",
+    "technology": "STEM",
+    "social_sciences": null,
+    "economics": "social_sciences",
+    "psychology": "social_sciences",
+    "anthropology": "social_sciences",
+    "politics": "social_sciences",
+    "linguistics": "social_sciences",
+    "debate": "social_sciences",
+    "law": "social_sciences",
+    "geography": "social_sciences",
+    "gender_studies": "social_sciences",
+    "humanities": null,
+    "philosophy": "humanities",
+    "history": "humanities",
+    "literature": "humanities",
+    "writing": "humanities",
+    "academic": "humanities",
+    "religion": "humanities",
+    "business": null,
+    "finance": "business",
+    "investment": "business",
+    "entrepreneurship": "business",
+    "creative_arts": null,
+    "visual_arts": "creative_arts",
+    "photography": "creative_arts",
+    "design": "creative_arts",
+    "3d_modeling": "creative_arts",
+    "fashion": "creative_arts",
+    "craftsmanship": "creative_arts",
+    "performing_arts": null,
+    "music": "performing_arts",
+    "dance": "performing_arts",
+    "theater": "performing_arts",
+    "magic": "performing_arts",
+    "voice_acting": "performing_arts",
+    "media": null,
+    "film": "media",
+    "journalism": "media",
+    "anime": "media",
+    "sports": null,
+    "fitness": "sports",
+    "running": "fitness",
+    "team_sports": "sports",
+    "football": "team_sports",
+    "basketball": "team_sports",
+    "baseball": "team_sports",
+    "volleyball": "team_sports",
+    "frisbee": "team_sports",
+    "dodgeball": "team_sports",
+    "tchoukball": "team_sports",
+    "cheerleading": "team_sports",
+    "racquet_sports": "sports",
+    "badminton": "racquet_sports",
+    "tennis": "racquet_sports",
+    "table_tennis": "racquet_sports",
+    "pickleball": "racquet_sports",
+    "martial_arts": "sports",
+    "fencing": "martial_arts",
+    "outdoor_sports": "sports",
+    "climbing": "outdoor_sports",
+    "cycling": "outdoor_sports",
+    "winter_sports": "sports",
+    "skiing": "winter_sports",
+    "figure_skating": "winter_sports",
+    "water_sports": "sports",
+    "rowing": "water_sports",
+    "scuba_diving": "water_sports",
+    "swimming": "water_sports",
+    "equestrian": "sports",
+    "billiards": "sports",
+    "motorsport": "sports",
+    "golf": "sports",
+    "volunteer": null,
+    "teaching": "volunteer",
+    "charity": "volunteer",
+    "community_service": "volunteer",
+    "animal_welfare": "volunteer",
+    "peer_support": "volunteer",
+    "health": null,
+    "mental_health": "health",
+    "wellness": "health",
+    "nutrition": "health",
+    "yoga": "health",
+    "gaming": null,
+    "board_games": "gaming",
+    "mahjong": "board_games",
+    "strategy": "gaming",
+    "rhythm_games": "gaming",
+    "tcg": "gaming",
+    "culture": null,
+    "chinese_culture": "culture",
+    "language_learning": "culture",
+    "hobbies": null,
+    "rc_racing": "hobbies",
+    "speedcubing": "hobbies",
+    "coffee": "hobbies",
+    "competition": null,
+    "academic_support": null,
+    "personal_growth": null
+  },
+  "tagTree": {
+    "STEM": {
+      "math": {},
+      "biology": {},
+      "chemistry": {},
+      "physics": {},
+      "astronomy": {},
+      "medicine": {
+        "forensic_science": {}
+      },
+      "environment": {
+        "meteorology": {},
+        "geology": {}
+      },
+      "experiments": {},
+      "research": {},
+      "engineering": {
+        "robotics": {},
+        "aerospace": {},
+        "drones": {},
+        "hands_on": {}
+      },
+      "computer_science": {
+        "programming": {},
+        "algorithms": {},
+        "web_development": {},
+        "game_development": {},
+        "cybersecurity": {},
+        "data_science": {},
+        "AI": {
+          "machine_learning": {}
+        }
+      },
+      "technology": {}
+    },
+    "social_sciences": {
+      "economics": {},
+      "psychology": {},
+      "anthropology": {},
+      "politics": {},
+      "linguistics": {},
+      "debate": {},
+      "law": {},
+      "geography": {},
+      "gender_studies": {}
+    },
+    "humanities": {
+      "philosophy": {},
+      "history": {},
+      "literature": {},
+      "writing": {},
+      "academic": {},
+      "religion": {}
+    },
+    "business": {
+      "finance": {},
+      "investment": {},
+      "entrepreneurship": {}
+    },
+    "creative_arts": {
+      "visual_arts": {},
+      "photography": {},
+      "design": {},
+      "3d_modeling": {},
+      "fashion": {},
+      "craftsmanship": {}
+    },
+    "performing_arts": {
+      "music": {},
+      "dance": {},
+      "theater": {},
+      "magic": {},
+      "voice_acting": {}
+    },
+    "media": {
+      "film": {},
+      "journalism": {},
+      "anime": {}
+    },
+    "sports": {
+      "fitness": {
+        "running": {}
+      },
+      "team_sports": {
+        "football": {},
+        "basketball": {},
+        "baseball": {},
+        "volleyball": {},
+        "frisbee": {},
+        "dodgeball": {},
+        "tchoukball": {},
+        "cheerleading": {}
+      },
+      "racquet_sports": {
+        "badminton": {},
+        "tennis": {},
+        "table_tennis": {},
+        "pickleball": {}
+      },
+      "martial_arts": {
+        "fencing": {}
+      },
+      "outdoor_sports": {
+        "climbing": {},
+        "cycling": {}
+      },
+      "winter_sports": {
+        "skiing": {},
+        "figure_skating": {}
+      },
+      "water_sports": {
+        "rowing": {},
+        "scuba_diving": {},
+        "swimming": {}
+      },
+      "equestrian": {},
+      "billiards": {},
+      "motorsport": {},
+      "golf": {}
+    },
+    "volunteer": {
+      "teaching": {},
+      "charity": {},
+      "community_service": {},
+      "animal_welfare": {},
+      "peer_support": {}
+    },
+    "health": {
+      "mental_health": {},
+      "wellness": {},
+      "nutrition": {},
+      "yoga": {}
+    },
+    "gaming": {
+      "board_games": {
+        "mahjong": {}
+      },
+      "strategy": {},
+      "rhythm_games": {},
+      "tcg": {}
+    },
+    "culture": {
+      "chinese_culture": {},
+      "language_learning": {}
+    },
+    "hobbies": {
+      "rc_racing": {},
+      "speedcubing": {},
+      "coffee": {}
+    },
+    "competition": {},
+    "academic_support": {},
+    "personal_growth": {}
+  },
+  "topLevel": {
+    "academic": {
+      "label": "Academic & Learning",
+      "prompt": "Which academic areas appeal to you? (choose one or more)",
+      "branches": [
+        "STEM",
+        "humanities",
+        "social_sciences",
+        "business",
+        "academic_support"
+      ]
+    },
+    "sports": {
+      "label": "Sports & Fitness",
+      "prompt": "What kind of sports interest you? (choose one or more)",
+      "branches": [
+        "sports"
+      ]
+    },
+    "social": {
+      "label": "Social, Arts & Lifestyle",
+      "prompt": "Which social or creative areas fit you? (choose one or more)",
+      "branches": [
+        "creative_arts",
+        "performing_arts",
+        "media",
+        "volunteer",
+        "health",
+        "gaming",
+        "culture",
+        "hobbies",
+        "competition",
+        "personal_growth"
+      ]
+    }
+  },
+  "tags": [
+    {
+      "id": "3d_modeling",
+      "label": "3D Modeling"
+    },
+    {
+      "id": "academic",
+      "label": "Academic"
+    },
+    {
+      "id": "academic_support",
+      "label": "Academic Support"
+    },
+    {
+      "id": "aerospace",
+      "label": "Aerospace"
+    },
+    {
+      "id": "AI",
+      "label": "AI"
+    },
+    {
+      "id": "algorithms",
+      "label": "Algorithms"
+    },
+    {
+      "id": "animal_welfare",
+      "label": "Animal Welfare"
+    },
+    {
+      "id": "anime",
+      "label": "Anime"
+    },
+    {
+      "id": "anthropology",
+      "label": "Anthropology"
+    },
+    {
+      "id": "astronomy",
+      "label": "Astronomy"
+    },
+    {
+      "id": "badminton",
+      "label": "Badminton"
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball"
+    },
+    {
+      "id": "basketball",
+      "label": "Basketball"
+    },
+    {
+      "id": "billiards",
+      "label": "Billiards"
+    },
+    {
+      "id": "biology",
+      "label": "Biology"
+    },
+    {
+      "id": "board_games",
+      "label": "Board Games"
+    },
+    {
+      "id": "business",
+      "label": "Business"
+    },
+    {
+      "id": "charity",
+      "label": "Charity"
+    },
+    {
+      "id": "cheerleading",
+      "label": "Cheerleading"
+    },
+    {
+      "id": "chemistry",
+      "label": "Chemistry"
+    },
+    {
+      "id": "chinese_culture",
+      "label": "Chinese Culture"
+    },
+    {
+      "id": "climbing",
+      "label": "Climbing"
+    },
+    {
+      "id": "coffee",
+      "label": "Coffee"
+    },
+    {
+      "id": "community_service",
+      "label": "Community Service"
+    },
+    {
+      "id": "competition",
+      "label": "Competition"
+    },
+    {
+      "id": "computer_science",
+      "label": "Computer Science"
+    },
+    {
+      "id": "craftsmanship",
+      "label": "Craftsmanship"
+    },
+    {
+      "id": "creative_arts",
+      "label": "Creative Arts"
+    },
+    {
+      "id": "culture",
+      "label": "Culture"
+    },
+    {
+      "id": "cybersecurity",
+      "label": "Cybersecurity"
+    },
+    {
+      "id": "cycling",
+      "label": "Cycling"
+    },
+    {
+      "id": "dance",
+      "label": "Dance"
+    },
+    {
+      "id": "data_science",
+      "label": "Data Science"
+    },
+    {
+      "id": "debate",
+      "label": "Debate"
+    },
+    {
+      "id": "design",
+      "label": "Design"
+    },
+    {
+      "id": "dodgeball",
+      "label": "Dodgeball"
+    },
+    {
+      "id": "drones",
+      "label": "Drones"
+    },
+    {
+      "id": "economics",
+      "label": "Economics"
+    },
+    {
+      "id": "engineering",
+      "label": "Engineering"
+    },
+    {
+      "id": "entrepreneurship",
+      "label": "Entrepreneurship"
+    },
+    {
+      "id": "environment",
+      "label": "Environment"
+    },
+    {
+      "id": "equestrian",
+      "label": "Equestrian"
+    },
+    {
+      "id": "experiments",
+      "label": "Experiments"
+    },
+    {
+      "id": "fashion",
+      "label": "Fashion"
+    },
+    {
+      "id": "fencing",
+      "label": "Fencing"
+    },
+    {
+      "id": "figure_skating",
+      "label": "Figure Skating"
+    },
+    {
+      "id": "film",
+      "label": "Film"
+    },
+    {
+      "id": "finance",
+      "label": "Finance"
+    },
+    {
+      "id": "fitness",
+      "label": "Fitness"
+    },
+    {
+      "id": "football",
+      "label": "Football"
+    },
+    {
+      "id": "forensic_science",
+      "label": "Forensic Science"
+    },
+    {
+      "id": "frisbee",
+      "label": "Frisbee"
+    },
+    {
+      "id": "game_development",
+      "label": "Game Development"
+    },
+    {
+      "id": "gaming",
+      "label": "Gaming"
+    },
+    {
+      "id": "gender_studies",
+      "label": "Gender Studies"
+    },
+    {
+      "id": "geography",
+      "label": "Geography"
+    },
+    {
+      "id": "geology",
+      "label": "Geology"
+    },
+    {
+      "id": "golf",
+      "label": "Golf"
+    },
+    {
+      "id": "hands_on",
+      "label": "Hands On"
+    },
+    {
+      "id": "health",
+      "label": "Health"
+    },
+    {
+      "id": "history",
+      "label": "History"
+    },
+    {
+      "id": "hobbies",
+      "label": "Hobbies"
+    },
+    {
+      "id": "humanities",
+      "label": "Humanities"
+    },
+    {
+      "id": "investment",
+      "label": "Investment"
+    },
+    {
+      "id": "journalism",
+      "label": "Journalism"
+    },
+    {
+      "id": "language_learning",
+      "label": "Language Learning"
+    },
+    {
+      "id": "law",
+      "label": "Law"
+    },
+    {
+      "id": "linguistics",
+      "label": "Linguistics"
+    },
+    {
+      "id": "literature",
+      "label": "Literature"
+    },
+    {
+      "id": "machine_learning",
+      "label": "Machine Learning"
+    },
+    {
+      "id": "magic",
+      "label": "Magic"
+    },
+    {
+      "id": "mahjong",
+      "label": "Mahjong"
+    },
+    {
+      "id": "martial_arts",
+      "label": "Martial Arts"
+    },
+    {
+      "id": "math",
+      "label": "Math"
+    },
+    {
+      "id": "media",
+      "label": "Media"
+    },
+    {
+      "id": "medicine",
+      "label": "Medicine"
+    },
+    {
+      "id": "mental_health",
+      "label": "Mental Health"
+    },
+    {
+      "id": "meteorology",
+      "label": "Meteorology"
+    },
+    {
+      "id": "motorsport",
+      "label": "Motorsport"
+    },
+    {
+      "id": "music",
+      "label": "Music"
+    },
+    {
+      "id": "nutrition",
+      "label": "Nutrition"
+    },
+    {
+      "id": "outdoor_sports",
+      "label": "Outdoor Sports"
+    },
+    {
+      "id": "peer_support",
+      "label": "Peer Support"
+    },
+    {
+      "id": "performing_arts",
+      "label": "Performing Arts"
+    },
+    {
+      "id": "personal_growth",
+      "label": "Personal Growth"
+    },
+    {
+      "id": "philosophy",
+      "label": "Philosophy"
+    },
+    {
+      "id": "photography",
+      "label": "Photography"
+    },
+    {
+      "id": "physics",
+      "label": "Physics"
+    },
+    {
+      "id": "pickleball",
+      "label": "Pickleball"
+    },
+    {
+      "id": "politics",
+      "label": "Politics"
+    },
+    {
+      "id": "programming",
+      "label": "Programming"
+    },
+    {
+      "id": "psychology",
+      "label": "Psychology"
+    },
+    {
+      "id": "racquet_sports",
+      "label": "Racquet Sports"
+    },
+    {
+      "id": "rc_racing",
+      "label": "RC Racing"
+    },
+    {
+      "id": "religion",
+      "label": "Religion"
+    },
+    {
+      "id": "research",
+      "label": "Research"
+    },
+    {
+      "id": "rhythm_games",
+      "label": "Rhythm Games"
+    },
+    {
+      "id": "robotics",
+      "label": "Robotics"
+    },
+    {
+      "id": "rowing",
+      "label": "Rowing"
+    },
+    {
+      "id": "running",
+      "label": "Running"
+    },
+    {
+      "id": "scuba_diving",
+      "label": "Scuba Diving"
+    },
+    {
+      "id": "skiing",
+      "label": "Skiing"
+    },
+    {
+      "id": "social_sciences",
+      "label": "Social Sciences"
+    },
+    {
+      "id": "speedcubing",
+      "label": "Speedcubing"
+    },
+    {
+      "id": "sports",
+      "label": "Sports"
+    },
+    {
+      "id": "STEM",
+      "label": "STEM"
+    },
+    {
+      "id": "strategy",
+      "label": "Strategy"
+    },
+    {
+      "id": "swimming",
+      "label": "Swimming"
+    },
+    {
+      "id": "table_tennis",
+      "label": "Table Tennis"
+    },
+    {
+      "id": "tcg",
+      "label": "TCG"
+    },
+    {
+      "id": "tchoukball",
+      "label": "Tchoukball"
+    },
+    {
+      "id": "teaching",
+      "label": "Teaching"
+    },
+    {
+      "id": "team_sports",
+      "label": "Team Sports"
+    },
+    {
+      "id": "technology",
+      "label": "Technology"
+    },
+    {
+      "id": "tennis",
+      "label": "Tennis"
+    },
+    {
+      "id": "theater",
+      "label": "Theater"
+    },
+    {
+      "id": "visual_arts",
+      "label": "Visual Arts"
+    },
+    {
+      "id": "voice_acting",
+      "label": "Voice Acting"
+    },
+    {
+      "id": "volleyball",
+      "label": "Volleyball"
+    },
+    {
+      "id": "volunteer",
+      "label": "Volunteer"
+    },
+    {
+      "id": "water_sports",
+      "label": "Water Sports"
+    },
+    {
+      "id": "web_development",
+      "label": "Web Development"
+    },
+    {
+      "id": "wellness",
+      "label": "Wellness"
+    },
+    {
+      "id": "winter_sports",
+      "label": "Winter Sports"
+    },
+    {
+      "id": "writing",
+      "label": "Writing"
+    },
+    {
+      "id": "yoga",
+      "label": "Yoga"
+    }
+  ]
+}

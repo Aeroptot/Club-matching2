@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Club Matcher</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Club Matcher</h1>
+    <p>Answer a few questions about your interests, block busy day/time slots, and get matched clubs.</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>1. Busy times</h2>
+      <p class="hint">Check any weekday + period combinations when you cannot join a club.</p>
+      <div id="slot-grid" class="slot-grid"></div>
+    </section>
+
+    <section class="panel">
+      <h2>2. Your interests</h2>
+      <div id="quiz-panel" class="mode-panel">
+        <div class="quiz-question-row">
+          <p id="quiz-question" class="quiz-question"></p>
+          <p id="quiz-tag-warning" class="tag-limit-warning hidden">Maximum 10 tags reached.</p>
+        </div>
+        <p id="quiz-hint" class="hint"></p>
+        <div id="quiz-options" class="quiz-options"></div>
+        <div class="quiz-actions">
+          <button type="button" id="quiz-continue">Continue</button>
+          <button type="button" id="quiz-back" class="secondary" disabled>Back</button>
+          <button type="button" id="quiz-restart" class="secondary">Restart quiz</button>
+        </div>
+      </div>
+
+      <div class="selected-tags">
+        <strong>Selected:</strong>
+        <span id="selected-tags">none</span>
+      </div>
+    </section>
+
+    <section id="results-section" class="panel hidden">
+      <h2>Recommendations</h2>
+      <p id="results-summary" class="meta"></p>
+      <div id="results"></div>
+    </section>
+
+    <p id="error" class="error hidden"></p>
+  </main>
+
+  <script src="engine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
