@@ -12,12 +12,10 @@ HIERARCHY_PARENT_CHILD = 0.5
 HIERARCHY_GRANDRELATED = 0.25
 HIERARCHY_UNRELATED = 0.0
 
-# Club tag weights are position-normalized along each branch: the beginning
-# of any hierarchy weighs 1 and the end weighs HIERARCHY_WEIGHT_SPREAD, no
-# matter how many layers that branch has (weight = SPREAD ** position).
-# E.g. the last tag of a 4-layer branch and the last tag of a 3-layer branch
-# carry the same weight, so niche tags stay equally important everywhere.
-HIERARCHY_WEIGHT_SPREAD = 16
+# Club tag weights by absolute hierarchy depth: depth 1 -> 1, 2 -> 4,
+# 3 -> 12, 4 -> 24. Deeper (more niche) tags weigh more; tags at the same
+# depth weigh the same regardless of how long their branch is.
+DEPTH_WEIGHT_TIERS: dict[int, int] = {1: 1, 2: 4, 3: 12, 4: 24}
 
 # Quiz "None" selections use the parent tag at this fraction of normal weight.
 NONE_TAG_WEIGHT_MULTIPLIER = 0.7

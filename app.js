@@ -297,7 +297,7 @@ function renderResults(data) {
       <article class="card">
         <h3>${i + 1}. ${escapeHtml(club.name)}</h3>
         <p class="score">Final score: ${club.final_score_pct}%${scoreNote}</p>
-        <p>${escapeHtml(club.category)} · ${club.member_count} members · ${escapeHtml(formatMeeting(club.day, club.period))}${club.room ? ` · Room ${escapeHtml(club.room)}` : ""}</p>
+        <p>${club.member_count} members · ${escapeHtml(formatMeeting(club.day, club.period))}${club.room ? ` · Room ${escapeHtml(club.room)}` : ""}</p>
         <p><strong>Tags:</strong> <span class="tags-row">${
           (club.club_tags || [])
             .map(

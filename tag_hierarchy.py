@@ -7,7 +7,7 @@ from config import (
     HIERARCHY_GRANDRELATED,
     HIERARCHY_PARENT_CHILD,
     HIERARCHY_UNRELATED,
-    HIERARCHY_WEIGHT_SPREAD,
+    DEPTH_WEIGHT_TIERS,
 )
 
 # Nested hierarchy: parent -> {child: subtree, ...}
@@ -252,34 +252,9 @@ def all_known_tags() -> set[str]:
     return set(PARENT_MAP.keys())
 
 
-def _fill_subtree_depth(tree: dict, out: dict) -> int:
-    """Fill SUBTREE_DEPTH: tag -> levels from the tag down to its deepest
-    leaf, including the tag itself (leaves are 1)."""
-    max_below = 0
-    for node, children in tree.items():
-        below = _fill_subtree_depth(children, out)
-        out[node] = below + 1
-        max_below = max(max_below, below + 1)
-    return max_below
-
-
-SUBTREE_DEPTH: dict[str, int] = {}
-_fill_subtree_depth(TAG_TREE, SUBTREE_DEPTH)
-
-
-def hierarchy_position(tag: str) -> float:
-    """Relative position of a tag in its own branch: 0.0 = beginning,
-    1.0 = end. The end of a 2-layer branch and the end of a 4-layer branch
-    both return 1.0, so their weights are identical."""
+def hierarchy_weight(tag: str) -> float:
+    """Weight of a tag by its absolute hierarchy depth: depth 1 -> 1,
+    depth 2 -> 4, depth 3 -> 12, depth 4 -> 24. Tags deeper than the table
+    fall back to the deepest tier."""
     depth = hierarchy_depth(tag)
-    deepest = depth - 1 + SUBTREE_DEPTH.get(tag, 1)
-    if deepest <= 1:
-        return 1.0
-    return (depth - 1) / (deepest - 1)
-
-
-def hierarchy_relative_weight(tag: str) -> float:
-    """Weight of a tag by its position in its own branch. Every hierarchy
-    begins at weight 1 and ends at HIERARCHY_WEIGHT_SPREAD regardless of how
-    many layers it has."""
-    return HIERARCHY_WEIGHT_SPREAD ** hierarchy_position(tag)
+    return float(DEPTH_WEIGHT_TIERS.get(depth, max(DEPTH_WEIGHT_TIERS.values())))

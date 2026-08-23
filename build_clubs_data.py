@@ -7,7 +7,7 @@ from pathlib import Path
 
 from config import CLUB_TAG_POINTS
 from generate_club_tags import CLUB_TAGS, TAG_VOCABULARY, load_clubs
-from tag_hierarchy import hierarchy_relative_weight
+from tag_hierarchy import hierarchy_weight
 
 BASE = Path(__file__).parent
 
@@ -35,7 +35,7 @@ def distribute_weights(tags: list[str], total: int = CLUB_TAG_POINTS) -> list[in
     """
     if not tags:
         return []
-    raw = [hierarchy_relative_weight(t) for t in tags]
+    raw = [hierarchy_weight(t) for t in tags]
     if len(tags) > total:
         # Not enough points for a floor of 1 per tag; fall back to plain
         # largest-remainder distribution.

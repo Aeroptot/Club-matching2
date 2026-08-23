@@ -6,16 +6,28 @@
   <title>All Clubs — Club Matcher</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="clubs-page">
   <header class="header-row">
     <div>
       <h1>All Clubs</h1>
-      <p id="db-count" class="meta">Loading…</p>
     </div>
-    <a class="btn-link" href="index.html">← Back to Club Matcher</a>
+    <div class="header-actions">
+      <div class="search-wrap">
+        <input
+          id="club-search"
+          type="text"
+          placeholder="Search clubs…"
+          autocomplete="off"
+          aria-label="Search clubs"
+        >
+        <div id="search-results" class="search-results hidden"></div>
+      </div>
+      <a class="btn-link" href="index.html">← Back to Club Matcher</a>
+    </div>
   </header>
 
   <main>
+    <p id="db-count" class="db-count-line">Loading…</p>
     <div id="clubs-list" class="clubs-list"></div>
   </main>
 
@@ -42,6 +54,8 @@
       tcg: "TCG",
     };
 
+    let allClubs = [];
+
     function displayName(tag) {
       if (SPECIAL[tag]) return SPECIAL[tag];
       return tag.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
@@ -61,30 +75,99 @@
       return d && p ? `${d} · ${p}` : d || p;
     }
 
-    function clubRow(club, index) {
+    function clubRow(club) {
       const tags = Object.entries(club.tags || {})
         .sort((a, b) => b[1] - a[1])
         .map(([tag]) => `<span class="tag-chip">${escapeHtml(displayName(tag))}</span>`)
         .join("");
       const meta = [
-        club.category,
         club.member_count ? `${club.member_count} members` : null,
         formatMeeting(club.day, club.period),
         club.room ? `Room ${club.room}` : null,
       ]
         .filter(Boolean)
         .join(" · ");
+      const description = club.description
+        ? `<details class="club-description">
+             <summary>Description</summary>
+             <p>${escapeHtml(club.description)}</p>
+           </details>`
+        : "";
       return `
-        <div class="club-row">
+        <div class="club-row" data-no="${escapeHtml(club.no)}">
           <div class="club-head">
-            <span class="club-no">${club.no || index + 1}</span>
             <span class="club-name">${escapeHtml(club.name)}</span>
             <span class="club-meta">${escapeHtml(meta)}</span>
           </div>
           <div class="club-tags"><span class="tags-label">Tags:</span> ${tags || '<span class="muted">none</span>'}</div>
-          <div class="club-desc">${escapeHtml(club.description)}</div>
+          ${description}
         </div>`;
     }
+
+    function jumpToClub(no) {
+      const row = document.querySelector(`.club-row[data-no="${CSS.escape(String(no))}"]`);
+      searchInput.value = "";
+      hideSearch();
+      if (!row) return;
+      row.scrollIntoView({ block: "center" });
+      row.classList.add("club-highlight");
+      // Fade the highlight out gradually so it never pops away abruptly.
+      // Time-based: even if ticks are throttled, the alpha always matches the
+      // elapsed time and the fade completes.
+      const START_ALPHA = 0.09;
+      const DURATION = 1600;
+      const start = performance.now();
+      const timer = setInterval(() => {
+        const t = Math.min((performance.now() - start) / DURATION, 1);
+        row.style.backgroundColor = `rgba(59, 130, 246, ${(START_ALPHA * (1 - t)).toFixed(4)})`;
+        if (t >= 1) {
+          clearInterval(timer);
+          row.style.backgroundColor = "";
+          row.classList.remove("club-highlight");
+        }
+      }, 30);
+    }
+
+    const searchInput = document.getElementById("club-search");
+    const searchResults = document.getElementById("search-results");
+
+    function hideSearch() {
+      searchResults.classList.add("hidden");
+      searchResults.innerHTML = "";
+    }
+
+    function renderSearch(query) {
+      const q = query.trim().toLowerCase();
+      if (!q) {
+        hideSearch();
+        return;
+      }
+      const matches = allClubs.filter((c) => c.name.toLowerCase().includes(q)).slice(0, 30);
+      searchResults.innerHTML = "";
+      if (!matches.length) {
+        const item = document.createElement("div");
+        item.className = "search-item muted";
+        item.textContent = "No clubs found";
+        searchResults.appendChild(item);
+      } else {
+        matches.forEach((c) => {
+          const item = document.createElement("div");
+          item.className = "search-item";
+          item.textContent = c.name;
+          item.addEventListener("click", () => jumpToClub(c.no));
+          searchResults.appendChild(item);
+        });
+      }
+      searchResults.classList.remove("hidden");
+    }
+
+    searchInput.addEventListener("input", () => renderSearch(searchInput.value));
+    searchInput.addEventListener("focus", () => renderSearch(searchInput.value));
+    document.addEventListener("click", (e) => {
+      if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+        hideSearch();
+      }
+    });
 
     async function loadClubs() {
       try {
@@ -102,11 +185,11 @@
       const list = document.getElementById("clubs-list");
       const count = document.getElementById("db-count");
       try {
-        const clubs = await loadClubs();
-        count.textContent = `${clubs.length} clubs`;
-        list.innerHTML = clubs.map(clubRow).join("");
+        allClubs = await loadClubs();
+        count.textContent = `${allClubs.length} clubs`;
+        list.innerHTML = allClubs.map(clubRow).join("");
       } catch (err) {
-        count.textContent = "Failed to load clubs";
+        count.textContent = "failed to load";
         list.innerHTML = `<p class="error">${escapeHtml(err.message)}</p>`;
       }
     }
