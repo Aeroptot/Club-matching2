@@ -319,7 +319,17 @@
       "label": "Sports & Fitness",
       "prompt": "What kind of sports interest you? (choose one or more)",
       "branches": [
-        "sports"
+        "fitness",
+        "team_sports",
+        "racquet_sports",
+        "martial_arts",
+        "outdoor_sports",
+        "winter_sports",
+        "water_sports",
+        "equestrian",
+        "billiards",
+        "motorsport",
+        "golf"
       ]
     },
     "social": {
