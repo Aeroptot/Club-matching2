@@ -27,7 +27,10 @@ TOP_LEVEL: dict[str, dict] = {
     "sports": {
         "label": "Sports & Fitness",
         "prompt": "What kind of sports interest you? (choose one or more)",
-        "branches": ["sports"],
+        # "sports" is the only child of this area, so skip it and show its
+        # children directly (keeps the hierarchy intact, drops the one-option
+        # layer).
+        "branches": list(TAG_TREE["sports"].keys()),
     },
     "social": {
         "label": "Social, Arts & Lifestyle",
@@ -85,6 +88,20 @@ def _children(tag: str) -> list[str]:
             return []
         node = node[part]
     return list(node.keys())
+
+
+def _collapse_singletons(tag: str) -> str:
+    """Follow single-child chains down to a branching node or a leaf.
+
+    A node whose only child is a leaf (e.g. motorsport -> rc_racing) never
+    shows a one-option quiz layer: selecting it directly adds the leaf tag.
+    """
+    while True:
+        kids = _children(tag)
+        if len(kids) == 1:
+            tag = kids[0]
+        else:
+            return tag
 
 
 def _path_to_tag(tag: str) -> list[str]:
@@ -245,8 +262,14 @@ def advance_quiz_continue(session: dict, selections: list[str]) -> tuple[dict, l
         for branch in selections:
             if branch not in valid:
                 raise ValueError(f"Unknown branch: {branch}")
-        drill_deeper = [b for b in selections if _children(b)]
-        leaf_tags = [b for b in selections if not _children(b)]
+        drill_deeper = []
+        leaf_tags = []
+        for b in selections:
+            eff = _collapse_singletons(b)
+            if _children(eff):
+                drill_deeper.append(eff)
+            else:
+                leaf_tags.append(eff)
         tags_added = [tag_added(b) for b in leaf_tags]
         session["branch_queue"] = drill_deeper
         session["drill_extra"] = []
@@ -273,10 +296,11 @@ def _drill_continue(session: dict, selections: list[str]) -> tuple[dict, list[st
     drill_deeper: list[str] = []
 
     for sel in selections:
-        if _children(sel):
-            drill_deeper.append(sel)
+        eff = _collapse_singletons(sel)
+        if _children(eff):
+            drill_deeper.append(eff)
         else:
-            tags_added.append(tag_added(sel))
+            tags_added.append(tag_added(eff))
 
     if drill_deeper:
         session["drill_extra"] = [drill_deeper[0]]

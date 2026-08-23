@@ -74,6 +74,17 @@ const ClubMatcher = (() => {
     return Object.keys(node);
   }
 
+  function collapseSingletons(tag) {
+    // Follow single-child chains: a node whose only child is a leaf
+    // (e.g. motorsport -> rc_racing) never shows a one-option quiz layer;
+    // selecting it directly adds the leaf tag.
+    while (true) {
+      const kids = children(tag);
+      if (kids.length === 1) tag = kids[0];
+      else return tag;
+    }
+  }
+
   function normalizeTag(tag) {
     const lower = tag.trim().replace(/ /g, "_").toLowerCase();
     for (const known of Object.keys(parentMap)) {
@@ -373,8 +384,9 @@ const ClubMatcher = (() => {
     const tagsAdded = [];
     const drillDeeper = [];
     selections.forEach((sel) => {
-      if (children(sel).length) drillDeeper.push(sel);
-      else tagsAdded.push(tagAdded(sel));
+      const eff = collapseSingletons(sel);
+      if (children(eff).length) drillDeeper.push(eff);
+      else tagsAdded.push(tagAdded(eff));
     });
 
     if (drillDeeper.length) {
@@ -410,8 +422,13 @@ const ClubMatcher = (() => {
       return { session, tags_added: [] };
     }
     if (session.phase === "branches") {
-      const drillDeeper = selections.filter((s) => children(s).length);
-      const leafTags = selections.filter((s) => !children(s).length);
+      const drillDeeper = [];
+      const leafTags = [];
+      selections.forEach((b) => {
+        const eff = collapseSingletons(b);
+        if (children(eff).length) drillDeeper.push(eff);
+        else leafTags.push(eff);
+      });
       session.branch_queue = drillDeeper;
       session.drill_extra = [];
       session.pending_drill_nodes = [];
