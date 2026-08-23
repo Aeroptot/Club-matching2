@@ -23,10 +23,7 @@ body {
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: var(--text);
   line-height: 1.55;
-  background:
-    radial-gradient(circle at top left, rgba(96, 165, 250, 0.14), transparent 30%),
-    radial-gradient(circle at top right, rgba(147, 197, 253, 0.16), transparent 34%),
-    var(--bg);
+  background: #eef4fb;
 }
 
 header,
@@ -211,6 +208,12 @@ button:hover {
   padding-top: 0.55rem;
 }
 
+.clubs-page .club-description {
+  margin-top: 0.4rem;
+  border-top: none;
+  padding-top: 0;
+}
+
 .club-description summary {
   cursor: pointer;
   color: var(--accent);
@@ -340,15 +343,78 @@ button:hover {
   box-shadow: 0 10px 24px rgba(59, 130, 246, 0.3);
 }
 
+.db-count-line {
+  margin: 0 0 0.7rem;
+  padding: 0 4px;
+  font-size: 1rem;
+  color: var(--muted);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.search-wrap {
+  position: relative;
+}
+
+#club-search {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.55rem 0.85rem;
+  font: inherit;
+  width: 230px;
+  background: #ffffff;
+  color: var(--text);
+}
+
+#club-search:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.search-results {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  width: 300px;
+  max-height: 340px;
+  overflow-y: auto;
+  background: #ffffff;
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  z-index: 50;
+}
+
+.search-item {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+.search-item:hover {
+  background: var(--accent-soft);
+}
+
+.club-highlight {
+  background: var(--accent-soft);
+}
+
 .clubs-list {
   display: flex;
   flex-direction: column;
 }
 
 .club-row {
-  border-bottom: 1px solid var(--border);
-  padding: 6px 4px;
-  font-size: 0.9rem;
+  border-bottom: 1px solid #c7d5e8;
+  padding: 9px 4px;
+  font-size: 1rem;
 }
 
 .club-row:last-child {
@@ -358,30 +424,24 @@ button:hover {
 .club-head {
   display: flex;
   align-items: baseline;
-  gap: 8px;
+  gap: 10px;
   flex-wrap: wrap;
-}
-
-.club-no {
-  color: var(--muted);
-  font-size: 0.78em;
-  min-width: 2.2em;
-  text-align: right;
 }
 
 .club-name {
   font-weight: 650;
+  font-size: 1.06rem;
   color: var(--text);
 }
 
 .club-meta {
   color: var(--muted);
-  font-size: 0.82em;
+  font-size: 0.95rem;
 }
 
 .club-tags {
-  margin-top: 2px;
-  font-size: 0.8em;
+  margin-top: 4px;
+  font-size: 0.95rem;
   color: var(--muted);
 }
 
@@ -395,18 +455,10 @@ button:hover {
   border: 1px solid #d6e4f5;
   color: #2456a6;
   border-radius: 999px;
-  padding: 0 8px;
+  padding: 0 9px;
   margin-right: 4px;
-  font-size: 0.86em;
-  line-height: 1.5;
-}
-
-.club-desc {
-  margin-top: 3px;
-  font-size: 0.8em;
-  color: #526069;
-  line-height: 1.45;
-  overflow-wrap: anywhere;
+  font-size: 0.95em;
+  line-height: 1.6;
 }
 
 .muted {
