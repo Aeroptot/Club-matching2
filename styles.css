@@ -311,3 +311,104 @@ button:hover {
     width: 100%;
   }
 }
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn-link {
+  display: inline-block;
+  border: 1px solid var(--accent);
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 0.55rem 1rem;
+  font: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.22);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(59, 130, 246, 0.3);
+}
+
+.clubs-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.club-row {
+  border-bottom: 1px solid var(--border);
+  padding: 6px 4px;
+  font-size: 0.9rem;
+}
+
+.club-row:last-child {
+  border-bottom: none;
+}
+
+.club-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.club-no {
+  color: var(--muted);
+  font-size: 0.78em;
+  min-width: 2.2em;
+  text-align: right;
+}
+
+.club-name {
+  font-weight: 650;
+  color: var(--text);
+}
+
+.club-meta {
+  color: var(--muted);
+  font-size: 0.82em;
+}
+
+.club-tags {
+  margin-top: 2px;
+  font-size: 0.8em;
+  color: var(--muted);
+}
+
+.tags-label {
+  color: var(--muted);
+}
+
+.tag-chip {
+  display: inline-block;
+  background: var(--accent-soft);
+  border: 1px solid #d6e4f5;
+  color: #2456a6;
+  border-radius: 999px;
+  padding: 0 8px;
+  margin-right: 4px;
+  font-size: 0.86em;
+  line-height: 1.5;
+}
+
+.club-desc {
+  margin-top: 3px;
+  font-size: 0.8em;
+  color: #526069;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.muted {
+  color: var(--muted);
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Clubs — Club Matcher</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header-row">
+    <div>
+      <h1>All Clubs</h1>
+      <p id="db-count" class="meta">Loading…</p>
+    </div>
+    <a class="btn-link" href="index.html">← Back to Club Matcher</a>
+  </header>
+
+  <main>
+    <div id="clubs-list" class="clubs-list"></div>
+  </main>
+
+  <script>
+    const DAYS = {
+      monday: "Mon",
+      tuesday: "Tue",
+      wednesday: "Wed",
+      thursday: "Thu",
+      friday: "Fri",
+    };
+    const PERIODS = {
+      period11: "Period 11",
+      period12: "Period 12",
+      period13: "Period 13",
+      lunchtime: "Lunch",
+    };
+    const SPECIAL = {
+      AI: "AI",
+      STEM: "STEM",
+      anime: "Anime",
+      rc_racing: "RC Racing",
+      "3d_modeling": "3D Modeling",
+      tcg: "TCG",
+    };
+
+    function displayName(tag) {
+      if (SPECIAL[tag]) return SPECIAL[tag];
+      return tag.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function formatMeeting(day, period) {
+      const d = DAYS[day] || day;
+      const p = PERIODS[period] || period;
+      return d && p ? `${d} · ${p}` : d || p;
+    }
+
+    function clubRow(club, index) {
+      const tags = Object.entries(club.tags || {})
+        .sort((a, b) => b[1] - a[1])
+        .map(([tag]) => `<span class="tag-chip">${escapeHtml(displayName(tag))}</span>`)
+        .join("");
+      const meta = [
+        club.category,
+        club.member_count ? `${club.member_count} members` : null,
+        formatMeeting(club.day, club.period),
+        club.room ? `Room ${club.room}` : null,
+      ]
+        .filter(Boolean)
+        .join(" · ");
+      return `
+        <div class="club-row">
+          <div class="club-head">
+            <span class="club-no">${club.no || index + 1}</span>
+            <span class="club-name">${escapeHtml(club.name)}</span>
+            <span class="club-meta">${escapeHtml(meta)}</span>
+          </div>
+          <div class="club-tags"><span class="tags-label">Tags:</span> ${tags || '<span class="muted">none</span>'}</div>
+          <div class="club-desc">${escapeHtml(club.description)}</div>
+        </div>`;
+    }
+
+    async function loadClubs() {
+      try {
+        const res = await fetch("/api/clubs");
+        if (res.ok) return await res.json();
+      } catch (err) {
+        /* fall back to static data below */
+      }
+      const res = await fetch("data/clubs.json");
+      if (!res.ok) throw new Error("Failed to load clubs data");
+      return await res.json();
+    }
+
+    async function render() {
+      const list = document.getElementById("clubs-list");
+      const count = document.getElementById("db-count");
+      try {
+        const clubs = await loadClubs();
+        count.textContent = `${clubs.length} clubs`;
+        list.innerHTML = clubs.map(clubRow).join("");
+      } catch (err) {
+        count.textContent = "Failed to load clubs";
+        list.innerHTML = `<p class="error">${escapeHtml(err.message)}</p>`;
+      }
+    }
+
+    render();
+  </script>
+</body>
+</html>

@@ -105,6 +105,29 @@ class ClubHandler(BaseHTTPRequestHandler):
         if route == "/styles.css":
             self._send_file(STATIC / "styles.css", "text/css; charset=utf-8")
             return
+        if route == "/clubs.html":
+            self._send_file(STATIC / "clubs.html", "text/html; charset=utf-8")
+            return
+
+        if route == "/api/clubs":
+            clubs = load_clubs()
+            self._send_json(
+                [
+                    {
+                        "no": c.no,
+                        "name": c.name,
+                        "category": c.category,
+                        "description": c.description,
+                        "member_count": c.member_count,
+                        "day": c.day,
+                        "period": c.period,
+                        "room": c.room,
+                        "tags": c.tags,
+                    }
+                    for c in clubs
+                ]
+            )
+            return
 
         if route == "/api/tags":
             tags = sorted(all_known_tags(), key=lambda t: display_name(t).lower())

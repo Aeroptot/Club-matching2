@@ -31,7 +31,7 @@ BASE = Path(__file__).parent
 DOCS = BASE / "docs"
 ROOT = BASE
 STATIC = BASE / "static"
-SITE_FILES = ("index.html", "styles.css", "app.js", "engine.js")
+SITE_FILES = ("index.html", "styles.css", "app.js", "engine.js", "clubs.html")
 
 
 def _write_data(data_dir: Path) -> None:
