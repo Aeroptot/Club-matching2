@@ -119,6 +119,7 @@
     "equestrian": "sports",
     "billiards": "sports",
     "motorsport": "sports",
+    "rc_racing": "motorsport",
     "golf": "sports",
     "volunteer": null,
     "teaching": "volunteer",
@@ -141,7 +142,6 @@
     "chinese_culture": "culture",
     "language_learning": "culture",
     "hobbies": null,
-    "rc_racing": "hobbies",
     "speedcubing": "hobbies",
     "coffee": "hobbies",
     "competition": null,
@@ -265,7 +265,9 @@
       },
       "equestrian": {},
       "billiards": {},
-      "motorsport": {},
+      "motorsport": {
+        "rc_racing": {}
+      },
       "golf": {}
     },
     "volunteer": {
@@ -294,7 +296,6 @@
       "language_learning": {}
     },
     "hobbies": {
-      "rc_racing": {},
       "speedcubing": {},
       "coffee": {}
     },

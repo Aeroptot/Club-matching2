@@ -128,7 +128,9 @@ TAG_TREE: dict[str, dict] = {
         },
         "equestrian": {},
         "billiards": {},
-        "motorsport": {},
+        "motorsport": {
+            "rc_racing": {},
+        },
         "golf": {},
     },
     "volunteer": {
@@ -157,7 +159,6 @@ TAG_TREE: dict[str, dict] = {
         "language_learning": {},
     },
     "hobbies": {
-        "rc_racing": {},
         "speedcubing": {},
         "coffee": {},
     },

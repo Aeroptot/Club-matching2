@@ -23,9 +23,9 @@
     "period": "period12",
     "room": "G117",
     "tags": {
-      "creative_arts": 5,
-      "music": 10,
-      "performing_arts": 5
+      "creative_arts": 4,
+      "music": 12,
+      "performing_arts": 4
     }
   },
   {
@@ -38,10 +38,10 @@
     "period": "lunchtime",
     "room": "A206",
     "tags": {
-      "AI": 5,
-      "law": 4,
-      "politics": 4,
-      "technology": 4,
+      "AI": 8,
+      "law": 3,
+      "politics": 3,
+      "technology": 3,
       "writing": 3
     }
   },
@@ -72,11 +72,11 @@
     "period": "period11",
     "room": "A419",
     "tags": {
-      "STEM": 2,
-      "aerospace": 5,
-      "engineering": 4,
-      "hands_on": 5,
-      "physics": 4
+      "STEM": 1,
+      "aerospace": 7,
+      "engineering": 2,
+      "hands_on": 7,
+      "physics": 3
     }
   },
   {
@@ -90,10 +90,10 @@
     "room": "A406",
     "tags": {
       "STEM": 2,
-      "design": 4,
-      "engineering": 4,
-      "hands_on": 6,
-      "physics": 4
+      "design": 3,
+      "engineering": 3,
+      "hands_on": 9,
+      "physics": 3
     }
   },
   {
@@ -106,10 +106,10 @@
     "period": "period12",
     "room": "A216",
     "tags": {
-      "AI": 8,
+      "AI": 11,
       "STEM": 2,
-      "math": 5,
-      "teaching": 5
+      "math": 4,
+      "teaching": 3
     }
   },
   {
@@ -139,9 +139,9 @@
     "period": "period11",
     "room": "A416",
     "tags": {
-      "anime": 10,
-      "culture": 5,
-      "hobbies": 5
+      "anime": 12,
+      "culture": 4,
+      "hobbies": 4
     }
   },
   {
@@ -170,8 +170,8 @@
     "period": "period11",
     "room": "A510",
     "tags": {
-      "STEM": 3,
-      "computer_science": 5,
+      "STEM": 2,
+      "computer_science": 6,
       "math": 6,
       "physics": 6
     }
@@ -186,11 +186,11 @@
     "period": "period11",
     "room": "A207",
     "tags": {
-      "competition": 2,
-      "engineering": 4,
+      "competition": 1,
+      "engineering": 2,
       "hands_on": 6,
-      "rc_racing": 4,
-      "technology": 4
+      "rc_racing": 9,
+      "technology": 2
     }
   },
   {
@@ -205,9 +205,9 @@
     "tags": {
       "STEM": 2,
       "creative_arts": 2,
-      "design": 5,
-      "hands_on": 7,
-      "technology": 4
+      "design": 3,
+      "hands_on": 10,
+      "technology": 3
     }
   },
   {
@@ -236,9 +236,9 @@
     "period": "period11",
     "room": "A215",
     "tags": {
-      "creative_arts": 5,
-      "film": 10,
-      "media": 5
+      "creative_arts": 4,
+      "film": 12,
+      "media": 4
     }
   },
   {
@@ -251,9 +251,9 @@
     "period": "period13",
     "room": "A510",
     "tags": {
-      "baseball": 10,
-      "sports": 3,
-      "team_sports": 7
+      "baseball": 14,
+      "sports": 2,
+      "team_sports": 4
     }
   },
   {
@@ -266,11 +266,11 @@
     "period": "period11",
     "room": "H100A",
     "tags": {
-      "basketball": 7,
+      "basketball": 10,
       "competition": 2,
-      "fitness": 4,
+      "fitness": 3,
       "sports": 2,
-      "team_sports": 5
+      "team_sports": 3
     }
   },
   {
@@ -283,10 +283,10 @@
     "period": "lunchtime",
     "room": "B534",
     "tags": {
-      "STEM": 3,
+      "STEM": 2,
       "biology": 6,
       "environment": 6,
-      "experiments": 5
+      "experiments": 6
     }
   },
   {
@@ -300,10 +300,10 @@
     "room": "B815",
     "tags": {
       "STEM": 2,
-      "biology": 4,
-      "chemistry": 4,
-      "experiments": 4,
-      "hands_on": 6
+      "biology": 3,
+      "chemistry": 3,
+      "experiments": 3,
+      "hands_on": 9
     }
   },
   {
@@ -333,8 +333,8 @@
     "period": "period11",
     "room": "A402",
     "tags": {
-      "coffee": 13,
-      "hobbies": 7
+      "coffee": 15,
+      "hobbies": 5
     }
   },
   {
@@ -348,9 +348,9 @@
     "room": "A201",
     "tags": {
       "history": 6,
-      "psychology": 5,
+      "psychology": 6,
       "research": 6,
-      "social_sciences": 3
+      "social_sciences": 2
     }
   },
   {
@@ -411,8 +411,8 @@
     "period": "lunchtime",
     "room": "G117",
     "tags": {
-      "music": 13,
-      "performing_arts": 7
+      "music": 15,
+      "performing_arts": 5
     }
   },
   {
@@ -425,8 +425,8 @@
     "period": "period11",
     "room": "A215",
     "tags": {
-      "peer_support": 13,
-      "personal_growth": 7
+      "peer_support": 15,
+      "personal_growth": 5
     }
   },
   {
@@ -439,9 +439,9 @@
     "period": "lunchtime",
     "room": "A201",
     "tags": {
-      "charity": 8,
+      "charity": 9,
       "community_service": 8,
-      "food": 4
+      "food": 3
     }
   },
   {
@@ -454,10 +454,10 @@
     "period": "period11",
     "room": "H102",
     "tags": {
-      "cheerleading": 8,
-      "fitness": 6,
-      "performing_arts": 3,
-      "sports": 3
+      "cheerleading": 12,
+      "fitness": 4,
+      "performing_arts": 2,
+      "sports": 2
     }
   },
   {
@@ -470,8 +470,8 @@
     "period": "lunchtime",
     "room": "A414",
     "tags": {
-      "STEM": 3,
-      "academic": 5,
+      "STEM": 2,
+      "academic": 6,
       "chemistry": 6,
       "experiments": 6
     }
@@ -486,8 +486,8 @@
     "period": "period11",
     "room": "B522",
     "tags": {
-      "competition": 4,
-      "debate": 8,
+      "competition": 3,
+      "debate": 9,
       "language_learning": 8
     }
   },
@@ -501,9 +501,9 @@
     "period": "lunchtime",
     "room": "B432",
     "tags": {
-      "chinese_culture": 5,
+      "chinese_culture": 6,
       "fitness": 6,
-      "health": 3,
+      "health": 2,
       "wellness": 6
     }
   },
@@ -518,8 +518,8 @@
     "room": "A201",
     "tags": {
       "history": 6,
-      "research": 5,
-      "social_sciences": 3,
+      "research": 6,
+      "social_sciences": 2,
       "technology": 6
     }
   },
@@ -533,9 +533,9 @@
     "period": "period11",
     "room": "BBL",
     "tags": {
-      "climbing": 8,
-      "fitness": 5,
-      "outdoor_sports": 5,
+      "climbing": 11,
+      "fitness": 3,
+      "outdoor_sports": 4,
       "sports": 2
     }
   },
@@ -579,9 +579,9 @@
     "period": "period11",
     "room": "A207",
     "tags": {
-      "business": 3,
+      "business": 2,
       "economics": 5,
-      "environment": 5,
+      "environment": 6,
       "research": 5,
       "social_sciences": 2
     }
@@ -597,9 +597,9 @@
     "room": "A411",
     "tags": {
       "academic_support": 4,
-      "business": 4,
-      "competition": 4,
-      "research": 8
+      "business": 3,
+      "competition": 3,
+      "research": 10
     }
   },
   {
@@ -612,9 +612,9 @@
     "period": "period11",
     "room": "B523",
     "tags": {
-      "STEM": 3,
+      "STEM": 2,
       "astronomy": 6,
-      "photography": 5,
+      "photography": 6,
       "physics": 6
     }
   },
@@ -629,8 +629,8 @@
     "room": "A208",
     "tags": {
       "community_service": 8,
-      "creative_arts": 4,
-      "design": 8
+      "creative_arts": 3,
+      "design": 9
     }
   },
   {
@@ -643,11 +643,11 @@
     "period": "period11",
     "room": "A208",
     "tags": {
-      "AI": 4,
+      "AI": 5,
       "algorithms": 5,
-      "computer_science": 3,
-      "data_science": 5,
-      "math": 3
+      "computer_science": 2,
+      "data_science": 6,
+      "math": 2
     }
   },
   {
@@ -660,10 +660,10 @@
     "period": "period11",
     "room": "A212",
     "tags": {
-      "engineering": 4,
-      "hands_on": 6,
-      "robotics": 6,
-      "technology": 4
+      "engineering": 3,
+      "hands_on": 7,
+      "robotics": 7,
+      "technology": 3
     }
   },
   {
@@ -676,10 +676,10 @@
     "period": "lunchtime",
     "room": "B431",
     "tags": {
-      "dodgeball": 8,
-      "fitness": 5,
+      "dodgeball": 11,
+      "fitness": 3,
       "sports": 2,
-      "team_sports": 5
+      "team_sports": 4
     }
   },
   {
@@ -692,9 +692,9 @@
     "period": "lunchtime",
     "room": "G118",
     "tags": {
-      "competition": 5,
-      "music": 10,
-      "performing_arts": 5
+      "competition": 4,
+      "music": 12,
+      "performing_arts": 4
     }
   },
   {
@@ -707,10 +707,10 @@
     "period": "lunchtime",
     "room": "A220",
     "tags": {
-      "board_games": 8,
-      "creative_arts": 4,
+      "board_games": 10,
+      "creative_arts": 3,
       "gaming": 4,
-      "hobbies": 4
+      "hobbies": 3
     }
   },
   {
@@ -740,8 +740,8 @@
     "period": "period11",
     "room": "G021",
     "tags": {
-      "dance": 13,
-      "performing_arts": 7
+      "dance": 15,
+      "performing_arts": 5
     }
   },
   {
@@ -754,9 +754,9 @@
     "period": "period11",
     "room": "A201",
     "tags": {
-      "STEM": 3,
-      "environment": 7,
-      "geology": 10
+      "STEM": 2,
+      "environment": 4,
+      "geology": 14
     }
   },
   {
@@ -769,8 +769,8 @@
     "period": "period11",
     "room": "A416",
     "tags": {
-      "humanities": 7,
-      "literature": 13
+      "humanities": 5,
+      "literature": 15
     }
   },
   {
@@ -800,8 +800,8 @@
     "room": "A211",
     "tags": {
       "community_service": 8,
-      "teaching": 8,
-      "volunteer": 4
+      "teaching": 9,
+      "volunteer": 3
     }
   },
   {
@@ -815,9 +815,9 @@
     "room": "A302",
     "tags": {
       "STEM": 2,
-      "academic": 5,
-      "hands_on": 8,
-      "physics": 5
+      "academic": 3,
+      "hands_on": 11,
+      "physics": 4
     }
   },
   {
@@ -830,9 +830,9 @@
     "period": "period11",
     "room": "A411",
     "tags": {
-      "STEM": 4,
+      "STEM": 3,
       "academic": 8,
-      "physics": 8
+      "physics": 9
     }
   },
   {
@@ -845,10 +845,10 @@
     "period": "lunchtime",
     "room": "A606",
     "tags": {
-      "community_service": 5,
+      "community_service": 6,
       "language_learning": 6,
       "teaching": 6,
-      "volunteer": 3
+      "volunteer": 2
     }
   },
   {
@@ -861,8 +861,8 @@
     "period": "period11",
     "room": "A210",
     "tags": {
-      "business": 3,
-      "economics": 5,
+      "business": 2,
+      "economics": 6,
       "entrepreneurship": 6,
       "finance": 6
     }
@@ -878,10 +878,10 @@
     "room": "FBL",
     "tags": {
       "competition": 2,
-      "fitness": 4,
-      "football": 7,
+      "fitness": 3,
+      "football": 10,
       "sports": 2,
-      "team_sports": 5
+      "team_sports": 3
     }
   },
   {
@@ -894,9 +894,9 @@
     "period": "period11",
     "room": "B430",
     "tags": {
-      "creative_arts": 5,
-      "hobbies": 5,
-      "visual_arts": 10
+      "creative_arts": 4,
+      "hobbies": 4,
+      "visual_arts": 12
     }
   },
   {
@@ -909,9 +909,9 @@
     "period": "period11",
     "room": "A419",
     "tags": {
-      "gender_studies": 8,
+      "gender_studies": 9,
       "politics": 8,
-      "social_sciences": 4
+      "social_sciences": 3
     }
   },
   {
@@ -925,10 +925,10 @@
     "room": "A606",
     "tags": {
       "STEM": 2,
-      "design": 4,
-      "engineering": 4,
-      "hands_on": 6,
-      "technology": 4
+      "design": 3,
+      "engineering": 3,
+      "hands_on": 9,
+      "technology": 3
     }
   },
   {
@@ -941,11 +941,11 @@
     "period": "period12",
     "room": "A211",
     "tags": {
-      "figure_skating": 7,
-      "fitness": 4,
+      "figure_skating": 10,
+      "fitness": 3,
       "health": 2,
       "sports": 2,
-      "winter_sports": 5
+      "winter_sports": 3
     }
   },
   {
@@ -958,8 +958,8 @@
     "period": "period11",
     "room": "B531",
     "tags": {
-      "community_service": 5,
-      "creative_arts": 3,
+      "community_service": 6,
+      "creative_arts": 2,
       "film": 6,
       "photography": 6
     }
@@ -975,9 +975,9 @@
     "room": "A406",
     "tags": {
       "STEM": 2,
-      "biology": 5,
-      "forensic_science": 8,
-      "medicine": 5
+      "biology": 4,
+      "forensic_science": 11,
+      "medicine": 3
     }
   },
   {
@@ -990,9 +990,9 @@
     "period": "period11",
     "room": "A510",
     "tags": {
-      "hobbies": 5,
-      "motorsport": 10,
-      "sports": 5
+      "hobbies": 4,
+      "motorsport": 12,
+      "sports": 4
     }
   },
   {
@@ -1005,8 +1005,8 @@
     "period": "lunchtime",
     "room": "A402",
     "tags": {
-      "culture": 4,
-      "film": 8,
+      "culture": 3,
+      "film": 9,
       "language_learning": 8
     }
   },
@@ -1035,8 +1035,8 @@
     "period": "period11",
     "room": "A617",
     "tags": {
-      "STEM": 3,
-      "academic": 5,
+      "STEM": 2,
+      "academic": 6,
       "math": 6,
       "physics": 6
     }
@@ -1067,9 +1067,9 @@
     "period": "period11",
     "room": "A207",
     "tags": {
-      "academic_support": 5,
-      "geography": 10,
-      "social_sciences": 5
+      "academic_support": 4,
+      "geography": 12,
+      "social_sciences": 4
     }
   },
   {
@@ -1098,11 +1098,11 @@
     "period": "period11",
     "room": "BBL",
     "tags": {
-      "basketball": 7,
+      "basketball": 10,
       "competition": 2,
-      "fitness": 4,
+      "fitness": 3,
       "sports": 2,
-      "team_sports": 5
+      "team_sports": 3
     }
   },
   {
@@ -1116,8 +1116,8 @@
     "room": "A208",
     "tags": {
       "mental_health": 6,
-      "peer_support": 5,
-      "personal_growth": 3,
+      "peer_support": 6,
+      "personal_growth": 2,
       "wellness": 6
     }
   },
@@ -1131,8 +1131,8 @@
     "period": "period11",
     "room": "A211",
     "tags": {
-      "history": 5,
-      "humanities": 3,
+      "history": 6,
+      "humanities": 2,
       "literature": 6,
       "philosophy": 6
     }
@@ -1147,9 +1147,9 @@
     "period": "period13",
     "room": "A506",
     "tags": {
-      "community_service": 5,
+      "community_service": 6,
       "environment": 6,
-      "health": 3,
+      "health": 2,
       "research": 6
     }
   },
@@ -1163,9 +1163,9 @@
     "period": "period12",
     "room": "B221",
     "tags": {
-      "personal_growth": 5,
-      "psychology": 10,
-      "social_sciences": 5
+      "personal_growth": 4,
+      "psychology": 12,
+      "social_sciences": 4
     }
   },
   {
@@ -1209,9 +1209,9 @@
     "period": "lunchtime",
     "room": "A408",
     "tags": {
-      "community_service": 8,
+      "community_service": 9,
       "teaching": 8,
-      "volunteer": 4
+      "volunteer": 3
     }
   },
   {
@@ -1241,10 +1241,10 @@
     "period": "period11",
     "room": "H100A",
     "tags": {
-      "competition": 3,
-      "sports": 3,
-      "team_sports": 6,
-      "volleyball": 8
+      "competition": 2,
+      "sports": 2,
+      "team_sports": 4,
+      "volleyball": 12
     }
   },
   {
@@ -1257,10 +1257,10 @@
     "period": "period11",
     "room": "H100",
     "tags": {
-      "competition": 3,
-      "sports": 3,
-      "team_sports": 6,
-      "volleyball": 8
+      "competition": 2,
+      "sports": 2,
+      "team_sports": 4,
+      "volleyball": 12
     }
   },
   {
@@ -1273,8 +1273,8 @@
     "period": "period12",
     "room": "A201",
     "tags": {
-      "board_games": 5,
-      "gaming": 3,
+      "board_games": 6,
+      "gaming": 2,
       "history": 6,
       "strategy": 6
     }
@@ -1289,10 +1289,10 @@
     "period": "period11",
     "room": "A220",
     "tags": {
-      "business": 3,
+      "business": 2,
       "competition": 2,
       "economics": 5,
-      "finance": 5,
+      "finance": 6,
       "investment": 5
     }
   },
@@ -1307,10 +1307,10 @@
     "room": "A216",
     "tags": {
       "business": 2,
-      "engineering": 4,
-      "entrepreneurship": 4,
-      "hands_on": 6,
-      "technology": 4
+      "engineering": 3,
+      "entrepreneurship": 3,
+      "hands_on": 9,
+      "technology": 3
     }
   },
   {
@@ -1323,9 +1323,9 @@
     "period": "period11",
     "room": "G117",
     "tags": {
-      "creative_arts": 5,
-      "music": 10,
-      "performing_arts": 5
+      "creative_arts": 4,
+      "music": 12,
+      "performing_arts": 4
     }
   },
   {
@@ -1338,10 +1338,10 @@
     "period": "period11",
     "room": "A414",
     "tags": {
-      "creative_arts": 4,
+      "creative_arts": 3,
       "culture": 4,
-      "literature": 8,
-      "media": 4
+      "literature": 10,
+      "media": 3
     }
   },
   {
@@ -1354,8 +1354,8 @@
     "period": "period11",
     "room": "G021",
     "tags": {
-      "dance": 13,
-      "performing_arts": 7
+      "dance": 15,
+      "performing_arts": 5
     }
   },
   {
@@ -1368,10 +1368,10 @@
     "period": "period11",
     "room": "B427",
     "tags": {
-      "craftsmanship": 5,
-      "design": 4,
-      "hands_on": 7,
-      "history": 4
+      "craftsmanship": 4,
+      "design": 3,
+      "hands_on": 10,
+      "history": 3
     }
   },
   {
@@ -1385,8 +1385,8 @@
     "room": "A401",
     "tags": {
       "experiments": 6,
-      "peer_support": 5,
-      "personal_growth": 3,
+      "peer_support": 6,
+      "personal_growth": 2,
       "psychology": 6
     }
   },
@@ -1402,8 +1402,8 @@
     "tags": {
       "biology": 6,
       "community_service": 6,
-      "health": 3,
-      "research": 5
+      "health": 2,
+      "research": 6
     }
   },
   {
@@ -1416,8 +1416,8 @@
     "period": "period11",
     "room": "B423",
     "tags": {
-      "hobbies": 4,
-      "psychology": 8,
+      "hobbies": 3,
+      "psychology": 9,
       "strategy": 8
     }
   },
@@ -1431,11 +1431,11 @@
     "period": "period11",
     "room": "B433",
     "tags": {
-      "AI": 5,
+      "AI": 3,
       "competition": 1,
-      "computer_science": 3,
-      "data_science": 5,
-      "machine_learning": 6
+      "computer_science": 2,
+      "data_science": 3,
+      "machine_learning": 11
     }
   },
   {
@@ -1448,9 +1448,9 @@
     "period": "period11",
     "room": "A408",
     "tags": {
-      "hobbies": 5,
-      "magic": 10,
-      "performing_arts": 5
+      "hobbies": 4,
+      "magic": 12,
+      "performing_arts": 4
     }
   },
   {
@@ -1463,8 +1463,8 @@
     "period": "period13",
     "room": "A220",
     "tags": {
-      "aerospace": 12,
-      "technology": 8
+      "aerospace": 15,
+      "technology": 5
     }
   },
   {
@@ -1477,11 +1477,11 @@
     "period": "lunchtime",
     "room": "A201",
     "tags": {
-      "STEM": 2,
-      "algorithms": 5,
-      "computer_science": 4,
-      "math": 4,
-      "programming": 5
+      "STEM": 1,
+      "algorithms": 7,
+      "computer_science": 2,
+      "math": 3,
+      "programming": 7
     }
   },
   {
@@ -1510,10 +1510,10 @@
     "period": "period11",
     "room": "A215",
     "tags": {
-      "STEM": 3,
+      "STEM": 2,
       "community_service": 5,
       "math": 5,
-      "teaching": 5,
+      "teaching": 6,
       "volunteer": 2
     }
   },
@@ -1527,8 +1527,8 @@
     "period": "period11",
     "room": "A402",
     "tags": {
-      "STEM": 4,
-      "math": 8,
+      "STEM": 3,
+      "math": 9,
       "physics": 8
     }
   },
@@ -1543,9 +1543,9 @@
     "room": "A414",
     "tags": {
       "competition": 2,
-      "data_science": 8,
-      "math": 5,
-      "research": 5
+      "data_science": 11,
+      "math": 4,
+      "research": 3
     }
   },
   {
@@ -1558,8 +1558,8 @@
     "period": "period11",
     "room": "A407",
     "tags": {
-      "academic_support": 7,
-      "math": 13
+      "academic_support": 5,
+      "math": 15
     }
   },
   {
@@ -1573,8 +1573,8 @@
     "room": "B421",
     "tags": {
       "STEM": 2,
-      "academic_support": 3,
-      "math": 5,
+      "academic_support": 2,
+      "math": 6,
       "peer_support": 5,
       "physics": 5
     }
@@ -1589,9 +1589,9 @@
     "period": "period11",
     "room": "A505",
     "tags": {
-      "STEM": 5,
-      "academic_support": 5,
-      "math": 10
+      "STEM": 4,
+      "academic_support": 4,
+      "math": 12
     }
   },
   {
@@ -1606,9 +1606,9 @@
     "tags": {
       "biology": 5,
       "charity": 5,
-      "health": 3,
+      "health": 2,
       "media": 2,
-      "medicine": 5
+      "medicine": 6
     }
   },
   {
@@ -1622,8 +1622,8 @@
     "room": "A414",
     "tags": {
       "mental_health": 6,
-      "peer_support": 5,
-      "personal_growth": 3,
+      "peer_support": 6,
+      "personal_growth": 2,
       "psychology": 6
     }
   },
@@ -1670,8 +1670,8 @@
     "room": "B424",
     "tags": {
       "craftsmanship": 6,
-      "creative_arts": 3,
-      "history": 5,
+      "creative_arts": 2,
+      "history": 6,
       "visual_arts": 6
     }
   },
@@ -1685,9 +1685,9 @@
     "period": "period11",
     "room": "A401",
     "tags": {
-      "fitness": 10,
-      "health": 5,
-      "sports": 5
+      "fitness": 12,
+      "health": 4,
+      "sports": 4
     }
   },
   {
@@ -1700,8 +1700,8 @@
     "period": "lunchtime",
     "room": "A202",
     "tags": {
-      "STEM": 3,
-      "experiments": 5,
+      "STEM": 2,
+      "experiments": 6,
       "math": 6,
       "music": 6
     }
@@ -1719,8 +1719,8 @@
       "creative_arts": 2,
       "design": 5,
       "music": 5,
-      "performing_arts": 3,
-      "theater": 5
+      "performing_arts": 2,
+      "theater": 6
     }
   },
   {
@@ -1733,8 +1733,8 @@
     "period": "period11",
     "room": "A216",
     "tags": {
-      "competition": 4,
-      "history": 8,
+      "competition": 3,
+      "history": 9,
       "research": 8
     }
   },
@@ -1765,8 +1765,8 @@
     "period": "period11",
     "room": "A216",
     "tags": {
-      "community_service": 13,
-      "volunteer": 7
+      "community_service": 15,
+      "volunteer": 5
     }
   },
   {
@@ -1779,8 +1779,8 @@
     "period": "period11",
     "room": "B523",
     "tags": {
-      "STEM": 4,
-      "math": 8,
+      "STEM": 3,
+      "math": 9,
       "teaching": 8
     }
   },
@@ -1795,10 +1795,10 @@
     "room": "A606",
     "tags": {
       "competition": 2,
-      "fitness": 4,
-      "football": 7,
+      "fitness": 3,
+      "football": 10,
       "sports": 2,
-      "team_sports": 5
+      "team_sports": 3
     }
   },
   {
@@ -1811,10 +1811,10 @@
     "period": "period11",
     "room": "A208",
     "tags": {
-      "creative_arts": 3,
+      "creative_arts": 2,
       "design": 6,
       "visual_arts": 6,
-      "writing": 5
+      "writing": 6
     }
   },
   {
@@ -1827,11 +1827,11 @@
     "period": "period11",
     "room": "A206",
     "tags": {
-      "algorithms": 5,
-      "competition": 2,
-      "computer_science": 4,
-      "math": 4,
-      "programming": 5
+      "algorithms": 7,
+      "competition": 1,
+      "computer_science": 3,
+      "math": 2,
+      "programming": 7
     }
   },
   {
@@ -1844,11 +1844,11 @@
     "period": "period11",
     "room": "A202",
     "tags": {
-      "aerospace": 5,
-      "craftsmanship": 4,
-      "hands_on": 5,
-      "hobbies": 2,
-      "physics": 4
+      "aerospace": 7,
+      "craftsmanship": 2,
+      "hands_on": 7,
+      "hobbies": 1,
+      "physics": 3
     }
   },
   {
@@ -1861,9 +1861,9 @@
     "period": "period11",
     "room": "A410",
     "tags": {
-      "charity": 5,
+      "charity": 6,
       "craftsmanship": 6,
-      "creative_arts": 3,
+      "creative_arts": 2,
       "visual_arts": 6
     }
   },
@@ -1891,8 +1891,8 @@
     "period": "period11",
     "room": "A408",
     "tags": {
-      "academic_support": 7,
-      "math": 13
+      "academic_support": 5,
+      "math": 15
     }
   },
   {
@@ -1905,8 +1905,8 @@
     "period": "period11",
     "room": "A409",
     "tags": {
-      "culture": 3,
-      "history": 5,
+      "culture": 2,
+      "history": 6,
       "philosophy": 6,
       "religion": 6
     }
@@ -1921,10 +1921,10 @@
     "period": "period11",
     "room": "A205",
     "tags": {
-      "STEM": 4,
+      "STEM": 3,
       "academic_support": 4,
-      "competition": 4,
-      "physics": 8
+      "competition": 3,
+      "physics": 10
     }
   },
   {
@@ -1937,8 +1937,8 @@
     "period": "period11",
     "room": "A519",
     "tags": {
-      "debate": 5,
-      "humanities": 3,
+      "debate": 6,
+      "humanities": 2,
       "philosophy": 6,
       "physics": 6
     }
@@ -1954,9 +1954,9 @@
     "room": "H100B",
     "tags": {
       "competition": 2,
-      "fitness": 4,
-      "pickleball": 7,
-      "racquet_sports": 5,
+      "fitness": 3,
+      "pickleball": 10,
+      "racquet_sports": 3,
       "sports": 2
     }
   },
@@ -1970,9 +1970,9 @@
     "period": "period11",
     "room": "B525",
     "tags": {
-      "football": 7,
-      "history": 5,
-      "politics": 4,
+      "football": 10,
+      "history": 3,
+      "politics": 3,
       "social_sciences": 2,
       "sports": 2
     }
@@ -1987,10 +1987,10 @@
     "period": "period11",
     "room": "B221",
     "tags": {
-      "debate": 5,
+      "debate": 6,
       "economics": 6,
       "politics": 6,
-      "social_sciences": 3
+      "social_sciences": 2
     }
   },
   {
@@ -2019,8 +2019,8 @@
     "period": "period11",
     "room": "B221",
     "tags": {
-      "psychology": 13,
-      "social_sciences": 7
+      "psychology": 15,
+      "social_sciences": 5
     }
   },
   {
@@ -2033,9 +2033,9 @@
     "period": "period11",
     "room": "A406",
     "tags": {
-      "health": 3,
+      "health": 2,
       "mental_health": 6,
-      "nutrition": 5,
+      "nutrition": 6,
       "psychology": 6
     }
   },
@@ -2049,8 +2049,8 @@
     "period": "lunchtime",
     "room": "A510",
     "tags": {
-      "humanities": 7,
-      "philosophy": 13
+      "humanities": 5,
+      "philosophy": 15
     }
   },
   {
@@ -2063,9 +2063,9 @@
     "period": "period11",
     "room": "A415",
     "tags": {
-      "aerospace": 8,
-      "data_science": 7,
-      "research": 5
+      "aerospace": 9,
+      "data_science": 8,
+      "research": 3
     }
   },
   {
@@ -2078,8 +2078,8 @@
     "period": "period11",
     "room": "G019",
     "tags": {
-      "music": 13,
-      "performing_arts": 7
+      "music": 15,
+      "performing_arts": 5
     }
   },
   {
@@ -2092,9 +2092,9 @@
     "period": "period11",
     "room": "Running Track",
     "tags": {
-      "fitness": 7,
-      "running": 10,
-      "sports": 3
+      "fitness": 4,
+      "running": 14,
+      "sports": 2
     }
   },
   {
@@ -2107,11 +2107,11 @@
     "period": "period11",
     "room": "A219",
     "tags": {
-      "creative_arts": 2,
-      "design": 4,
-      "game_development": 5,
-      "programming": 5,
-      "writing": 4
+      "creative_arts": 1,
+      "design": 2,
+      "game_development": 7,
+      "programming": 7,
+      "writing": 3
     }
   },
   {
@@ -2124,11 +2124,11 @@
     "period": "period11",
     "room": "B526",
     "tags": {
-      "charity": 5,
+      "charity": 6,
       "community_service": 5,
       "health": 2,
       "mental_health": 5,
-      "volunteer": 3
+      "volunteer": 2
     }
   },
   {
@@ -2141,8 +2141,8 @@
     "period": "period11",
     "room": "G022",
     "tags": {
-      "dance": 13,
-      "performing_arts": 7
+      "dance": 15,
+      "performing_arts": 5
     }
   },
   {
@@ -2157,9 +2157,9 @@
     "tags": {
       "history": 5,
       "media": 2,
-      "music": 5,
+      "music": 6,
       "politics": 5,
-      "social_sciences": 3
+      "social_sciences": 2
     }
   },
   {
@@ -2172,9 +2172,9 @@
     "period": "period11",
     "room": "Balcony in H100",
     "tags": {
-      "fitness": 7,
-      "running": 10,
-      "sports": 3
+      "fitness": 4,
+      "running": 14,
+      "sports": 2
     }
   },
   {
@@ -2188,8 +2188,8 @@
     "room": "B531",
     "tags": {
       "biology": 6,
-      "experiments": 5,
-      "health": 3,
+      "experiments": 6,
+      "health": 2,
       "medicine": 6
     }
   },
@@ -2203,11 +2203,11 @@
     "period": "period11",
     "room": "BBL",
     "tags": {
-      "basketball": 7,
+      "basketball": 10,
       "competition": 2,
-      "fitness": 4,
+      "fitness": 3,
       "sports": 2,
-      "team_sports": 5
+      "team_sports": 3
     }
   },
   {
@@ -2221,9 +2221,9 @@
     "room": "A201",
     "tags": {
       "STEM": 2,
-      "biology": 5,
+      "biology": 6,
       "journalism": 5,
-      "media": 3,
+      "media": 2,
       "writing": 5
     }
   },
@@ -2238,10 +2238,10 @@
     "room": "FBL",
     "tags": {
       "competition": 2,
-      "fitness": 4,
-      "football": 7,
+      "fitness": 3,
+      "football": 10,
       "sports": 2,
-      "team_sports": 5
+      "team_sports": 3
     }
   },
   {
@@ -2254,9 +2254,9 @@
     "period": "period11",
     "room": "A205",
     "tags": {
-      "cycling": 8,
-      "fitness": 5,
-      "outdoor_sports": 5,
+      "cycling": 11,
+      "fitness": 3,
+      "outdoor_sports": 4,
       "sports": 2
     }
   },
@@ -2270,8 +2270,8 @@
     "period": "lunchtime",
     "room": "A212",
     "tags": {
-      "performing_arts": 7,
-      "voice_acting": 13
+      "performing_arts": 5,
+      "voice_acting": 15
     }
   },
   {
@@ -2284,8 +2284,8 @@
     "period": "period11",
     "room": "A415",
     "tags": {
-      "academic_support": 7,
-      "economics": 13
+      "academic_support": 5,
+      "economics": 15
     }
   },
   {
@@ -2315,9 +2315,9 @@
     "room": "Balcony in H100",
     "tags": {
       "competition": 2,
-      "fencing": 7,
-      "fitness": 4,
-      "martial_arts": 5,
+      "fencing": 10,
+      "fitness": 3,
+      "martial_arts": 3,
       "sports": 2
     }
   },
@@ -2331,8 +2331,8 @@
     "period": "period11",
     "room": "A414",
     "tags": {
-      "business": 3,
-      "economics": 5,
+      "business": 2,
+      "economics": 6,
       "finance": 6,
       "investment": 6
     }
@@ -2347,9 +2347,9 @@
     "period": "period11",
     "room": "Students gym",
     "tags": {
-      "fitness": 10,
-      "health": 5,
-      "sports": 5
+      "fitness": 12,
+      "health": 4,
+      "sports": 4
     }
   },
   {
@@ -2378,9 +2378,9 @@
     "period": "period11",
     "room": "A305",
     "tags": {
-      "hobbies": 5,
-      "music": 10,
-      "performing_arts": 5
+      "hobbies": 4,
+      "music": 12,
+      "performing_arts": 4
     }
   },
   {
@@ -2409,8 +2409,8 @@
     "period": "period13",
     "room": "A210",
     "tags": {
-      "academic_support": 4,
-      "history": 8,
+      "academic_support": 3,
+      "history": 9,
       "teaching": 8
     }
   },
@@ -2424,11 +2424,11 @@
     "period": "period11",
     "room": "A210",
     "tags": {
-      "creative_arts": 3,
+      "creative_arts": 2,
       "design": 5,
       "literature": 5,
       "media": 2,
-      "writing": 5
+      "writing": 6
     }
   },
   {
@@ -2441,8 +2441,8 @@
     "period": "period11",
     "room": "B530",
     "tags": {
-      "linguistics": 13,
-      "social_sciences": 7
+      "linguistics": 15,
+      "social_sciences": 5
     }
   },
   {
@@ -2455,11 +2455,11 @@
     "period": "period13",
     "room": "A409",
     "tags": {
-      "board_games": 4,
-      "chinese_culture": 4,
+      "board_games": 3,
+      "chinese_culture": 3,
       "competition": 2,
-      "mahjong": 6,
-      "strategy": 4
+      "mahjong": 9,
+      "strategy": 3
     }
   },
   {
@@ -2473,8 +2473,8 @@
     "room": "A201",
     "tags": {
       "film": 8,
-      "journalism": 8,
-      "media": 4
+      "journalism": 9,
+      "media": 3
     }
   },
   {
@@ -2487,9 +2487,9 @@
     "period": "period11",
     "room": "A510",
     "tags": {
-      "competition": 4,
+      "competition": 3,
       "debate": 8,
-      "law": 8
+      "law": 9
     }
   },
   {
@@ -2503,8 +2503,8 @@
     "room": "A210",
     "tags": {
       "debate": 8,
-      "humanities": 4,
-      "philosophy": 8
+      "humanities": 3,
+      "philosophy": 9
     }
   },
   {
@@ -2517,11 +2517,11 @@
     "period": "period11",
     "room": "B532",
     "tags": {
-      "algorithms": 7,
+      "algorithms": 10,
       "competition": 2,
       "hobbies": 2,
-      "math": 4,
-      "strategy": 5
+      "math": 3,
+      "strategy": 3
     }
   },
   {
@@ -2534,11 +2534,11 @@
     "period": "period11",
     "room": "A201",
     "tags": {
-      "fitness": 4,
-      "rowing": 6,
+      "fitness": 3,
+      "rowing": 9,
       "sports": 2,
-      "team_sports": 4,
-      "water_sports": 4
+      "team_sports": 3,
+      "water_sports": 3
     }
   },
   {
@@ -2567,11 +2567,11 @@
     "period": "lunchtime",
     "room": "A606",
     "tags": {
-      "competition": 2,
-      "engineering": 3,
+      "competition": 1,
+      "engineering": 2,
       "hands_on": 5,
-      "programming": 5,
-      "robotics": 5
+      "programming": 6,
+      "robotics": 6
     }
   },
   {
@@ -2584,8 +2584,8 @@
     "period": "lunchtime",
     "room": "G117",
     "tags": {
-      "music": 8,
-      "performing_arts": 4,
+      "music": 9,
+      "performing_arts": 3,
       "teaching": 8
     }
   },
@@ -2600,10 +2600,10 @@
     "room": "A210",
     "tags": {
       "competition": 2,
-      "fitness": 4,
+      "fitness": 3,
       "sports": 2,
-      "swimming": 7,
-      "water_sports": 5
+      "swimming": 10,
+      "water_sports": 3
     }
   },
   {
@@ -2616,10 +2616,10 @@
     "period": "period11",
     "room": "D1011",
     "tags": {
-      "fitness": 5,
-      "racquet_sports": 5,
+      "fitness": 3,
+      "racquet_sports": 4,
       "sports": 2,
-      "table_tennis": 8
+      "table_tennis": 11
     }
   },
   {
@@ -2632,10 +2632,10 @@
     "period": "period11",
     "room": "B427",
     "tags": {
-      "creative_arts": 4,
-      "culture": 4,
+      "creative_arts": 3,
+      "culture": 3,
       "gaming": 4,
-      "music": 8
+      "music": 10
     }
   },
   {
@@ -2649,10 +2649,10 @@
     "room": "A207",
     "tags": {
       "creative_arts": 2,
-      "game_development": 6,
-      "literature": 4,
-      "technology": 4,
-      "writing": 4
+      "game_development": 9,
+      "literature": 3,
+      "technology": 3,
+      "writing": 3
     }
   },
   {
@@ -2665,8 +2665,8 @@
     "period": "period11",
     "room": "A202",
     "tags": {
-      "culture": 7,
-      "music": 13
+      "culture": 5,
+      "music": 15
     }
   },
   {
@@ -2679,10 +2679,10 @@
     "period": "period11",
     "room": "H100A",
     "tags": {
-      "badminton": 7,
+      "badminton": 10,
       "competition": 2,
-      "fitness": 4,
-      "racquet_sports": 5,
+      "fitness": 3,
+      "racquet_sports": 3,
       "sports": 2
     }
   },
@@ -2696,8 +2696,8 @@
     "period": "period11",
     "room": "B421",
     "tags": {
-      "competition": 7,
-      "debate": 13
+      "competition": 5,
+      "debate": 15
     }
   },
   {
@@ -2711,10 +2711,10 @@
     "room": "A202",
     "tags": {
       "competition": 2,
-      "fitness": 4,
-      "racquet_sports": 5,
+      "fitness": 3,
+      "racquet_sports": 3,
       "sports": 2,
-      "tennis": 7
+      "tennis": 10
     }
   },
   {
@@ -2759,10 +2759,10 @@
     "period": "period11",
     "room": "H100",
     "tags": {
-      "competition": 3,
-      "sports": 3,
-      "team_sports": 6,
-      "volleyball": 8
+      "competition": 2,
+      "sports": 2,
+      "team_sports": 4,
+      "volleyball": 12
     }
   },
   {
@@ -2775,10 +2775,10 @@
     "period": "period11",
     "room": "H100",
     "tags": {
-      "competition": 3,
-      "sports": 3,
-      "team_sports": 6,
-      "volleyball": 8
+      "competition": 2,
+      "sports": 2,
+      "team_sports": 4,
+      "volleyball": 12
     }
   },
   {
@@ -2791,10 +2791,10 @@
     "period": "period11",
     "room": "FBL",
     "tags": {
-      "competition": 3,
-      "frisbee": 8,
-      "sports": 3,
-      "team_sports": 6
+      "competition": 2,
+      "frisbee": 12,
+      "sports": 2,
+      "team_sports": 4
     }
   },
   {
@@ -2808,8 +2808,8 @@
     "room": "A401",
     "tags": {
       "gender_studies": 8,
-      "health": 4,
-      "mental_health": 8
+      "health": 3,
+      "mental_health": 9
     }
   },
   {
@@ -2824,9 +2824,9 @@
     "tags": {
       "STEM": 2,
       "journalism": 5,
-      "media": 3,
+      "media": 2,
       "research": 5,
-      "writing": 5
+      "writing": 6
     }
   },
   {
@@ -2841,8 +2841,8 @@
     "tags": {
       "STEM": 2,
       "research": 5,
-      "social_sciences": 3,
-      "technology": 5,
+      "social_sciences": 2,
+      "technology": 6,
       "writing": 5
     }
   },
@@ -2856,11 +2856,11 @@
     "period": "period11",
     "room": "A212",
     "tags": {
-      "community_service": 4,
-      "environment": 4,
-      "scuba_diving": 6,
+      "community_service": 3,
+      "environment": 3,
+      "scuba_diving": 9,
       "sports": 2,
-      "water_sports": 4
+      "water_sports": 3
     }
   },
   {
@@ -2887,9 +2887,9 @@
     "period": "period11",
     "room": "B524",
     "tags": {
-      "academic_support": 4,
+      "academic_support": 3,
       "literature": 8,
-      "writing": 8
+      "writing": 9
     }
   },
   {
@@ -2918,9 +2918,9 @@
     "period": "lunchtime",
     "room": "A202",
     "tags": {
-      "film": 5,
-      "football": 7,
-      "journalism": 4,
+      "film": 3,
+      "football": 10,
+      "journalism": 3,
       "media": 2,
       "sports": 2
     }
@@ -2935,11 +2935,11 @@
     "period": "period11",
     "room": "B526",
     "tags": {
-      "community_service": 5,
+      "community_service": 6,
       "health": 2,
       "medicine": 5,
       "research": 5,
-      "volunteer": 3
+      "volunteer": 2
     }
   },
   {
@@ -2952,11 +2952,11 @@
     "period": "lunchtime",
     "room": "A507",
     "tags": {
-      "algorithms": 6,
+      "algorithms": 9,
       "competition": 2,
-      "math": 4,
-      "physics": 4,
-      "strategy": 4
+      "math": 3,
+      "physics": 3,
+      "strategy": 3
     }
   },
   {
@@ -2969,10 +2969,10 @@
     "period": "lunchtime",
     "room": "A210",
     "tags": {
-      "outdoor_sports": 5,
-      "skiing": 8,
+      "outdoor_sports": 3,
+      "skiing": 11,
       "sports": 2,
-      "winter_sports": 5
+      "winter_sports": 4
     }
   },
   {
@@ -3001,8 +3001,8 @@
     "period": "period11",
     "room": "A211",
     "tags": {
-      "chinese_culture": 8,
-      "humanities": 4,
+      "chinese_culture": 9,
+      "humanities": 3,
       "philosophy": 8
     }
   },
@@ -3016,8 +3016,8 @@
     "period": "period11",
     "room": "H101",
     "tags": {
-      "dance": 13,
-      "performing_arts": 7
+      "dance": 15,
+      "performing_arts": 5
     }
   },
   {
@@ -3030,9 +3030,9 @@
     "period": "period11",
     "room": "B423",
     "tags": {
-      "competition": 5,
-      "hobbies": 5,
-      "speedcubing": 10
+      "competition": 4,
+      "hobbies": 4,
+      "speedcubing": 12
     }
   },
   {
@@ -3061,11 +3061,11 @@
     "period": "period11",
     "room": "A501",
     "tags": {
-      "competition": 2,
-      "engineering": 4,
-      "hands_on": 5,
-      "robotics": 5,
-      "technology": 4
+      "competition": 1,
+      "engineering": 3,
+      "hands_on": 7,
+      "robotics": 7,
+      "technology": 2
     }
   },
   {
@@ -3091,9 +3091,9 @@
     "period": "period11",
     "room": "A411",
     "tags": {
-      "competition": 5,
-      "gaming": 5,
-      "tcg": 10
+      "competition": 4,
+      "gaming": 4,
+      "tcg": 12
     }
   },
   {
@@ -3120,9 +3120,9 @@
     "period": "period11",
     "room": "A519",
     "tags": {
-      "creative_arts": 5,
-      "hobbies": 5,
-      "peer_support": 10
+      "creative_arts": 4,
+      "hobbies": 4,
+      "peer_support": 12
     }
   },
   {
@@ -3135,9 +3135,9 @@
     "period": "period11",
     "room": "G021",
     "tags": {
-      "culture": 5,
-      "dance": 10,
-      "performing_arts": 5
+      "culture": 4,
+      "dance": 12,
+      "performing_arts": 4
     }
   },
   {
@@ -3151,9 +3151,9 @@
     "room": "H100A",
     "tags": {
       "sports": 2,
-      "strategy": 5,
-      "tchoukball": 8,
-      "team_sports": 5
+      "strategy": 3,
+      "tchoukball": 11,
+      "team_sports": 4
     }
   },
   {
@@ -3183,8 +3183,8 @@
     "room": "A206",
     "tags": {
       "community_service": 8,
-      "teaching": 8,
-      "volunteer": 4
+      "teaching": 9,
+      "volunteer": 3
     }
   },
   {
@@ -3198,10 +3198,10 @@
     "room": "A206",
     "tags": {
       "STEM": 2,
-      "environment": 4,
-      "meteorology": 6,
-      "physics": 4,
-      "research": 4
+      "environment": 3,
+      "meteorology": 9,
+      "physics": 3,
+      "research": 3
     }
   },
   {
@@ -3214,8 +3214,8 @@
     "period": "period11",
     "room": "A215",
     "tags": {
-      "academic_support": 7,
-      "economics": 13
+      "academic_support": 5,
+      "economics": 15
     }
   },
   {
@@ -3279,8 +3279,8 @@
     "period": "period11",
     "room": "B427",
     "tags": {
-      "academic_support": 4,
-      "peer_support": 8,
+      "academic_support": 3,
+      "peer_support": 9,
       "teaching": 8
     }
   },
@@ -3311,8 +3311,8 @@
     "room": "A301",
     "tags": {
       "debate": 8,
-      "politics": 8,
-      "social_sciences": 4
+      "politics": 9,
+      "social_sciences": 3
     }
   },
   {
@@ -3340,11 +3340,11 @@
     "period": "lunchtime",
     "room": "A414",
     "tags": {
-      "charity": 5,
+      "charity": 6,
       "community_service": 5,
       "creative_arts": 2,
       "environment": 5,
-      "volunteer": 3
+      "volunteer": 2
     }
   },
   {
@@ -3357,10 +3357,10 @@
     "period": "period11",
     "room": "A206",
     "tags": {
-      "STEM": 4,
-      "academic_support": 4,
+      "STEM": 3,
+      "academic_support": 3,
       "competition": 4,
-      "math": 8
+      "math": 10
     }
   },
   {
@@ -3373,9 +3373,9 @@
     "period": "period11",
     "room": "B532",
     "tags": {
-      "STEM": 4,
+      "STEM": 3,
       "math": 8,
-      "physics": 8
+      "physics": 9
     }
   },
   {
@@ -3388,10 +3388,10 @@
     "period": "period11",
     "room": "VBL",
     "tags": {
-      "fitness": 5,
+      "fitness": 3,
       "sports": 2,
-      "team_sports": 5,
-      "volleyball": 8
+      "team_sports": 4,
+      "volleyball": 11
     }
   },
   {
@@ -3405,8 +3405,8 @@
     "room": "A202",
     "tags": {
       "animal_welfare": 8,
-      "equestrian": 8,
-      "sports": 4
+      "equestrian": 9,
+      "sports": 3
     }
   },
   {
@@ -3420,9 +3420,9 @@
     "room": "A208",
     "tags": {
       "community_service": 6,
-      "language_learning": 5,
+      "language_learning": 6,
       "teaching": 6,
-      "volunteer": 3
+      "volunteer": 2
     }
   },
   {
@@ -3467,10 +3467,10 @@
     "period": "lunchtime",
     "room": "B427",
     "tags": {
-      "creative_arts": 3,
+      "creative_arts": 2,
       "design": 5,
       "media": 2,
-      "photography": 5,
+      "photography": 6,
       "writing": 5
     }
   },
@@ -3501,9 +3501,9 @@
     "room": "A501",
     "tags": {
       "board_games": 6,
-      "creative_arts": 3,
+      "creative_arts": 2,
       "economics": 6,
-      "writing": 5
+      "writing": 6
     }
   },
   {
@@ -3533,8 +3533,8 @@
     "room": "B424",
     "tags": {
       "chinese_culture": 8,
-      "humanities": 4,
-      "philosophy": 8
+      "humanities": 3,
+      "philosophy": 9
     }
   },
   {
@@ -3547,8 +3547,8 @@
     "period": "period13",
     "room": "A506",
     "tags": {
-      "film": 13,
-      "media": 7
+      "film": 15,
+      "media": 5
     }
   },
   {
@@ -3562,8 +3562,8 @@
     "room": "A414",
     "tags": {
       "STEM": 2,
-      "biology": 5,
-      "competition": 3,
+      "biology": 6,
+      "competition": 2,
       "experiments": 5,
       "research": 5
     }
@@ -3578,10 +3578,10 @@
     "period": "period11",
     "room": "A211",
     "tags": {
-      "biology": 5,
+      "biology": 6,
       "community_service": 5,
       "competition": 2,
-      "health": 3,
+      "health": 2,
       "psychology": 5
     }
   },
@@ -3595,8 +3595,8 @@
     "period": "lunchtime",
     "room": "A205",
     "tags": {
-      "craftsmanship": 8,
-      "hobbies": 4,
+      "craftsmanship": 9,
+      "hobbies": 3,
       "visual_arts": 8
     }
   },
@@ -3610,8 +3610,8 @@
     "period": "period11",
     "room": "A511",
     "tags": {
-      "academic_support": 4,
-      "economics": 8,
+      "academic_support": 3,
+      "economics": 9,
       "journalism": 8
     }
   }

@@ -5,14 +5,25 @@ from __future__ import annotations
 import csv
 from pathlib import Path
 
-from config import CLUB_TAG_POINTS
+from config import CLUB_TAG_POINTS, DEPTH_WEIGHT_BASE
 from generate_club_tags import CLUB_TAGS, TAG_VOCABULARY, load_clubs
 from tag_hierarchy import hierarchy_depth
 
 BASE = Path(__file__).parent
 
 # Optional per-club weight overrides (must sum to CLUB_TAG_POINTS).
-CLUB_WEIGHT_OVERRIDES: dict[str, dict[str, int]] = {}
+# Apex Racing's core tag (rc_racing) is diluted by four secondary tags, so we
+# hand-tune it to keep a niche hit >= 40%: rc_racing 9 (45%), hands_on 6,
+# engineering 2, technology 2, competition 1.
+CLUB_WEIGHT_OVERRIDES: dict[str, dict[str, int]] = {
+    "12": {
+        "competition": 1,
+        "engineering": 2,
+        "hands_on": 6,
+        "rc_racing": 9,
+        "technology": 2,
+    },
+}
 
 
 def distribute_weights(tags: list[str], total: int = CLUB_TAG_POINTS) -> list[int]:
@@ -24,11 +35,22 @@ def distribute_weights(tags: list[str], total: int = CLUB_TAG_POINTS) -> list[in
     """
     if not tags:
         return []
-    raw = [hierarchy_depth(t) for t in tags]
-    raw_sum = sum(raw)
-    exact = [total * w / raw_sum for w in raw]
-    weights = [int(x) for x in exact]
-    remainder = total - sum(weights)
+    raw = [DEPTH_WEIGHT_BASE ** (hierarchy_depth(t) - 1) for t in tags]
+    if len(tags) > total:
+        # Not enough points for a floor of 1 per tag; fall back to plain
+        # largest-remainder distribution.
+        raw_sum = sum(raw)
+        exact = [total * w / raw_sum for w in raw]
+        weights = [int(x) for x in exact]
+        remainder = total - sum(weights)
+    else:
+        # Every tag keeps at least 1 point, then the rest is split
+        # proportionally by hierarchy weight (largest remainder).
+        extra = total - len(tags)
+        raw_sum = sum(raw)
+        exact = [extra * w / raw_sum for w in raw]
+        weights = [1 + int(x) for x in exact]
+        remainder = total - sum(weights)
     order = sorted(
         range(len(exact)),
         key=lambda i: (exact[i] - int(exact[i]), raw[i]),

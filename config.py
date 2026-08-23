@@ -12,6 +12,12 @@ HIERARCHY_PARENT_CHILD = 0.5
 HIERARCHY_GRANDRELATED = 0.25
 HIERARCHY_UNRELATED = 0.0
 
+# Club tag weights grow by this base per extra hierarchy level:
+# weight ∝ DEPTH_WEIGHT_BASE ** (depth - 1), so depth 1 → 1, depth 2 → 4,
+# depth 3 → 16. This makes niche tags dominate a club's 20 points, so hitting
+# a club's deepest tag scores well above 1/3 even in multi-tag clubs.
+DEPTH_WEIGHT_BASE = 4
+
 # Quiz "None" selections use the parent tag at this fraction of normal weight.
 NONE_TAG_WEIGHT_MULTIPLIER = 0.7
 
